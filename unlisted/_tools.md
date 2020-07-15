@@ -6,6 +6,8 @@ I live on the command line:
 * languages: Python, Bash, C. I've been really enjoying Haskell, and I've toyed around with Rust a little bit.
 * I'm currently running Fedora Linux on a Dell XPS 13 laptop. The laptop has great Linux support, and Fedora maintains a decent balance between stability and up-to-date-ness.
 
+I'm a huge fan of the *Unix as IDE* perspective. If you're unfamiliar, I really recommend you read [the series that started it all](https://sanctum.geek.nz/arabesque/series/unix-as-ide/). If you don't have the time right now, I'll explain it here. Essentially, it's a workflow that emphasizes the use of small, modular, configurable tools (like those available on most *nixes) over the use of one monlithic tool (like your average IDE.) So, when I'm coding, I use many different tools, each of which are tuned and configured for only a few tasks. This has some benefits, but also downsides. You'll have to try these things out for yourself, but reading that link above should at least get you some perspective on why people might choose to work this way.
+
 ### Coding
 
 I do nearly all my work in neovim. I appreciate that it's extremely quick, it's extensible, and distraction-free.
