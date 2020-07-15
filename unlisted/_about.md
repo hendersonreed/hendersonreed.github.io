@@ -1,6 +1,4 @@
-# Welcome
-
-### I'm Henderson Reed Hummel
+## I'm Henderson Reed Hummel
 
 and welcome to my patch of the Internet.
 

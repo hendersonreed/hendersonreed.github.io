@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Oranienbaum';
-  src: url('fonts/Oranienbaum.ttf');
-}
-@font-face {
   font-family: "Optimus Princeps";
   src: url('fonts/OptimusPrinceps.ttf');
+}
+@font-face {
+  font-family: "Thryromanes";
+  src: url('fonts/Thryromanes.ttf');
 }
 
 body {
@@ -25,7 +25,10 @@ h1, h3 {
 }
 
 h2, p , ul, ol { 
-  font-family: "Oranienbaum"; 
+#  font-family: "Oranienbaum"; 
+#  font-family: "Imperator"; 
+#  font-family: "FogLihten"; 
+  font-family: "Thryromanes"; 
 }
 
 a {
