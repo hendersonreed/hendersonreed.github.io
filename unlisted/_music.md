@@ -8,22 +8,23 @@ Music from other places
 * Nick Drake
 * William Onyeabor
 * Neil Halstead
+* Sibylle Baier
 * Sinkane
 * Miramar
 * Pentangle
 * Bert Jansch (album: Avocet)
+* Jethro Tull (album: The Best of Acoustic Jethro Tull)
 * Devotchka
 * Dengue Fever
 * A Hawk and a Handsaw
 * Amsterdam Klezmer Band
-* Klezmatic
+* The Klezmatics
+* Jimmy Cliff (song: Guns of Brixton)
 * The Congos
 * DahkaBrakha
-* Jimmy Cliff (song: Guns of Brixton)
 * Kila
 * Pupajim
 * Stand High Patrol
-* Sibylle Baier
 * Sudan Dudan
 
 Music from the US, mostly
@@ -34,16 +35,15 @@ Music from the US, mostly
 * Andrew Bird\'s Bowl of Fire
 * Mariachi El Bronx
 * Louis Cole
-* Jethro Tull (album: The Best of Acoustic Jethro Tull)
+* Marty Robbins (album: Gunfighter Songs)
 * David Byrne (album: American Utopia)
 * Andy Shauf (album: The Party)
 * Man Man
 * Tom Waits (albums: Rain Dogs, Alice)
-* Marty Robbins (album: Gunfighter Songs)
+* Isaac Albeniz
+* Swamp Dogg (album: Rat On!)
 * Mort Garson (album: Plantasia)
+* Leon Redbone
 * Misophone
 * Moondog (album: The German Years. Find on Youtube)
 * Captain Beefheart (album: Safe as Milk)
-* Leon Redbone
-* Isaac Albeniz
-* Swamp Dogg (album: Rat On!)
