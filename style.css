@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Oranienbaum';
+  src: url('fonts/Oranienbaum.ttf');
+}
+@font-face {
+  font-family: "Optimus Princeps";
+  src: url('fonts/OptimusPrinceps.ttf');
+}
+
+body {
+  font-family: "Oranienbaum";
+  background-color: #fffffc;
+  color: black;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  margin: auto;
+}
+
+h1, h3 {
+  font-family: "Optimus Princeps";
+}
+
+h2, p , ul, ol { 
+  font-family: "Oranienbaum"; 
+}
+
+a {
+    color: darkred
+}
+
+img {
+  max-height: 40%;
+  width: auto;
+  margin: 16px;
+}
+
+hr {
+  color: black;
+  width: 100%;
+}
+
+.title * {
+  color: black;
+  text-decoration: none;
+}
+
+.title *:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.topnav * {
+  text-decoration: none;
+  color: black;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: -1em;
+}
+
+.topnav *:hover {
+  text-decoration: none;
+  color: gray;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.footer {
+  font-size: 9pt;
+}
+
+.center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
