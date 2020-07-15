@@ -1,0 +1,72 @@
+<html>
+  <head>
+  </head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    // this is for a 0.2 version, in which the user has input on a name.
+    var genHeader = function(nameFile) {
+      names = fetch(nameFile)
+        .then(response => response.text());
+
+      femaleFirstNames = names.split('#')[0].split('\n');
+      maleFirstNames = names.split('#')[1].split('\n');
+      lastNames = names.split('#')[2].split('\n');
+    }
+
+    var genMerits = function(merits) {
+      var agl = 0;
+      var per = 0;
+      var str = 0;
+      var intl = 0;
+      var nrv = 0;
+
+      meritList = merits.split('\n');
+
+      var meritResult = "";
+      for(var i = 0; i < 4; i++) {
+        randIndex = Math.floor(Math.random() * (meritList.length-1));
+        line = meritList[randIndex].split('|');
+
+        ability = line[1];
+        switch(ability) {
+          case "AGI": ++agl; break;
+          case "PER": ++per; break;
+          case "STR": ++str; break;
+          case "INT": ++intl; break;
+          case "NER": ++nrv; break;
+          default: console.log("Error - the line couldn't be read. It was at index: " + randIndex);
+        }
+        meritName = line[0];
+        indivMerit = line[2];
+
+        meritResult += '<b>' + meritName + ': </b>' + indivMerit + '<br><br>';
+      }
+      var statResult =
+        '<b>AGI: </b>' + agl + '<br>' +
+        '<b>PER: </b>' + per + '<br>' +
+        '<b>STR: </b>' + str + '<br>' +
+        '<b>INT: </b>' + intl + '<br>' +
+        '<b>NRV: </b>' + nrv + '<br>';
+
+      jQuery('#charStats').html(statResult);
+      jQuery('#charMerits').html(meritResult);
+    }
+
+    var genChar = function() {
+      fetch('merits.txt')
+        .then(response => response.text())
+        .then(text => genMerits(text));
+    }
+
+    genChar();
+  </script>
+  <body>
+    <section class=container>
+      <div id="charStats" class="one">
+      </div>
+      <div id="charMerits" class="two">
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>tools I use and how I use them</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+  </head>
+
+  <body>
+    <h3>TL;DR</h3>
+    <p> I live on the command line: </p>
+    <ul>
+      <li>writing (code or essays): vim + pandoc (see below)</li>
+      <li>build tooling: make</li>
+      <li>languages: Python, Bash, C. I've also been really enjoying Haskell, and I've toyed around with Rust.</li>
+      <li>pandoc for generating pdfs and html from markdown.</li>
+      <li>I am currently running Fedora on a Dell XPS 13 laptop. I find that the hardware has pretty great linux support, and Fedora is a pretty good balance between "batteries-included" and customizability.</li>
+    </ul>
+    <p><b> I am a big proponent of the "Unix as IDE" philosophy;</b> I recommend you check out the <a href=https://sanctum.geek.nz/arabesque/series/unix-as-ide/>canonical series</a> if you haven't encountered it before<p>
+
+    <!--<p>for those of you who are curious, check out my <a href=https://web.cecs.pdx.edu/~hhummel/vimrc>vimrc</a></p>-->
+
+    <h3>code manipulation</h3>
+
+    <p>I do nearly all of my work in vim. I really recommend that, if you haven't already taken a side in the vim-emacs-ide war, you should take a look at vim. It's an extensible, flexible, and, once you get used to it, incredibly comfortable tool.</p>
+
+    <p>I have chosen to install a few plugins, using the vim-plug plugin manager:</p>
+
+    <ul>
+      <li><a href="https://github.com/dense-analysis/ale">ALE (an Asynchronous Linting Engine, paired with pylint, gcc, and shellcheck, a linter for bash scripts.)</a></li>
+      <li><a href="https://github.com/tpope/vim-fugitive">vim.fugitive (Tim Pope's well known git wrapper, I use it for the diff and blame features.</a></li>
+      <li><a href="https://github.com/kien/rainbow_parentheses.vim">rainbow parentheses (highlights nested parens in different colors.<a/></li>
+    </ul>
+
+    <p>If you aren't familiar with the quickfix list, I recommend you learn about it - it allows you to prepopulate an easily navigable list with search results and compilation errors.</p>
+
+    <p>Also, I have found that vim macros are an often overlooked and underrated feature.</p>
+
+    <p>Aside from vim, I do some work in PyCharm, which is a JetBrains product. I'm enjoying it, though it's not as comfy as vim yet. But the Git integration is awesome for looking at diffs of previous versions of code. This is especially useful if you are editing someone else's code and you accidentally broke it and need to see how it worked before you went and mucked it up. Not that I know from personal experience....</p>
+
+    <h3>misc.</h3>
+
+    <p>Occasionally I use tmux to setup multiple sessions. This is especially handy if you are trying to debug something on a remote server and you want multiple splits or tabs open. </p>
+
+    <p>I also use a few home-built tools, like the below bash functions for managing my notes:
+    <code style="display: block; margin: auto"><pre>
+mdless() {  
+  pandoc -s -f markdown -t man $1.md | groff -T utf8 -man | less  
+}  
+umedit() { 
+  mkdir -p ~/documents/linux_stuff/knowledge; 
+  vim ~/docs/linux_stuff/knowledge/$1.md; }  
+um() { mdless ~/documents/linux_stuff/knowledge/"$1"; }  
+umls() { ls ~/documents/linux_stuff/knowledge; }
+      </code></pre>
+    </p>
+  </body>
+</html>

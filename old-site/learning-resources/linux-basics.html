@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Henderson Hummel's Portland State University Homepage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=0.6">
+		<style>
+		img {
+			max-height: 40%;
+			width: auto;
+			margin: 16px;
+		}
+		</style>
+	</head>
+
+	<body>
+		<h3>Basic Linux Usage</h3>
+    <p>contents:<br>
+    <ul>
+      <li>Navigating the Directory Tree</li>
+      <li>Moving and Copying Files</li>
+      <li>Archiving Files for D2L Submission</li>
+      <li>Basic Vim Configuration</li>
+    </ul>
+
+		<h4>Navigating the Directory Tree</h4>
+      <p>
+        Though you may not know it, you already have navigated systems very like the Linux directory system. It's a folder tree much like you may have encountered on Windows or MacOSX, but instead of having a graphical window open and clicking to move from folder to folder, you are interacting with it through a command-line interface. As a result, you must use certain commands to do what you would ordinarily do with clicking and dragging.
+        <ul>
+          <li> <code>ls</code> - print the contents of the current directory.</li>
+          <li> <code>cd &lt;dir&gt;</code> - if dir is in the current directory, move to it.</li>
+            <ul>
+              <li> <code>cd ..</code> - move up one directory.</li>
+            </ul>
+        </ul>
+      </p>
+
+      <p>
+        Note that you can provide <code>ls</code> and <code>cd</code> with what we call "paths." These are descriptions of locations in the filesystem. For example, when you log into the Linux system at PSU, you begin in your <b>home directory</b>. The path to your home directory is <code>/home/&lt;your username&gt;/</code>.
+      </p>
+      <p>
+        Most Linux utilities (we refer to small programs like <code>cd</code> and <code>ls</code> as <b>utilities</b>) that take files as arguments can also be given entire paths, including paths that refer to things by working upwards in the file tree with "..".
+      </p>
+
+      <p>
+      Here's a simplified diagram of the Linux file tree:
+      </p>
+
+      <img src="filetree-example.png" alt="The Linux file tree, reduced to /home and /bin" height=40%>
+
+      <p>
+      What command would move you from <code>/home/hhummel/website</code> to <code>/home/sam</code>? Hover over the spoiler box below to check the correct answer.
+      </p>
+
+      <span class="spoiler">
+        <code class="spoiler">cd ../../sam<br>
+        cd /home/sam</code><br>
+      </span>
+
+		<h4>Moving and Copying Files</h4>
+    <p><b>warning: these commands, if improperly performed could harm files. If you are unsure, contact a tutor or the #cshelp channel on <a href="https://pdx-cs.slack.com">the pdx-cs slack channel</a>. If something goes wrong, you can contact the <a href="https://cat.pdx.edu">PSU CAT</a> for a backup of your work.</b></p>
+      <p>
+      The <code>mv</code> comand moves a file from one location to another. It can also be used to rename files by simply giving it two names, instead of two locations.
+      <ul>
+        <li><code>mv &lt;source file&gt; &lt;new location&gt;</code><br></li>
+      </ul>
+      </p>
+
+      <p>
+      Another useful command for backing up files or making copies of files in other directories is <code>cp</code>. The usage for cp is fairly simplistic:<br>
+      <ul>
+        <li><code>cp &lt;source file&gt; &lt;destination for copy&gt;</code><br></li>
+        <li><code>cp -r &lt;source directory&gt; &lt;destination for copy&gt;</code><br></li>
+        <ul>
+          <li> this command will copy an entire directory (and everything inside it) to the location.</li>
+        </ul>
+      </ul>
+      </p>
+		<h4>Archiving Files for D2L Submission</h4>
+      <p>
+      Just like the above commands, improper usage of these commands could harm your files, so the same warning applies.
+      </p>
+      <p>
+      To archive your files (wrap them all up in one large file), we use <code>tar</code>:
+      <ul>
+        <li><code>tar -cvf example.tar directory-to-tar/</code></li>
+          <ul>
+            <li> the -c means to <b>c</b>ompress.</li>
+            <li> the -v means to display <b>v</b>erbosely.</li>
+            <li> the -f means to produce a <b>f</b>ile.</li>
+          </ul>
+      </ul>
+      </p>
+		<h4>Basic Vim Configuration</h4>
+      <p>
+      If you want to make vim a slightly more friendly place, simply create a file named <code>.vimrc</code> in your home directory. Inside that file, you can do the following:
+      <ul>
+        <li><code>syntax enable</code> syntax highlighting.</li>
+        <li><code>set number</code> line numbering.</li>
+        <li><code>set autoindent</code> continue the indentation of the previous line.</li>
+        <li><code>set smartindent</code> syntax-aware indentation rules (you want both this and autoindent.)</li>
+      </ul>
+      </p>
+	</body>
+</html>
