@@ -49,7 +49,7 @@ hr {
 }
 
 .title *:hover {
-  color: gray;
+  color: darkred;
   text-decoration: none;
 }
 
@@ -63,7 +63,7 @@ hr {
 
 .topnav *:hover {
   text-decoration: none;
-  color: gray;
+  color: darkred;
   margin-left: 1em;
   margin-right: 1em;
 }
