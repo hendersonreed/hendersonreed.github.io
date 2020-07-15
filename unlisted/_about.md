@@ -16,8 +16,8 @@ I am a recent Computer Science graduate (Bachelors of Science awarded June 2020)
 
 I, together with a few friends, contribute to [Terra](https://terra.finzdani.net), a web directory we curate.
 
-Check out some of the [music I like](_music.html)
+Check out some of the [music I like](/~hhummel/unlisted/_music.html)
 
 If you're looking for software that I've written, check out my [Gitlab](https://gitlab.com/hendersonreed)
 
-Finally, if you're looking for the old website (there's some records of things I've done there) then you can find it [here](old-site/index.html).
+Finally, if you're looking for the old website (there's some records of things I've done there) then you can find it [here](/~hhummel/old-site/index.html).
