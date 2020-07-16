@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  text-align: left;
+  text-align: justify;
   margin: auto;
 }
 
@@ -77,4 +77,8 @@ hr {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.date-listing {
+    font-style: italic
 }
