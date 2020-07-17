@@ -1,16 +1,22 @@
+/* custom fonts */
+
 @font-face {
   font-family: "Optimus Princeps";
   src: url('fonts/OptimusPrinceps.ttf');
 }
+
 @font-face {
   font-family: "Thryromanes";
   src: url('fonts/Thryromanes.ttf');
 }
 
+/* CSS classes */
+
 .title * {
   color: black;
   text-decoration: none;
 }
+
 .title *:hover {
   color: darkred;
 }
@@ -22,6 +28,7 @@
   margin-right: 1em;
   margin-top: -1em;
 }
+
 .topnav *:hover {
   color: darkred;
 }
@@ -40,6 +47,8 @@
 .footer {
   font-size: 10pt;
 }
+
+/* standard html element style */
 
 body {
   font-family: "Thryromanes";
@@ -77,22 +86,17 @@ hr {
   width: 100%;
 }
 
-# for small devices like phones.
-@media screen and (max-width: 800px) {
+/* Media queries for smaller screen-sizes */
+
+@media screen and (max-width: 62em) {
   body {
     width: 90%;
     font-size: 1.5em;
   }
   .topnav * {
     font-size: 1em;
-    text-decoration: none;
-    color: black;
     margin-left: .5em;
     margin-right: .5em;
     margin-top: -1em;
-  }
-  .topnav *:hover {
-    text-decoration: none;
-    color: darkred;
   }
 }
