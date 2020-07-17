@@ -7,6 +7,40 @@
   src: url('fonts/Thryromanes.ttf');
 }
 
+.title * {
+  color: black;
+  text-decoration: none;
+}
+.title *:hover {
+  color: darkred;
+}
+
+.topnav * {
+  text-decoration: none;
+  color: black;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: -1em;
+}
+.topnav *:hover {
+  color: darkred;
+}
+
+.center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.date-listing {
+    font-style: italic
+}
+
+.footer {
+  font-size: 10pt;
+}
+
 body {
   font-family: "Thryromanes";
   background-color: #fffffc;
@@ -35,7 +69,7 @@ a {
 img {
   max-height: 40%;
   width: auto;
-  margin: 16px;
+  margin: 1%;
 }
 
 hr {
@@ -43,42 +77,22 @@ hr {
   width: 100%;
 }
 
-.title * {
-  color: black;
-  text-decoration: none;
-}
-
-.title *:hover {
-  color: darkred;
-  text-decoration: none;
-}
-
-.topnav * {
-  text-decoration: none;
-  color: black;
-  margin-left: 1em;
-  margin-right: 1em;
-  margin-top: -1em;
-}
-
-.topnav *:hover {
-  text-decoration: none;
-  color: darkred;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-.footer {
-  font-size: 10pt;
-}
-
-.center {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.date-listing {
-    font-style: italic
+# for small devices like phones.
+@media screen and (max-width: 800px) {
+  body {
+    width: 90%;
+    font-size: 1.5em;
+  }
+  .topnav * {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: -1em;
+  }
+  .topnav *:hover {
+    text-decoration: none;
+    color: darkred;
+  }
 }
