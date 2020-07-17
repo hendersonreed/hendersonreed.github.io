@@ -13,6 +13,7 @@
 /* CSS classes */
 
 .title * {
+  font-family: "Optimus Princeps";
   color: black;
   text-decoration: none;
 }
@@ -64,10 +65,14 @@ body {
 }
 
 h1, h3 {
+  font-family: "Thryromanes";
+}
+
+h2 {
   font-family: "Optimus Princeps";
 }
 
-h2, p , ul, ol { 
+p, ul, ol { 
   font-family: "Thryromanes"; 
 }
 
