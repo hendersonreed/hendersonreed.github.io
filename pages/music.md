@@ -1,8 +1,6 @@
-Sorted in order of *descending* approachability
-=============================================
+# Sorted in order of *descending* approachability
 
-Music from other places
------------------------
+## Music from other places
 
 * Buena Vista Social Club
 * Nick Drake
@@ -27,8 +25,7 @@ Music from other places
 * Stand High Patrol
 * Sudan Dudan
 
-Music from the US, mostly
--------------------------
+## Music from the US, mostly
 
 * Kacy and Clayton
 * Zephaniah Ohora
