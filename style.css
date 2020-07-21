@@ -66,10 +66,12 @@ body {
 
 h1, h3 {
   font-family: "Thryromanes";
+  text-align: left;
 }
 
 h2 {
   font-family: "Optimus Princeps";
+  text-align: left;
 }
 
 p, ul, ol { 
