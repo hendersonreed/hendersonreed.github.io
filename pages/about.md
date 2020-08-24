@@ -16,6 +16,10 @@ I, together with a few friends, contribute to [Terra](https://terra.finzdani.net
 
 Check out some of the [music I like](/~hhummel/pages/music.html)
 
+I've got some [book recommendations](~/hhummel/pages/books.html)
+
+I love to cook, I'm currently adding some [recipes](~/hhummel/pages/recipes/) to this personal page.
+
 If you're looking for software that I've written, check out my [Gitlab](https://gitlab.com/hendersonreed)
 
 Finally, if you're looking for the old website (there's some records of things I've done there) then you can find it [here](/~hhummel/old-site/index.html).
