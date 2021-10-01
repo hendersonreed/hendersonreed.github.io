@@ -2,7 +2,7 @@
 
 and welcome to my patch of the Internet.
 
-I work as a Quality Engineer on Red Hat's Ansible Automation Platform team, writing and automating tests for some of those products.
+I work as a Quality Engineer on Red Hat's Ansible Automation Platform team, writing and automating tests for some of the products in the Platform.
 
 My interests include (but aren't limited to):
 
