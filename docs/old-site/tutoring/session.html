@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <style>
+    html { height: 100%; }
+    body { margin: 0; height: 100%; position: relative; }
+    iframe {
+      width: 80%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+    }
+    </style>
+
+  <script>
+
+    function init() {
+      setExcalidrawUrl();
+      setJitsiUrl();
+    }
+
+    function setJitsiUrl() {
+      let tail = window.location.href.split("?").slice(-1)[0];
+      //this should be the part after the final slash in the url.
+
+      //then, we want to reconfigure the urls to be correct for excalidraw
+      // and jitsi.
+      document.getElementById("jitsi").src = 
+        "https://meet.jit.si/" + tail; //this is nice and simple.
+    }
+
+    function setExcalidrawUrl() {
+      let tail = window.location.search;
+      //this should be the entire query string.
+
+      if (tail.length === 0) {
+        //if there's no query string, we want to exit without working.
+        alert("Couldn't find url query string. Is your URL correct?");
+        return;
+      }
+
+      //the result from hash can sometimes not be long enough, so we'll
+      //  just make it big...
+
+      let bigHash = "";
+      while (bigHash.length < 44) {
+        bigHash += hash(tail);
+      }
+
+      let room = bigHash.slice(0,20);
+      let key  = bigHash.slice(20,42);
+      //the room must be 20 characters long, while the key must be 22.
+
+
+      let newUrl= "https://excalidraw.com/" 
+        + "#room=" + room + ',' + key;
+
+      console.log(newUrl);
+
+      let iframe = document.getElementById("excalidraw");
+
+      iframe.src = newUrl;
+//      iframe.src = iframe.src;
+//      iframe.contentWindow.location.reload();
+    }
+
+
+    function hash(to_hash) {
+      var hash = 0;
+
+      if (to_hash.length == 0) return hash;
+      for (i = 0; i < to_hash.length; i++) {
+        char = to_hash.charCodeAt(i);
+        hash = ((hash<<5)-hash)+char;
+        hash = hash & hash; // Convert to 32bit integer
+      }
+      return Math.abs(hash).toString();
+    }
+  </script>
+  </head>
+
+    <body onload="init()">
+      <iframe src="https://excalidraw.com" id="excalidraw"></iframe>
+      <iframe src="https://meet.jit.si/" id="jitsi" allow="microphone; camera"></iframe>
+      <script>
+        //this is needed to reload the new url, so that sharing works properly.
+        document.getElementById("excalidraw").contentWindow.location.reload();
+      </script>
+    </body>
+</html>

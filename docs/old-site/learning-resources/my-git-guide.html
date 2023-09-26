@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Henderson Hummel's Portland State University Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <style>
+      img {
+        max-height: 40%;
+        width: auto;
+        margin: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>Using Git</h3>
+    <p>
+    Firstly, this linked guide is a good overview of what git is, but it may be a bit to absorb all at once: <a href=https://rogerdudler.github.io/git-guide/>https://rogerdudler.github.io/git-guide/</a>
+    </p>
+
+    <p>
+    Essentially - commit when you want to save your work. This could be when you complete a full set of work and the code passes all tests. It could be earlier as well, depending on how many other people are working on the project at the same time.
+    <ul>
+      <li> <code>git init</code> initializes an empty git repository (a local one). You will need to do this before you can do anything else for git.</li>
+      <li> <code>git add -A</code> will add all files in the current directory to the staging area.</li>
+      <li> <code>git commit</code> will open up $EDITOR (hopefully vim) and require you to enter a message about the changes before it saves them to the git tree.</li>
+      <li> <code>git commit -a</code> will add all edited files to the staging area, and begin a commit.</li>
+    </ul>
+    </p>
+
+    <h4>More Advanced</h4>
+    <p>
+    The above is useful for tracking and saving work as you go (especially important when working on BIG project)
+    </p>
+
+    <p>
+    The next information is for working with big groups of people, and tracking your work with better detail.
+    </p>
+
+    <ul>
+      <li> <code>git checkout -b &lt;branchname&gt;</code> creates a new branch and switches to it.</li>
+      <li> <code>git branch</code> lists the local branches</li>
+      <li> <code>git checkout &lt;branchname or commit hash&gt;</code> switches to a branch or specific commit (handy for seeing previous versions of the code)</li>
+    </ul>
+  </body>
+</html>
