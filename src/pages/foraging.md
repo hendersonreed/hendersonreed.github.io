@@ -16,7 +16,7 @@ Likely *Xerocomellus*, these little guys appear to have merged early on.
 
 ### *Laetiporus sp.*
 
-This type is considered fine eating in Europe and the northeastern United States and commonly named one of the "foolproof four" (however, no foraged mushrooms are truly foolproof.) It *can* cause allergic reaction in some people, particularly the types that grow on the West Coast and those that grow on conifers on the east coast.
+This type is considered fine eating in Europe and the northeastern United States and commonly named one of the "foolproof four" (however, no foraged mushrooms are truly foolproof.) It *can* cause allergic reactions in some people, particularly the types that grow on the West Coast and those that grow on conifers on the East Coast.
 
 This specimen was found on conifers in the Pacific Northwest and therefore is likely *Laetiporus conifericola*. I ate just a couple bites and felt a mild reaction, probably due to undercooking (it's much meatier and denser than your typical choice edible mushroom, so requires more cooking than I thought.) Recommended practice is 15 minutes boiling, which I'll be testing next.
 
