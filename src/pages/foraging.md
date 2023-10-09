@@ -12,12 +12,12 @@ According to the online foraging community, it's the season for *Boletus edulis*
 
 No luck on my end, but we did see:
 
-    - Agaricus in town, in disturbed areas like mulched gardens and median strips.
-    - a few young *Russula* specimens
-    - many *Suillus*
-    - some of what we think are *Lyophyllum decastes*
-    - many false chanterelles
-    - and quite a few *Gerronema atrialbum* or at least that's what I think it is.
+- Agaricus in town, in disturbed areas like mulched gardens and median strips.
+- a few young *Russula* specimens
+- many *Suillus*
+- some of what we think are *Lyophyllum decastes*
+- many false chanterelles
+- and quite a few *Gerronema atrialbum* or at least that's what I think it is.
 
 Not sharing any pictures today, but this log is mostly for me to track what I find and when/where. Mushrooms are so highly seasonal that week by week you watch a progression of fungi.
 
