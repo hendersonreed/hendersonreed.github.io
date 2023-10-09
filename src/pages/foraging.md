@@ -6,7 +6,24 @@ This page is a log of the more interesting foraging finds I've found, along with
 
 *note: do not attempt to teach yourself foraging. Find a local foraging group or mycological society and attend group forays and classes to learn the ropes. Even experienced mushroom hunters make mistakes, sometimes resulting in sickness or death.*
 
-## September, 2023
+## Early October, 2023
+
+According to the online foraging community, it's the season for *Boletus edulis*, the King Bolete.
+
+No luck on my end, but we did see:
+
+    - Agaricus in town, in disturbed areas like mulched gardens and median strips.
+    - a few young *Russula* specimens
+    - many *Suillus*
+    - some of what we think are *Lyophyllum decastes*
+    - many false chanterelles
+    - and quite a few *Gerronema atrialbum* or at least that's what I think it is.
+
+Not sharing any pictures today, but this log is mostly for me to track what I find and when/where. Mushrooms are so highly seasonal that week by week you watch a progression of fungi.
+
+<!-- bloom lake trailhead, nehalem bay state park -->
+
+## Late September, 2023
 
 ### odd merged *Boletacea*
 
@@ -27,3 +44,5 @@ This specimen was found on conifers in the Pacific Northwest and therefore is li
 This genus is nearly all somewhat poisonous, and generally distinctive due to the red coloring, blue staining when bruised, and red pore surface. This particular species is one of the only Boletaceae that are known to have caused deaths (just two species in the family have ever been implicated in deaths.)
 
 ![](/assets/photos/mushrooms/rubruboletus.jpg "a thick-stalked and brick-red *Boletus*")
+
+<!-- nehalem bay state park, oswald west state park -->
