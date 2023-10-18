@@ -4,7 +4,7 @@
 directory="./src"
 
 # Set the maximum size (in kb) you want the images to fit within
-max_file_size="2048"
+max_file_size="1024"
 
 # Set the directory to copy the original images
 backup_dir="./tools/backup_photos"  # Replace with your desired backup directory
@@ -18,7 +18,7 @@ find "$directory" -type f -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o
         mkdir -p "$backup_dir"
 
         # Copy the original image to the backup directory
-        cp "$image" "$backup_dir/$(basename "$image")"
+        cp -n "$image" "$backup_dir/$(basename "$image")"
 
         # Resize the image to fit within the maximum file size
         convert "$image" -define jpeg:extent="$max_file_size"k "$image"
