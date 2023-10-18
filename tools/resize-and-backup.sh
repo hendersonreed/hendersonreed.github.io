@@ -4,7 +4,7 @@
 directory="./src"
 
 # Set the maximum size (in kb) you want the images to fit within
-max_file_size="1024"
+max_file_size="512"
 
 # Set the directory to copy the original images
 backup_dir="./tools/backup_photos"  # Replace with your desired backup directory
