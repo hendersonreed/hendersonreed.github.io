@@ -83,8 +83,8 @@ This genus is nearly all somewhat poisonous, and generally distinctive due to th
 
 ### Gymnopilus ventricosus
 
-![](/home/reed/recurse/hendersonreed.github.io/src/assets/photos/mushrooms/jumbo-gym-main.jpg)
+![](/assets/photos/mushrooms/jumbo-gym-main.jpg)
 
-![](/home/reed/recurse/hendersonreed.github.io/src/assets/photos/mushrooms/jumbo-gym-underside.jpg)
+![](/assets/photos/mushrooms/jumbo-gym-underside.jpg)
 
 <!-- nehalem bay state park, oswald west state park -->
