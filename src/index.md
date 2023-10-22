@@ -5,7 +5,8 @@ and welcome to my patch of the Internet.
 
 I'm currently at [The Recurse Center](https://recurse.com), exploring esoteric user interfaces, music programming, and the weird web.
 
-<img src="/assets/hhummel-2020.jpg" style="float: right; width: 33vw">
+<div style="width: 100%; overflow: hidden">
+<img src="/assets/hhummel-2020.jpg" style="float: right; width: 33vw; margin-left: 2rem">
 
 My interests include (but aren't limited to):
 
@@ -27,6 +28,8 @@ Check out some of the [music I like](/pages/music.html)
 I've got some [book recommendations](/pages/books.html)
 
 I love to cook, I'm currently adding some [recipes](/pages/recipes/) to this personal page.
+
+</div>
 
 ## programming
 
