@@ -6,4 +6,4 @@
 # build the site itself
 /home/reed/bin/psg build
 ./tools/generate-site-map.sh
-psg serve
+/home/reed/bin/psg serve
