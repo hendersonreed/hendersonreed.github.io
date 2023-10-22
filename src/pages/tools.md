@@ -1,30 +1,23 @@
 # TL;DR
 
-I live on the command line:
+I live on the command line and in the browser:
 
-* writing (code or prose): vim + Pandoc
-* languages: Python, Bash, C. I've been really enjoying Haskell, and I've toyed around with Rust a little bit.
-* I'm currently running Fedora Linux on a Dell XPS 13 laptop. The laptop has great Linux support, and Fedora maintains a decent balance between stability and up-to-date-ness.
+* writing (code or prose): neovim, configured with my own fork of [kickstart.nvim](https://github.com/hendersonreed/kickstart.nvim)
+* languages: Python, Bash, Javascript. I've toyed around with Rust a little bit. I'm always starting and stopping with some of the various lisps, like Fennel and Racket.
+* I'm currently running Fedora Linux on a Dell XPS 13 laptop. The laptop has great Linux support, and Fedora maintains a decent balance between stability and up-to-date-ness. It's due for a battery replacement - I purchased this laptop in 2016 or 2017, and it's down to 60% of its max capacity.
+* *testing*: I've been exploring the potential for using LLMs (large language models) to expand my capabilities. Currently I'm just using the free version of OpenAIs *ChatGPT* web interface, but I think there's tremendous opportunity here. It's not magic, but it provides capabilities that are powerful for summarizing, collating, and finding relevant information.
 
-I'm a huge fan of the *Unix as IDE* perspective. If you're unfamiliar, I really recommend you read [the series that started it all](https://sanctum.geek.nz/arabesque/series/unix-as-ide/). If you don't have the time right now, I'll explain it here. Essentially, it's a workflow that emphasizes the use of small, modular, configurable tools (like those available on most *nixes) over the use of one monlithic tool (like your average IDE.) So, when I'm coding, I use many different tools, each of which are tuned and configured for only a few tasks. This has some benefits, but also downsides. You'll have to try these things out for yourself, but reading that link above should at least get you some perspective on why people might choose to work this way.
 
-### Coding
+### philosophy:
 
-I do nearly all my work in neovim. I appreciate that it's extremely quick, it's extensible, and distraction-free.
+I'm a huge fan of the *Unix as IDE* perspective. If you're unfamiliar, I really recommend you read [the series that started it all](https://sanctum.geek.nz/arabesque/series/unix-as-ide/). For those of you without the time, I'll summarize it here: essentially, it's a workflow that emphasizes the use of small, modular, configurable tools (like those available on most \*nixes) over the use of one monlithic tool (like your average IDE.) So, when I'm coding, I use many different tools, each of which are tuned and configured for only a few tasks. The advantage here is that I can more easily understand and extend each one.
 
-I use only a few plugins, installed with the [vim-plug](https://github.com/junegunn/vim-plug) plugin manager:
+A prime example of my attitudes in action is [psg](https://github.com/hendersonreed/psg), a static site generator I built. It's 77 lines of vanilla Python, with no dependencies aside from Pandoc, which is available as a package in most Linux distribution's default repositories. It's straightforward to extend, it has very few side-effects or expectations (meaning that it integrates with other tools well), and it's easy to install (you can just `curl` it from GitHub.)
 
-* [ALE](https://github.com/dense-analysis/ale)
-* [paredit.vim](https://github.com/vim-scripts/paredit.vim) (still getting used to this one.)
-* [rainbow](https://github.com/luochen1990/rainbow)
 
-Aside from Vim, I have used the JetBrains IDEs like IntelliJ and Pycharm. They are powerful and effective tools, but I personally have never felt as comfortable in them as I have in Vim. Modal editing is a powerful paradigm, and none of the Vim plugins quite match the functionality of ordinary Vim.
-
-### Misc
+### On building tools
 
 I am a huge proponent of building your own small tools. I find that it keeps your mind sharp for programming, and you can often come up with a tool that satisfies your needs more than available solutions. Plus, you get to program and learn on the way!
-
-For example, I built the site generator this site was built with, [Hatchet](https://gitlab.com/hendersonreed/Hatchet)
 
 I find that `Bash` is especially powerful for creating these simple tools. Other languages provide all kinds of benefits (types, safety, debugging tools, etc) but so far I haven't come across anything that is as quick and effective for quickly scripting behavior.
 

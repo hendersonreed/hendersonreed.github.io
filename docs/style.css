@@ -82,9 +82,19 @@ p, ul, ol {
 a {
     color: darkred
 }
-
+/*
 img {
   width: calc(60vw);
+}
+*/
+  /* Style for images */
+img {
+    width: calc(60vw);
+    height: auto;    /* Maintain image aspect ratio */
+    display: block;  /* Remove default bottom margin */
+    margin: 0 auto;  /* Center images within their container */
+    border: 1px solid #ddd; /* Add a light border around images */
+    border-radius: 4px;    /* Add rounded corners to images */
 }
 
 hr {

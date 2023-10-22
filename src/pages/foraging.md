@@ -20,6 +20,8 @@ I'm not an expert mycologist by any means, so treat these identifications with m
 
 ### *Armillaria sp.*, perhaps *nabsnona*, aka Honey Mushroom
 
+These are edible, and quite good - tasting like a deeper and richer shiitake. These do apparently cause gastric issues in some foragers, so thorough cooking is adviseable.
+
 ![](/assets/photos/mushrooms/armillaria-cap.jpg)
 
 ![](/assets/photos/mushrooms/armillaria-underside.jpg)
@@ -27,19 +29,24 @@ I'm not an expert mycologist by any means, so treat these identifications with m
 ### Golden Pholiota
 
 ![](/assets/photos/mushrooms/golden-pholiota-cap.jpg)
+
 ![](/assets/photos/mushrooms/golden-pholiota-gills.jpg)
+
 ![](/assets/photos/mushrooms/golden-pholiota-main.jpg)
 
 ### Western Grisette
 
+A beautiful example of a fairly common *Amanita* in my area. These are apparently edible and good, but I avoid *Amanita* generally as they harbor multiple deadly poisonous species.
+
 ![](/assets/photos/mushrooms/grisette-main.jpg)
+
 ![](/assets/photos/mushrooms/grisette-underside.jpg)
 
 ### Hyphaloma
 
-![](/assets/photos/mushrooms/hyphaloma.jpg)
+A very common type, these are commonly known as *Sulphur Tuft*. By and large the genus is poisonous, but there is *Hyphaloma capnoides* which grows in my area and is edible - distinguishable by a spore print. I probably won't ever eat these though - there are too many delicious and easy-to-identify mushrooms ahead of them on the list.
 
-### 
+![](/assets/photos/mushrooms/hyphaloma.jpg)
 
 ## Early October, 2023
 
@@ -47,13 +54,14 @@ According to the online foraging community, it's the season for *Boletus edulis*
 
 No luck on my end, but we did see:
 
-- Agaricus in town, in disturbed areas like mulched gardens and median strips.
+- young Agaricus in town, in disturbed areas like mulched gardens and median strips.
 - a few young *Russula* specimens
-- many *Suillus*
+- many *Suillus*, many immature.
+- some *Gymonopilus*, fairly young.
 - some of what we think are *Lyophyllum decastes*
 - many false chanterelles
 - and quite a few *Gerronema atrialbum* or at least that's what I think it is.
-- some Angel Wings, *Pleurocybella porrigens*, which are an oyster-like species that, until recently, were considered good eating. In 2004 they caused some deaths in Japan however, and since then I don't eat them.
+- some Angel Wings, *Pleurocybella porrigens*, which are an oyster-like species that, until recently, were considered good eating. In 2004 they caused some deaths in Japan. As a result, I don't eat them.
 
 Not sharing any pictures today, but this log is mostly for me to track what I find and when/where. Mushrooms are so highly seasonal that week by week you watch a progression of fungi.
 
@@ -80,11 +88,5 @@ This specimen was found on conifers in the Pacific Northwest and therefore is li
 This genus is nearly all somewhat poisonous, and generally distinctive due to the red coloring, blue staining when bruised, and red pore surface. This particular species is one of the only Boletaceae that are known to have caused deaths (just two species in the family have ever been implicated in deaths.)
 
 ![](/assets/photos/mushrooms/rubruboletus.jpg "a thick-stalked and brick-red *Boletus*")
-
-### Gymnopilus ventricosus
-
-![](/assets/photos/mushrooms/jumbo-gym-main.jpg)
-
-![](/assets/photos/mushrooms/jumbo-gym-underside.jpg)
 
 <!-- nehalem bay state park, oswald west state park -->
