@@ -6,7 +6,6 @@
 # build the site itself
 /home/reed/bin/psg build
 ./tools/generate-site-map.sh
-psg serve
 
 echo "enter your commit message now: "
 read -r commit_msg
