@@ -113,8 +113,8 @@ hr {
 .sidenote {
     background-color: #f0f0f0; /* Light gray background */
     border: 1px solid #ccc; /* Light gray border */
-    padding: 8px; /* Add some padding for spacing */
-    margin: 10px 0; /* Margin for separation from other content */
+    padding: 1em; /* Add some padding for spacing */
+    margin: 1em 0; /* Margin for separation from other content */
     color: #555; /* Dark gray text color */
 }
 
