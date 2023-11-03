@@ -2,8 +2,9 @@
 
 ## Music from other places
 
-* Buena Vista Social Club
+* Isaac Albeniz
 * Nick Drake
+* Buena Vista Social Club
 * William Onyeabor
 * Neil Halstead
 * Sibylle Baier
@@ -37,7 +38,6 @@
 * Andy Shauf (album: The Party)
 * Man Man
 * Tom Waits (albums: Rain Dogs, Alice)
-* Isaac Albeniz
 * Swamp Dogg (album: Rat On!)
 * Mort Garson (album: Plantasia)
 * Leon Redbone

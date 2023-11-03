@@ -17,6 +17,11 @@ This page is a record of the tastings I've been doing.
 - [2022 Caves Vidigal Vinho Regional Lisboa Porta 6](https://www.cellartracker.com/wine.asp?iWine=4631270)
     - really excellent. Don't remember too many notes, but certainly some spice and fruit.
 
+### white
+
+- [2021 Loosen Brothers Riesling Dr. L](https://www.cellartracker.com/wine.asp?iWine=4298399)
+    -  quite sweet, tons of fruit notes, just enough acidity to not make it too cloying. Peachy, tart, maybe a little apple?
+
 ## head-to-head: Jalapeno Potato Chips
 
 The only thing I remember from this tasting is that Tim's Jalapeno chips was the best by far.

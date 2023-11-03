@@ -16,6 +16,21 @@ I'm not an expert mycologist by any means, so treat these identifications with m
 
 # photo log:
 
+## Late October, 2023
+
+### *Amanita pantherina*
+
+Found beneath/near some rhododendron, there were *tons* of these in all states of maturity. Many growing in clumped pairs that grew together in odd merged forms. Below is a staged photo containing specimens across the maturity spectrum:
+
+![](/assets/photos/mushrooms/amanita-pantherina-study.jpg)
+
+### *Boletus edulis*
+
+Found growing on a little-trod portion of a nearby college campus, this was a weird little chonker growing in evergreen duff.
+
+![](/assets/photos/mushrooms/weird-little-bolete-chonker.jpg)
+
+
 ## Mid October, 2023
 
 ### *Armillaria sp.*, perhaps *nabsnona*, aka Honey Mushroom

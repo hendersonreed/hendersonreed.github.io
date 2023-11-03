@@ -1,0 +1,2 @@
+- 3M Transpore Tape
+    - I came across a roll of this when poking through my local eco-recycling shop. It's designed for surgical use, but it's got all kinds of awesome uses. It's semi-stretchy, semi-transparent, and quite strong, with great attachement to both man-made synthetic surfaces like plastics, but also skin and other organic surfaces like wood and cardboard.
