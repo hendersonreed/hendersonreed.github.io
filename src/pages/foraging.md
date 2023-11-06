@@ -10,11 +10,62 @@ I'm not an expert mycologist by any means, so treat these identifications with m
 
 # edibility log:
 
+- *Aureoboletus mirabilis*: The Admirable Bolete, this gave me symptoms similar to the *Laetiporus sp* I tried in Oct. 2023. I'm not sold on the flavor, so am not going to try cooking it further to see if that resolves it, particularly when it's not super common and grows near *Suillus caerulescens* which I like so much and has a similar lemony flavor.
+- *Boletus fibrilosus*: The Fib King, this is a close relative of the King Bolete, *Boletus edulis*. Really tasty - not *quite* as powerful as the true king bolete, I think that this one might be a great mushroom to dry and powder (or eat as we eat true kings, when we find them and find no true kings.)
 - *Armillaria nabsnona*: tasty, like a richer and more flavorful shiitake.
-- *Laetiporus conifericola*: initially caused painful stomach issues for me and a family member around 10 hours after consumption, probably due to being undercooked. On a second occasion I boiled the mushroom for ~15 minutes before consumption and found I had no issues. Good texture, flavor was OK but nothing special.
 - *Suillus caerulescens*: a common mushroom in my neck of the woods, this one is quite tasty and I've never had a negative reaction, even when consuming the skin on the cap and pores (provided they're young and firm.)
+- *Laetiporus conifericola*: initially caused painful stomach issues for me and a family member around 10 hours after consumption, probably due to being undercooked. On a second occasion I boiled the mushroom for ~15 minutes before consumption and found I had no issues. Good texture, flavor was OK but nothing special.
 
 # photo log:
+
+## Early November, 2023
+
+Found a huge variety of mushrooms out at a new spot that my sister recommended we check out. This was primarily old-growth douglas fir, with scatter hemlock and maple, at around 1700 feet elevation. There was scattered Oregon grape and sword ferns also.
+
+We were so excited by the variety of fungi found that we didn't end up taking a lot of photos, but some follow. A short list though of what we did find:
+
+- copious amounts of violet webcap, aka *Cortinarius violaceus*
+- a large number and variety of Russula.
+- a single lobster mushroom
+- many *Suillus caerulescens*
+- some *Aureoboletus mirabilis*, aka Admirable Bolete, a choice bolete (see the edibility log: I found it caused some minor stomach upset for me.)
+- a small amount of *Boletus fibrillosus*, aka the Fib King bolete. This is a close relative of the true king bolete, aka *Boletus edulis* and was probably the best find of the lot.
+- several coral fungi, most likely *Ramaria* species.
+
+### *Russula sp.*
+
+There was an incredible number of Russula here, with a lot of *Russula brevipes*, a relatively unremarkable mushroom best known as a major host of the parasitic fungus that produces lobster mushrooms.
+
+![](/assets/photos/mushrooms/big-russula-sp.jpg)
+
+![](/assets/photos/mushrooms/huge-russula-brevipes.jpg)
+
+### *Aureoboletus mirabilis*
+
+![](/assets/photos/mushrooms/sweet-admirable-bolete.jpg)
+
+This was a sweet find (I left the one pictured untouched, there was a large patch of these just 15 feet away.)
+
+Unfortunately, while these are apparently a choice bolete for most, I ended up with a minor tummyache the morning after eating just a small slice sauteed in butter.
+
+While the symptoms were reminiscent of what I've gotten from other undercooked mushrooms, there's no reason to tempt fate, particularly when I've got a number of other similar-tasting and more prolific fungi to eat, like the similarly lemony *Suillus caerulescens.*
+
+### *Ramaria*?
+
+These were found all over this particular area, and are beautiful and striking finds. Probably not worth eating, particularly as the entire category of these is 1. not considered choice, and 2. rather confusing and difficult to narrow to species level.
+
+![](/assets/photos/mushrooms/red-coral.jpg)
+
+![](/assets/photos/mushrooms/red-coral-stuntzii.jpg)
+
+### *Cortinarius violaceus*
+
+An absolutely beautiful fungi, this one doesn't come through in photos enough to convey the absolutely incredible shimmering quality the cap has. It's both rough and shiny, and a deep deep purple. It looks genuinely unearthly and unreal. A gorgeous find.
+
+Their beauty rapidly fades, as by the time we got home and pulled them from the basket, they were already faded to a much darker and less saturated sort of purple-black.
+
+![](/assets/photos/mushrooms/violet-cortinarius.jpg)
+
 
 ## Late October, 2023
 
