@@ -85,12 +85,12 @@ a {
 }
 
 img {
-    width: calc(60vw);
+    width: calc(40vw);
     height: auto;    /* Maintain image aspect ratio */
     display: block;  /* Remove default bottom margin */
     margin: 0 auto;  /* Center images within their container */
-    border: 1px solid #ddd; /* Add a light border around images */
-    border-radius: 4px;    /* Add rounded corners to images */
+    border: 2px solid #ffff; /* Add a light border around images */
+    border-radius: 10px;    /* Add rounded corners to images */
 }
 
 code {
