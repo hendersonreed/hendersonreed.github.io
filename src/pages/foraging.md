@@ -10,6 +10,8 @@ I'm not an expert mycologist by any means, so treat these identifications with m
 
 # edibility log:
 
+Typically whenever I try a new species of mushroom, I eat a single bit, somewhere around the size of the last joint of your pinky finger, or even half that, that I've sauteed in butter for around 5-10 minutes. This is an amount that, even if it were one of the more poisonous mushrooms, would be unlikely to cause any serious effects.
+
 - *Aureoboletus mirabilis*: The Admirable Bolete, this gave me symptoms similar to the *Laetiporus sp* I tried in Oct. 2023. I'm not sold on the flavor, so am not going to try cooking it further to see if that resolves it, particularly when it's not super common and grows near *Suillus caerulescens* which I like so much and has a similar lemony flavor.
 - *Boletus fibrilosus*: The Fib King, this is a close relative of the King Bolete, *Boletus edulis*. Really tasty - not *quite* as powerful as the true king bolete, I think that this one might be a great mushroom to dry and powder (or eat as we eat true kings, when we find them and find no true kings.)
 - *Armillaria nabsnona*: tasty, like a richer and more flavorful shiitake.
