@@ -10,5 +10,6 @@
 echo "enter your commit message now: "
 read -r commit_msg
 
-git commit -am "$commit_msg"
+git add .
+git commit -m "$commit_msg"
 git push
