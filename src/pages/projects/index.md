@@ -1,3 +1,5 @@
+I've been getting so many ideas lately, I've been forced to write them down so I can stop thinking about them for a little bit. Find them at [todo](todo.html)
+
 I'm working on building more projects I'm proud to share with the world. For now, here are some:
 
 - [hark: a literature visualizer](hark.html).

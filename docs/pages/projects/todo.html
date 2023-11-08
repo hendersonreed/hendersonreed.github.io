@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Henderson Hummel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    </style>
+  </head>
+
+  <body>
+
+    <br>
+    <h1 class="title center"><a href="/">Henderson Hummel<a></h1>
+
+    <div class="topnav center">
+      <h3>
+	<a href="/assets/hhummel.pdf">resume</a>
+	<a href="/pages/contact.html">contact me</a>
+      </h3>
+    </div>
+    <hr>
+
+<h1 id="project-ideas">project ideas</h1>
+<p>These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!</p>
+<ul>
+<li>Random pattern generator for inkle looms and css border</li>
+<li>Visual poem webpage</li>
+<li>node-based interface for stringing together LLM workflows</li>
+<li>pizzaman: a silly little platformer where you play as a pizza pie. Maybe you shoot pizza slices, which means your health goes lower? and then powerups are toppings! and you get health from defeating enemies, who turn into little pizza slices when they die.</li>
+<li>free-for-all bananagrams where you just try to write words from your available letters as fast as possible, but other people can steal letters from you?</li>
+<li>plug-n-play projector + camera for interactive whiteboard
+<ul>
+<li>use google mediapipe api to detect hand gestures that trigger keypresses, e.g. an “OK” sign or “pinch” sign is a mouse-down action.</li>
+</ul></li>
+<li>node-based CAD with jscad and react-flow</li>
+<li>m-track: midi tape interface with Rust and iced.
+<ul>
+<li>see the project directory for documentation.</li>
+</ul></li>
+<li>stellody (stella (star), melody) (using p5.js)
+<ul>
+<li>a simple application that plays music inspired/controlled by the stars that are passing directly overhead at the current time/longitude.</li>
+<li>https://rhodesmill.org/skyfield/ might be the tool</li>
+<li>using azimuth calculations I think?</li>
+</ul></li>
+<li>Personal Relationship Assistant (PRA)
+<ul>
+<li>accepts
+<ul>
+<li>info about a person and contact details,</li>
+<li>optimal communication cadence</li>
+<li>a collection of user writing samples, to allow generation of templates in users voice.</li>
+</ul></li>
+<li>pings the user to let them know it’s time to reach out. Will expire within 1 week (to encourage urgency.)</li>
+</ul></li>
+<li>inkle loom pattern generator</li>
+<li>script-enabled OSM app that notifies you of things you like within configured range</li>
+<li>bee flappy-bird where you play kazoo to raise the bee</li>
+<li>4-directional vvvvvv</li>
+<li>game with mirrored boards as game mechanic</li>
+<li>generalized interactive-map program (rust)
+<ul>
+<li>accepts a set of <code>execute</code> functions</li>
+<li>accepts a <code>preview</code> function</li>
+<li>accepts stdin</li>
+<li>for each line in stdin, runs the preview function with it as an argument.
+<ul>
+<li>waits for user input, depending on input will run one of the given execute functions.</li>
+</ul></li>
+<li>optional flag “confirm” that requires a <code>&lt;CR&gt;</code> after each key command.</li>
+<li>can also produce a script as output that runs the commands selected for the lines of stdin.</li>
+</ul></li>
+<li>bitmap-to-midi converter. A “bitmap musicbox”, p5.js
+<ul>
+<li>needs to accept a csv, as well as a definition of what headings go to which sound things and which plot things.</li>
+<li>can also define a <code>data-&gt;csv</code> conversion, so you can use an actual bitmap file format, for example. but converting to CSV is easiest.</li>
+<li>allows uploading/pasting a file so you can paste any bitmap</li>
+</ul></li>
+<li>art history game, mapping images to artistic movements. scored based on speed of categorization and correctness</li>
+<li>pigeon shitting game (you play as the pigeon)
+<ul>
+<li>eat powerups (pizza = shit better, bagel = another life, etc etc.)</li>
+</ul></li>
+<li>microphone based breath controller for midi</li>
+<li>piano tuning webgame</li>
+<li>web instrument that interactively/intuitively teaches music practice/theory</li>
+<li>chain together multiple LLMs for icon design
+<ul>
+<li>LLM for source image, LLM for style image, plus a model to do style application</li>
+<li>“a save icon, black and white” x “van gogh’s starry night”</li>
+</ul></li>
+<li>hmmm an arithmetic language for model application?
+<ul>
+<li>each model needs a type, that defines what kind of inputs/outputs it produces.</li>
+<li>operators that imply things like style application, wrapping in a prompt, etc etc.</li>
+<li>what’s the analogue for “multiplication”, “addition”, “subtraction”, etc in this context?</li>
+</ul></li>
+<li>constrainted writing wordle/contact
+<ul>
+<li>I particularly like the idea of using chaucer or saxon/roman word restrictions. Or things like avoiding <code>e</code>.</li>
+</ul></li>
+<li>ambient noise representation with LED strips</li>
+<li>theremidi - midi theremin</li>
+<li>AST viewer nvim-plugin using mermaid.js and tree-sitter</li>
+<li>markdown extension for conjure that allows executing the code inside code blocks</li>
+<li>OmniChord emulator/inspired instrument.</li>
+<li>midi harp</li>
+<li>pen plotter portrait tool
+<ul>
+<li>uses a live feed and maybe some AI image filters?</li>
+</ul></li>
+<li>VJ interface inspired by vim registers.
+<ul>
+<li>config file defines imported video/music and saved registers (can load at runtime too.)</li>
+<li>type a command and then hit <code>@&lt;register&gt;</code> to trigger the command with that data.</li>
+</ul></li>
+<li>wiki web server that supports using any markup conversion</li>
+<li>knitting machine that produces one scarf every year</li>
+<li>CSS framework inspired by
+<ul>
+<li>NYC subway station tilework</li>
+<li>mondrian</li>
+</ul></li>
+<li>messing around with https://crates.io/crates/nannou</li>
+<li>moondog inspired sound playground, to teach working with odd time signatures, song structures, and modes.
+<ul>
+<li>random song structure of 4,8 bar segments</li>
+<li>random mode</li>
+<li>random time signature</li>
+<li>everything else is customizeable.</li>
+<li>includes a few basic sounds</li>
+</ul></li>
+</ul>
+
+    <!-- this is the start of the footer -->
+    <hr>
+    <a href="https://github.com/hendersonreed/psg">built with psg</a>
+    <br>
+    <a href="/sitemap.html">sitemap</a>
+  </body>
+</html>

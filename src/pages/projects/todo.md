@@ -1,0 +1,79 @@
+# project ideas
+
+These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
+
+- Random pattern generator for inkle looms and css border
+- Visual poem webpage
+- node-based interface for stringing together LLM workflows
+- pizzaman: a silly little platformer where you play as a pizza pie. Maybe you shoot pizza slices, which means your health goes lower? and then powerups are toppings! and you get health from defeating enemies, who turn into little pizza slices when they die.
+- free-for-all bananagrams where you just try to write words from your available letters as fast as possible, but other people can steal letters from you?
+- plug-n-play projector + camera for interactive whiteboard
+    - use google mediapipe api to detect hand gestures that trigger keypresses, e.g. an "OK" sign or "pinch" sign is a mouse-down action.
+- node-based CAD with jscad and react-flow
+- m-track: midi tape interface with Rust and iced.
+    - see the project directory for documentation.
+- stellody (stella (star), melody) (using p5.js)
+    - a simple application that plays music inspired/controlled by the stars that are passing directly overhead at the current time/longitude.
+    - https://rhodesmill.org/skyfield/ might be the tool
+    - using azimuth calculations I think?
+- Personal Relationship Assistant (PRA)
+    - accepts
+        - info about a person and contact details,
+        - optimal communication cadence
+        - a collection of user writing samples, to allow generation of templates in users voice.
+    - pings the user to let them know it's time to reach out. Will expire within 1 week (to encourage urgency.)
+- inkle loom pattern generator
+- script-enabled OSM app that notifies you of things you like within configured range
+- bee flappy-bird where you play kazoo to raise the bee
+- 4-directional vvvvvv
+- game with mirrored boards as game mechanic
+- generalized interactive-map program (rust)
+    - accepts a set of `execute` functions
+    - accepts a `preview` function
+    - accepts stdin
+    - for each line in stdin, runs the preview function with it as an argument.
+        - waits for user input, depending on input will run one of the given execute functions.
+    - optional flag "confirm" that requires a `<CR>` after each key command.
+    - can also produce a script as output that runs the commands selected for the lines of stdin.
+- bitmap-to-midi converter. A "bitmap musicbox", p5.js
+    - needs to accept a csv, as well as a definition of what headings go to which sound things and which plot things.
+    - can also define a `data->csv` conversion, so you can use an actual bitmap file format, for example. but converting to CSV is easiest.
+    - allows uploading/pasting a file so you can paste any bitmap
+- art history game, mapping images to artistic movements. scored based on speed of categorization and correctness
+- pigeon shitting game (you play as the pigeon)
+    - eat powerups (pizza = shit better, bagel = another life, etc etc.)
+- microphone based breath controller for midi
+- piano tuning webgame
+- web instrument that interactively/intuitively teaches music practice/theory
+- chain together multiple LLMs for icon design
+    - LLM for source image, LLM for style image, plus a model to do style application
+    - "a save icon, black and white" x "van gogh's starry night"
+- hmmm an arithmetic language for model application?
+    - each model needs a type, that defines what kind of inputs/outputs it produces.
+    - operators that imply things like style application, wrapping in a prompt, etc etc.
+    - what's the analogue for "multiplication", "addition", "subtraction", etc in this context?
+- constrainted writing wordle/contact
+    - I particularly like the idea of using chaucer or saxon/roman word restrictions. Or things like avoiding `e`.
+- ambient noise representation with LED strips
+- theremidi - midi theremin
+- AST viewer nvim-plugin using mermaid.js and tree-sitter
+- markdown extension for conjure that allows executing the code inside code blocks
+- OmniChord emulator/inspired instrument.
+- midi harp
+- pen plotter portrait tool
+    - uses a live feed and maybe some AI image filters?
+- VJ interface inspired by vim registers.
+    - config file defines imported video/music and saved registers (can load at runtime too.)
+    - type a command and then hit `@<register>` to trigger the command with that data.
+- wiki web server that supports using any markup conversion
+- knitting machine that produces one scarf every year
+- CSS framework inspired by
+    - NYC subway station tilework
+    - mondrian
+- messing around with https://crates.io/crates/nannou
+- moondog inspired sound playground, to teach working with odd time signatures, song structures, and modes.
+    - random song structure of 4,8 bar segments
+    - random mode
+    - random time signature
+    - everything else is customizeable.
+    - includes a few basic sounds
