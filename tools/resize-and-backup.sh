@@ -12,7 +12,7 @@ backup_dir="./tools/backup_photos/"  # Replace with your desired backup director
 
 # Find images larger than the maximum file size
 find "$directory" -type f -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.gif" -o -iname "*.bmp" | while read -r image; do
-    image_dimensions=$(identify -format "%wx%h" $image)
+    image_dimensions=$(identify -format "%wx%h" "$image")
 
     width=$(echo "$image_dimensions" | cut -d'x' -f1)
     height=$(echo "$image_dimensions" | cut -d'x' -f2)

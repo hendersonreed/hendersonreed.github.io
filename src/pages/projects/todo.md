@@ -2,6 +2,7 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- generative art webpage that uses microphone to generate art based on your breathing rate.
 - Random pattern generator for inkle looms and css border
 - Visual poem webpage
 - node-based interface for stringing together LLM workflows
@@ -22,7 +23,6 @@ These are projects I had to write down to get out of my head. Are you interested
         - optimal communication cadence
         - a collection of user writing samples, to allow generation of templates in users voice.
     - pings the user to let them know it's time to reach out. Will expire within 1 week (to encourage urgency.)
-- inkle loom pattern generator
 - script-enabled OSM app that notifies you of things you like within configured range
 - bee flappy-bird where you play kazoo to raise the bee
 - 4-directional vvvvvv

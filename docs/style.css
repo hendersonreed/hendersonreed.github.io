@@ -1,31 +1,26 @@
 /* custom fonts */
 
 @font-face {
-  font-family: "Optimus Princeps";
-  src: url('fonts/OptimusPrinceps.ttf');
+  font-family: "Poetsen";
+  src: url('fonts/PoetsenOne-Regular.ttf');
 }
-/* font-family: 'Libre Baskerville', serif; */
 
 @font-face {
-  font-family: "Thryromanes";
-  src: url('fonts/Thryromanes.ttf');
+  font-family: "Louis George Cafe";
+  src: url('fonts/Louis George Cafe.ttf');
 }
 
 /* CSS classes */
 
 .title * {
-  font-family: "Optimus Princeps";
-  color: black;
+  font-family: "Poetsen";
+  color: red;
   text-decoration: none;
-}
-
-.title *:hover {
-  color: darkred;
 }
 
 .topnav * {
   text-decoration: none;
-  color: black;
+  color: red;
   margin-left: 1em;
   margin-right: 1em;
   margin-top: -1em;
@@ -33,7 +28,7 @@
 }
 
 .topnav *:hover {
-  color: darkred;
+  color: orangered;
 }
 
 .center {
@@ -54,8 +49,8 @@
 /* standard html element style */
 
 body {
-  font-family: "Thryromanes";
-  background-color: #fffffc;
+  font-family: "Louis George Cafe";
+  background-color: #ffffff;
   color: black;
   width: 60%;
   display: flex;
@@ -67,21 +62,21 @@ body {
 }
 
 h1, h3 {
-  font-family: "Thryromanes";
+  font-family: "Louis George Cafe";
   text-align: left;
 }
 
 h2 {
-  font-family: "Optimus Princeps";
+  font-family: "Poetsen";
   text-align: left;
 }
 
 p, ul, ol { 
-  font-family: "Thryromanes"; 
+  font-family: "Louis George Cafe"; 
 }
 
 a {
-    color: darkred
+    color: orangered;
 }
 
 img {
@@ -89,8 +84,9 @@ img {
     height: auto;    /* Maintain image aspect ratio */
     display: block;  /* Remove default bottom margin */
     margin: 0 auto;  /* Center images within their container */
-    border: 2px solid #ffff; /* Add a light border around images */
+    border: 2px solid #000; /* Add a light border around images */
     border-radius: 10px;    /* Add rounded corners to images */
+    padding: 4px;
 }
 
 code {
