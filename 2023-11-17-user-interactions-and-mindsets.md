@@ -1,3 +1,5 @@
+# User Interactions and Mindsets
+
 Our emotional states are a huge part of our computing experience, but this aspect of interaction design seems to be an oft-overlooked one. I'd like to change that, and in pursuit of that goal I've been thinking a lot about the various mindsets that different interactions produce.
 
 
