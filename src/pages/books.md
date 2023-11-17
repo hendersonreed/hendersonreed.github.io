@@ -2,7 +2,6 @@
 
 ## Fiction
 
-- *Damien*, by Hermann Hesse
 - Almost anything by Ray Bradbury
     * I first read *The Martian Chronicles* which really hooked me on his style. I also particularly enjoyed *Dandelion Wine* which is an unusual collection of his stories, having very little speculative or science fiction. Of course, *The Illustrated Man* is a classic. And one can't forget *Something Wicked This Way Comes* though I think that's probably for someone who already knows they like his style.
 - Almost anything by P. G. Wodehouse (one of the greatest comedy writers of *all time*.)
@@ -13,6 +12,8 @@
     * A truly great post-apocalypse novel from the 1940s. Takes a very "big-picture" look at life after an apocalypse (in this case, a pandemic - something that in the summer of 2020 feels too close to home...) Ultimately the tale spans the entire lifetime of the protagonist, but the last half of the book is a series of vignettes really as the collapse of society continues to speed up. Really great, I've reread it a number of times.
 - *Swallows and Amazons*, by Arthur Ransome
     * This one is actually a children's book, but it was influential on me as a kid, so whatever :) A short and simple story about some children sailing on a lake in England, in the early 20th century. Has a little bit of "The Wind in the Willows" and also "The Lion, The Witch, and the Wardrobe".
+- *Anathem* by Neal Stephenson
+    * this one is actually secretly a discrete math textbook, disguised as a novel. I think I started it once when I was a teenager, gave up, and only enjoyed it after I came back with a higher level math background.
 - *The Wizard of Earthsea*, by Ursula K. Le Guin
     * Hopefully you need no introduction to Ursula. These books are where I first encountered her writing and it really affected me quite a lot as a kid, and they remain some of the best fantasy I have ever read.
 - *The Wind's Twelve Quarters*, by Ursula K. Le Guin

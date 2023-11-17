@@ -4,6 +4,8 @@ I'm Henderson Reed Hummel, and welcome to my patch of the Internet.
 
 I'm a programmer and prototyper exploring esoteric user interfaces, music programming, and the weird web.
 
+I've just completed a batch at [The Recurse Center](https://recurse.com) and found it lifechanging. Consider doing one!
+
 <div style="width: 100%; overflow: hidden">
 <img src="/assets/hhummel-2020.jpg" style="float: right; width: 33vw; margin-left: 2rem">
 

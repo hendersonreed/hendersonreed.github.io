@@ -1,7 +1,10 @@
-# Sorted in order of *descending* approachability
+# Sorted in no particular order
 
-## Music from other places
-
+* Altin Gun
+* Belbury Poly
+* Nusrat Fateh Ali Khan
+* Stan Rogers
+* Miramar
 * Isaac Albeniz
 * Nick Drake
 * Buena Vista Social Club
@@ -25,9 +28,6 @@
 * Pupajim
 * Stand High Patrol
 * Sudan Dudan
-
-## Music from the US, mostly
-
 * Kacy and Clayton
 * Zephaniah Ohora
 * Andrew Bird\'s Bowl of Fire
@@ -42,5 +42,16 @@
 * Mort Garson (album: Plantasia)
 * Leon Redbone
 * Misophone
-* Moondog (album: The German Years. Find on Youtube)
+* Moondog
 * Captain Beefheart (album: Safe as Milk)
+* Orkesta Mendoza
+* Kim Jung Mi
+* Cesaria Evora
+* Black Mountain
+* Christy Moore
+* Sam Lee
+* Calexico
+* David Byrne
+* Talking Heads
+* Manu Chao
+
