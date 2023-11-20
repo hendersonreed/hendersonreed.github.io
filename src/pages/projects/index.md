@@ -8,3 +8,5 @@ I'm working on building more projects I'm proud to share with the world. For now
     - this is the primary tool used to build this site. There are a few additional scripts tracked alongside the website source itself for things like backing-up-and-resizing images and generating the page sitemap, but `psg` is the biggest part.
 - [pyplot: for poking at vintage plotters](/posts/2023-10-23-building-pyplot.html)
     - this is a small utility I wrote for feeding larger HPGL files into vintage plotters with limited buffer size.
+- [colorworm!!](colorworm.html)
+    - I like to make little doohickeys in p5.js. This was created as part of an [exquisite corpse](https://en.wikipedia.org/wiki/Exquisite_corpse) with me and my friend [Lucas](https://lucaslija.github.io/)
