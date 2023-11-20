@@ -75,6 +75,10 @@ p, ul, ol {
   font-family: "Louis George Cafe"; 
 }
 
+li {
+  text-align: start;
+}
+
 a {
     color: orangered;
 }
