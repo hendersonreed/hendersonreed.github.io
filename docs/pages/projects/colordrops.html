@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>colordrops</title>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+
+      /* This centers our sketch horizontally. */
+      justify-content: center;
+
+      /* This centers our sketch vertically. */
+      align-items: center;
+    }
+  </style>
+  <script src="../p5.min.js"></script>
+  <script>
+    let HEIGHT = 500;
+let WIDTH = 500;
+let slider;
+function setup() {
+  canvas = createCanvas(HEIGHT, WIDTH);
+  slider = createSlider(10, 100, 50, 5);
+  slider.style('width', '20em');
+  background(220);
+}
+
+function draw() {
+  if (keyIsPressed && keyCode == ENTER) {
+    //    synth.triggerAttackRelease("C4", "8n");
+    let randomHue = Math.floor(Math.random() * 360);
+    fill(`hsla(${randomHue}, 50%, 50%, 0.5)`);
+    circle(Math.floor(random() * HEIGHT),
+      Math.floor(random() * WIDTH),
+      Math.floor(random() * slider.value()));
+  }
+  drawNoise();
+  let SPACE = 32;
+  if (keyIsPressed && keyCode == SPACE) {
+    background(220);
+  }
+}
+
+function drawNoise() {
+}
+
+function keyIsPressed() {
+}
+  </script>
+</head>
+
+<body>
+  <main>
+    <p> controls:
+      <ul>
+        <li> enter: draw some circles </li>
+        <li> space: clear canvas </li>
+      </ul>
+    </p>
+  </main>
+</body>
+
+</html>
