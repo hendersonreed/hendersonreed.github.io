@@ -11,6 +11,6 @@ I'm working on building more projects I'm proud to share with the world. For now
 - p5.js experimenting:
     - [colorworm!!](colorworm.html)
         - This was created as part of an [exquisite corpse](https://en.wikipedia.org/wiki/Exquisite_corpse) with me and my friend [Lucas](https://lucaslija.github.io/)
-    - [colorswarm](colorswarm.html)
-        - in trying to build a regular creative practice, I've been trying to churn out more little unfinished pieces. Colorswarm is just a bit more of that.
+    - [colordrops](colordrops.html)
+        - In building a regular creative practice, I've been trying to churn out more little unfinished pieces. colordrops is one.
         - These little colorful circles seem to induce a playful mood for most people. This one is not as interactive as colorworm, which means it doesn't quite get you into the "zone" the way colorworm does.
