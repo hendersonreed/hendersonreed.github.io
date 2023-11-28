@@ -39,6 +39,6 @@ I love to cook, I'm currently adding some [recipes](/pages/recipes/) to this per
 
 Are we friends? Do you like web badges? Please, take one of mine, graciously made for me by [DJ](https://dj-chase.com)
 
-<img src="/assets/henderson-button.png" style="border: hidden; border-radius: 0; width: 10vw; float: left; margin-left: 1em; image-rendering: pixelated;">
+<img src="/assets/henderson-button.png" style="border: hidden; border-radius: 0; width: 5rem; float: left; margin-left: 1em; image-rendering: pixelated;">
 
 Finally, if you're looking for my old university website (there's some records of things I've done there) then you can find it [here](/old-site/index.html).
