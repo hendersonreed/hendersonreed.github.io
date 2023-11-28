@@ -14,13 +14,13 @@
 
 .title * {
   font-family: "Poetsen";
-  color: red;
+  color: #EE0000;
   text-decoration: none;
 }
 
 .topnav * {
   text-decoration: none;
-  color: red;
+  color: #EE0000;
   margin-left: 1em;
   margin-right: 1em;
   margin-top: -1em;
@@ -28,7 +28,7 @@
 }
 
 .topnav *:hover {
-  color: orangered;
+  color: #DB3B00;
 }
 
 .center {
@@ -80,7 +80,7 @@ li {
 }
 
 a {
-    color: orangered;
+    color: #DB3B00;
 }
 
 img {
