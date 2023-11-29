@@ -1,6 +1,6 @@
 # Howdy!
 
-I'm Henderson Reed Hummel, and welcome to my patch of the Internet.
+I'm Henderson Reed Hummel, and welcome to my patch of the Internet (you can call me Henderson or Reed).
 
 I'm a programmer and prototyper exploring esoteric user interfaces, music programming, and the weird web.
 
