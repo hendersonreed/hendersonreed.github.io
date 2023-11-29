@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/style.css"],
+  "sourcesContent": ["html, body {\n\tmargin: 0;\n\tpadding: 0;\n\toverflow: hidden;\n}\n"],
+  "mappings": "AAAA,KAAM,KAAN,OACS,EADT,QAEU,EACT,SAAU,MACX",
+  "names": []
+}
