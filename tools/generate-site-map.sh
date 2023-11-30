@@ -18,7 +18,10 @@ tree \
     -I "fonts/" \
     -I "index.html" \
     -I "style.css" \
+    -I "style.css.map" \
     -I "unpublished_posts" \
+    -I "index.js" \
+    -I "index.js.map" \
     -o ../_sitemap.html
 cd -
 
