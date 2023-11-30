@@ -2,6 +2,7 @@ I've been getting so many ideas lately, I've been forced to write them down so I
 
 I'm working on building more projects I'm proud to share with the world. For now, here are some:
 
+- [snowglobe-hands](snowglobe-hands/): this is a little project I put together for a holiday event. The idea is to set it up on a projector, and point a webcam at the projector setup, so that the snowflakes can follow your hands in real time. To test it out, just open the page, click the screen, and once you've allowed webcam access just slowly wave your hands within view of the webcam.
 - [hark: a literature visualizer](hark.html).
     - this is a little script that visualizes recurring 4/5/6-word phrases in a given piece of literature. Some public domain text is included as an example.
 - [psg: python site generator](https://github.com/hendersonreed/psg.py)
