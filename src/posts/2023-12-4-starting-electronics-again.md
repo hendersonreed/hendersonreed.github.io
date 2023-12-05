@@ -24,8 +24,8 @@ Additionally, I've been shocked at the continuing drop in prices for decent-qual
 Another little sampling:
 
 - $200 worth of tripod + pan-tilt head for $20 at Goodwill (I'll count this because it's almost certainly been donated by a disillusioned semi-influencer and because there were many such tripods available at this Goodwill.)
-- a pair of wireless lavalier mics that connect to any device via USB-C I got on Amazon.
-- two big bright color-temperature-adjustable LED panels, with tripod stands and battery power (spendy at $160 for both, but also, it used to be you'd sped $200 for just ONE of these set-ups.)
+- a pair of wireless lavalier mics that connect to any device via USB-C I got on Amazon - just $40!
+- two big bright color-temperature-adjustable LED panels, with tripod stands and battery power (spendy at $160 for both, but also, it used to be you'd spend $200 for just ONE of these set-ups.)
 
 ## anti-consumerism disclaimer
 
