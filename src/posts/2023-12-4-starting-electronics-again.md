@@ -10,14 +10,14 @@ I've been astonished at how cheap and awesome widely available parts have gotten
 
 A little sampling of what I've picked up lately:
 
-- FIFTEEN lipo battery charging units for $7. These little boards take USB-C and charge up 3.7V-4.2V lithium-polymer batteries safely. Reading the reviews, I was surprised to see that lots of people pick up these so they can harvest the batteries from disposable vapes they find littered on the ground. Those discarded batteries are bad for the environment of course, but also have tons of life in them still! Super cool
+- FIFTEEN lipo battery charging units for $7. These little boards take USB-C and charge up 3.7V-4.2V lithium-polymer batteries safely. Reading the reviews, I was surprised to see that lots of people pick up these so they can harvest the batteries from disposable vapes they find littered on the ground. Those discarded batteries are bad for the environment of course, but also have tons of life in them still! Super cool.
 - five 12-pin capacitive touch sensors for $10. I was turned onto these by my friend [Owen](https://owentrueblood.com/) when I asked him about using capacitive sensing for building a midi controller inspired by the [OmniChord](https://en.wikipedia.org/wiki/Omnichord).
 - two 10W amplifier boards for $9.
 - two electromagnet boards for $10 (for [animating bottles full of ferrofluid](https://hackaday.com/2023/06/15/ferrofluid-drum-synth-dances-to-the-beat/).)
 
 Lots of these would be cheaper on Ebay, but I've been buying from Amazon because I'm impatient! Most of these orders came in around 2-4 days!
 
-## camera stuff too!:
+## camera stuff too!
 
 Additionally, I've been shocked at the continuing drop in prices for decent-quality AV equipment, both online and off! It must be due to the growing "influencer" market, which means that everyone and their uncle are trying to make it big as influencers. So, for those of us interested in documenting projects via video, it's never been a better time I think!
 
