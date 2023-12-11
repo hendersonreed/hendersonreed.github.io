@@ -22,6 +22,12 @@ tree \
     -I "unpublished_posts" \
     -I "index.js" \
     -I "index.js.map" \
+    -I "android-chrome-192x192.png" \
+    -I "android-chrome-512x512.png" \
+    -I "apple-touch-icon.png" \
+    -I "favicon-16x16.png" \
+    -I "favicon-32x32.png" \
+    -I "favicon.ico" \
     -o ../_sitemap.html
 cd -
 
