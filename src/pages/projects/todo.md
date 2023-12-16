@@ -2,6 +2,15 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- a music discovery interface that emphasizes the things that are appealing about physical media.
+    - an active hunt for new discoveries, not just an IV-drip of algorithmically selected music. This is also something that (I'm told) piracy had in the olden days.
+    - physicality
+    - accidental discoveries and surprises.
+- text generator/filter for old Dymo style labels
+- 3D printed drone flute
+    - two flutes in the same key, smashed side by side. One has pentatonic minor fingering, the other is just the root with no finger holes.
+- color draping demo that masks out your background (keeping just your face) and cycles colors behind it, letting you save colors you really like/dislike.
+- a little calendar you can put on your website that. It should read a simple text file to populate events, and produce also an RSS feed. A tool to convert .ico files and append them to the text file would be nice too.
 - generative art webpage that uses microphone to generate art based on your breathing rate.
 - Random pattern generator for inkle looms and css border
 - Visual poem webpage
