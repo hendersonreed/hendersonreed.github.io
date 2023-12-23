@@ -28,6 +28,7 @@ tree \
     -I "favicon-16x16.png" \
     -I "favicon-32x32.png" \
     -I "favicon.ico" \
+    -I "site.webmanifest" \
     -o ../_sitemap.html
 cd -
 
