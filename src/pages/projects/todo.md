@@ -2,10 +2,16 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
-- a music discovery interface that emphasizes the things that are appealing about physical media.
+- 3D printed fipple flute adapter.
+    - The difficult geometry of the fipple itself can be 3D printed, and then it clamps like a collet onto standard galvanized steel electrical conduit with fingerholes drilled into them. This makes producing a family of tin whistles in different keys straightforward. 
+    - Remains to be seen if steel conduit is an adequate resonator for this type of instrument. If not, copper plumbing pipe would serve just as well, but is more expensive (rougly 3x as much.)
+- selenite orb lamp
+    - you can buy spheres made of selenite, a beautifully diffuse mineral, for ~$45. Pop it in a wooden stand, with some RGB LEDs embedded in the bottom and you have a pretty neat mood lamp I think.
+- music discovery interface that emphasizes the things that are appealing about physical media.
     - an active hunt for new discoveries, not just an IV-drip of algorithmically selected music. This is also something that (I'm told) piracy had in the olden days.
     - physicality
     - accidental discoveries and surprises.
+    - I'm thinking something that uses round aluminum NFC tags, with labels stuck to them. Place them in the "player". Also some are "radio stations" while others are albums. Some physical interface for saving a currently playing song to a new tag, like a sort of "clone" so that you can physically "record" a mixtape from other albums/radio streams.
 - text generator/filter for old Dymo style labels
 - 3D printed drone flute
     - two flutes in the same key, smashed side by side. One has pentatonic minor fingering, the other is just the root with no finger holes.
