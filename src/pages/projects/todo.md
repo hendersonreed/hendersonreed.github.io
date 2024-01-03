@@ -5,6 +5,7 @@ These are projects I had to write down to get out of my head. Are you interested
 - 3D printed fipple flute adapter.
     - The difficult geometry of the fipple itself can be 3D printed, and then it clamps like a collet onto standard galvanized steel electrical conduit with fingerholes drilled into them. This makes producing a family of tin whistles in different keys straightforward. 
     - Remains to be seen if steel conduit is an adequate resonator for this type of instrument. If not, copper plumbing pipe would serve just as well, but is more expensive (rougly 3x as much.)
+    - huh, this has been done with PVC pipe! https://www.printables.com/model/565826-34-pvc-flute-recorder-mouthpiece - I'll have to print up a few of these and make an Irish low whistle.
 - selenite orb lamp
     - you can buy spheres made of selenite, a beautifully diffuse mineral, for ~$45. Pop it in a wooden stand, with some RGB LEDs embedded in the bottom and you have a pretty neat mood lamp I think.
 - music discovery interface that emphasizes the things that are appealing about physical media.
