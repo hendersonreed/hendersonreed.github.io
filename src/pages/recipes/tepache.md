@@ -1,4 +1,5 @@
-## Tepache
+# Tepache
+
 A tasty fermented pineapple drink, this is mildly carbonated, bright, and tart! I've experimented a few different times with this, and have decided to write these notes down below.
 
 The process has two primary steps: a primary fermentation and a secondary fermentation. It is in the primary fermentation that most of the sugar is eaten by the wild yeasts living on the pineapple, and in the secondary fermentation that the drink becomes carbonated.

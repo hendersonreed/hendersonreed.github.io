@@ -1,4 +1,6 @@
-# Sorted in no particular order
+# Some music I like.
+
+Sorted in no particular order:
 
 * Altin Gun
 * Belbury Poly

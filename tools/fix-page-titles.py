@@ -14,14 +14,20 @@ root_dir = "./docs/"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):
     for filename in filenames:
-        if filename.endswith(".html") and filename != "index.html":
+        if filename.endswith(".html") and filename != "index.html" and "old-site" not in dirpath:
             file_path = os.path.join(dirpath, filename)
 
             with open(file_path, 'r', encoding='utf-8') as file:
                 html_content = file.read()
 
-            # Use regex to find the content of the first <h1> element
-            match = re.search(r'<h1.*?>(.*?)</h1>', html_content, re.DOTALL)
+            # Use regex to find the content within the <h1> tag excluding certain cases
+            h1_pattern = r'<h1'                       # Opening <h1> tag
+            h1_pattern += r'(?![^>]*\bclass=["\']?title center["\']?)'  # Negative lookahead for class="title center"
+            h1_pattern += r'.*?>'                      # Rest of the <h1> tag
+            h1_pattern += r'(.*?)'                     # Content inside <h1>
+            h1_pattern += r'</h1>'                     # Closing </h1> tag
+
+            match = re.search(h1_pattern, html_content, re.DOTALL)
             title = match.group(1).strip() if match else None
 
             if title is not None:
@@ -31,3 +37,5 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
                 # Write the modified content back to the file
                 with open(file_path, 'w', encoding='utf-8') as file:
                     file.write(html_content)
+            else:
+                print(f"{file_path} has no title, is this intentional?")
