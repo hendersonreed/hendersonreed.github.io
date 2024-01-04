@@ -32,5 +32,5 @@ tree \
     -o ../_sitemap.html
 cd -
 
-cat header.html <(echo "<pre>") _sitemap.html <(echo "</pre>") footer.html > docs/sitemap.html
+cat header.html <(echo "<h1>Sitemap</h1><br>") <(echo "<pre>") _sitemap.html <(echo "</pre>") footer.html > docs/sitemap.html
 rm _sitemap.html
