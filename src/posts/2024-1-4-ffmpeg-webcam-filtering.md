@@ -70,7 +70,7 @@ Success! We've got edge detection working:
 
 ![](/assets/photos/blogposts/ffmpeg-filters/edge-detection-filter.png)
 
-`ffmpeg -filters` gives us a list of all the filters that exist in our installed copy of the utility - any that are marked `"V->V" are video-to-video, and we can experiment to see what cool stuff we can find. `waveform` and `elbg` are both interesting - this is gonna be the fun part.
+`ffmpeg -filters` gives us a list of all the filters that exist in our installed copy of the utility - any that are marked `V->V` are video-to-video, and we can experiment to see what cool stuff we can find. `waveform` and `elbg` are both interesting - this is gonna be the fun part.
 
 ## bonus round: quick-n-dirty script
 

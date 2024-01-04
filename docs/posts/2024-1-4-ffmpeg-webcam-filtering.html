@@ -64,7 +64,7 @@
 <p>Run <code>ffplay -fflags nobuffer udp://localhost:1234</code> again, and let’s see what the result is…</p>
 <p>Success! We’ve got edge detection working:</p>
 <p><img src="/assets/photos/blogposts/ffmpeg-filters/edge-detection-filter.png" /></p>
-<p><code>ffmpeg -filters</code> gives us a list of all the filters that exist in our installed copy of the utility - any that are marked <code>"V-&gt;V" are video-to-video, and we can experiment to see what cool stuff we can find.</code>waveform<code>and</code>elbg` are both interesting - this is gonna be the fun part.</p>
+<p><code>ffmpeg -filters</code> gives us a list of all the filters that exist in our installed copy of the utility - any that are marked <code>V-&gt;V</code> are video-to-video, and we can experiment to see what cool stuff we can find. <code>waveform</code> and <code>elbg</code> are both interesting - this is gonna be the fun part.</p>
 <h2 id="bonus-round-quick-n-dirty-script">bonus round: quick-n-dirty script</h2>
 <p>I want to speed up trying out new filters. It’d be very nice if I could simply type out a filter name, maybe some parameters, and hit <code>CR</code> to see the results immediately. This is all to preface the following very bad, no-good, totally incorrect, inflexible, “works-on-my-machine”, highly effective script (provided in large part by chatGPT.)</p>
 <pre><code>#!/bin/bash
