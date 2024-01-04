@@ -61,4 +61,4 @@ I came to RC to be inspired, to be engaged with the community, and to learn more
 
 If you are coming to RC to dive deep into a particular technology or build a particular skill, I think it's really possible that in-person RC may not work for you as well as remote RC. So many of the remote RC attendees were able to dive deep into their interests, to build truly impressive projects and work through impressive amounts of material. I didn't end up doing that.
 
-What I got was exactly what I needed, which was the inspiration, the energy, and the motivation provided by all the friends I made. It's informed so many of y decisions since I returned that I can safely say I will never be the same.
+What I got was exactly what I needed, which was the inspiration, the energy, and the motivation provided by all the friends I made.
