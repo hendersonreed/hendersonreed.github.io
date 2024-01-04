@@ -24,9 +24,11 @@
 
 ## Nonfiction
 
+- *Art and Fear*, by David Bayles and Ted Orland
+    * This book is amazing, but only if you're in the middle of some of your own artistic struggles. When I was first assigned readings in high school arts class, I wasn't invested enough. But now, 10 years later with a bit of experience under my belt, the lessons in this slim book have revolutionized how I'm looking at my art practice.
+- *The Anarchist's Design Book*, by Christopher Schwarz
+    * Truthfully almost all the books this guy writes are great. Mostly about woodworking, and it has the plans for a good number of projects. Also some philosophy thrown in, as you might be able to tell from the name.
 - *Adventures of a Red Sea Smuggler*, by Henri de Monfreid
     * I've been meaning to brush up my French so that I can read some of the works by Monfreid that have never been translated. But it's basically the most swashbuckling stories by a French arms and drug runner in the Mediterranean in the early 1900s. Just amazingly fun to read.
 - *Sailing Alone Around The World*, by Joshua Slocum
     * The title is quite descriptive, but there are important details. Joshua Slocum was, as far as we know, the *very first* person to circumnavigate alone. He set off from Fairhaven, Massachusetts in 1895 and returned there in 1898! His comedy is wry and understated, and the things he accomplished truly amazing. This one is actually public domain, here's the [Gutenberg Link](https://www.gutenberg.org/ebooks/6317).
-- *The Anarchist's Design Book*, by Christopher Schwarz
-    * Truthfully almost all the books this guy writes are great. Mostly about woodworking, and it has the plans for a good number of projects. Also some philosophy thrown in, as you might be able to tell from the name.

@@ -83,7 +83,7 @@ a {
     color: #DB3B00;
 }
 
-img {
+img, video {
     width: calc(40vw);
     height: auto;    /* Maintain image aspect ratio */
     display: block;  /* Remove default bottom margin */
