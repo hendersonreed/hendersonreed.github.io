@@ -1,6 +1,7 @@
 #!/bin/env bash
 
 # common stuff for building the site
+psg clean
 ./tools/heavy-lifting.sh
 
 echo "enter your commit message now: "
