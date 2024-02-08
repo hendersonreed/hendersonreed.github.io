@@ -2,6 +2,16 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- pen plotter art
+    - I love all this stuff. [vpype](https://github.com/abey79/vpype/) is a powerful tool that's worth experimenting with.
+    - probably want to build my own plotter? I'm particularly intrigued by the prospect of building one using only the parts and tools that come with an Ender 3 printer kit. There are many of those printers drifting around, and they are a ready and cheap source of aluminum extrusion, stepper motors, and control boards.
+- using mylar and circular displays in digital kaleidoscope displays. A viewport, lined with mylar, around a circular display. There is some precedent of this type of thing from video artists, and I think it would be fun to build my own.
+- semantic search across bookmarked content. Using something like the Firefox "readability" algorithm to isolate the worthwhile text in a webpage and then a vector database and language model to search across the content. Could then link it with a personal note-taking system. Like having a personal librarian whose job is tagging and identifying work related to what I'm already thinking about. Because maintaining an "antilibrary" of links is much more difficult than maintaining an antilibrary of physical books.
+    - I guess an alternative here is just a browser for my own bookmarks that makes it easier to review and pick from the saved links, versus the current state of affairs which is just seeing page titles.
+- simple musical effect toys like https://www.brandnewnoise.com/ are super inspiring. In particular, these projects feel like the epitome of a portal between or bridge across the analog-digital divide. The seemless intregration and playfulness of them is just perfect.
+- Fresnel lenses have lots of potential for interesting lighting/display effects. Even just mounting them in front of RGB led matrices produces beautiful effects.
+- I think you could build a fascinating art display using a stretchy fabric pulled across a hollow frame, with physical actuators that push the fabric out from behind. Probably use servo motors that are multiplexed to a microcontroller that accepts a serial "frame" that indicates which ones should be poking out. Solenoids would be satisfyingly mechanical, but take so much power to drive. If you ran them fast enough, you could probably use the ripples on the fabric itself to animate/display images, using fancy Fourier stuff.
+- interactive "terrarium" you can put in your website. The more you click, the more it grows. Should live behind the content of the site, and fail gracefully if the user has JS turned off. Like (orb.farm)[https://orb.farm] but a little more minimal/low-resource.
 - 3D printed fipple flute adapter.
     - The difficult geometry of the fipple itself can be 3D printed, and then it clamps like a collet onto standard galvanized steel electrical conduit with fingerholes drilled into them. This makes producing a family of tin whistles in different keys straightforward. 
     - Remains to be seen if steel conduit is an adequate resonator for this type of instrument. If not, copper plumbing pipe would serve just as well, but is more expensive (rougly 3x as much.)
@@ -17,7 +27,7 @@ These are projects I had to write down to get out of my head. Are you interested
 - 3D printed drone flute
     - two flutes in the same key, smashed side by side. One has pentatonic minor fingering, the other is just the root with no finger holes.
 - color draping demo that masks out your background (keeping just your face) and cycles colors behind it, letting you save colors you really like/dislike.
-- a little calendar you can put on your website that. It should read a simple text file to populate events, and produce also an RSS feed. A tool to convert .ico files and append them to the text file would be nice too.
+- a little calendar you can put on your website. It should read a simple text file to populate events, and produce also an RSS feed. A tool to convert .ico files and append them to the text file would be nice too.
 - generative art webpage that uses microphone to generate art based on your breathing rate.
 - Random pattern generator for inkle looms and css border
 - Visual poem webpage
@@ -76,8 +86,6 @@ These are projects I had to write down to get out of my head. Are you interested
 - markdown extension for conjure that allows executing the code inside code blocks
 - OmniChord emulator/inspired instrument.
 - midi harp
-- pen plotter portrait tool
-    - uses a live feed and maybe some AI image filters?
 - VJ interface inspired by vim registers.
     - config file defines imported video/music and saved registers (can load at runtime too.)
     - type a command and then hit `@<register>` to trigger the command with that data.
