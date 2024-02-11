@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+
+      /* This centers our sketch horizontally. */
+      justify-content: center;
+
+      /* This centers our sketch vertically. */
+      align-items: center;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+    <video id="video"></video>
+    <script src="detection.js"></script>
+    <script src="sketch.js"></script>
+  </main>
+</body>
+
+</html>
