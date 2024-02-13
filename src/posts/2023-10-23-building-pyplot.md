@@ -8,9 +8,9 @@ A peculiarity of the system is that it has a mere 60-byte buffer for all command
 
 Today I was pairing with my friend at RC on getting the plotter to plot some HPGL that they converted from SVG. At first, we were just copying 60-byte sections from our file in, to verify that the file was at least valid HPGL. But we got tired of that pretty quick.
 
-So... [pyplot](https://github.com/hendersonreed/pyplot) was born.
+So... [pyplot](https://github.com/hendersonreed/pyplot) was born (inspired entirely by and partly based upon [Wesley's plotter-tools](https://github.com/wesleyac/plotter-tools)).
 
-It's like 80 lines of semi-original Python, built with the help of ChatGPT for the scaffolding.
+It's around 80 lines of semi-original Python, built with the help of ChatGPT for the scaffolding.
 
 ## Let's talk about what I learned
 
@@ -31,7 +31,7 @@ So, to [wikipedia](https://en.wikipedia.org/wiki/Serial_port)! It strikes me as 
 
 So really, in much the way everything works in \*nix systems, *it's a file*. With the caveat that unlike a file, data received or sent over a serial stream is ephemeral and doesn't persist once it's been read.
 
-*sidenote sidenote: I find it interesting that while serial behaves like a file, so too do files behave like serial, *typically*. They're both examples of streams, that have limited-to-no notions of backtracking. The stream crops up everywhere, and I find it interesting that it's one of the fundamental computing concepts that was glossed over in my university education, despite my uni having a very "learn the fundamentals, program in C, here's how to write an OS scheduler" type of attitude.*
+*sidenote sidenote: I find it interesting that while serial behaves like a file, so too do files behave like serial, *typically*. They're both examples of streams, that have limited-to-no notions of backtracking. The stream crops up everywhere, and I find it interesting that it's one of the fundamental computing concepts that was glossed over in my university education, despite my uni having a very "learn the fundamentals, program in C, here's how to write an OS scheduler" type of attitude. I think I remember one, maybe two lectures on streams.*
 
 Anyways, in this context serial is just the protocol that wraps the bytes we want to send to/receive from the plotter. The details of it don't matter so much for us in this context (though they certainly can if you're working more in the hardware domain), and can vary drastically between serial standards
 </div>
