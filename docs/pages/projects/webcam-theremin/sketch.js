@@ -8,7 +8,20 @@ function mouseClicked() {
   if (modal != undefined) {
     modal.style.display = "none";
   }
-  synth = new Tone.AMSynth().toDestination();
+
+  // Create a lowpass filter with a cutoff frequency of 1000 Hz
+  let lowpassFilter = new Tone.Filter({
+    type: 'lowpass',
+    frequency: 1000, // Adjust this value to set the cutoff frequency
+  });
+
+  // Connect your audio source to the lowpass filter
+  synth = new Tone.AMSynth();
+  synth.connect(lowpassFilter);
+
+  // Connect the lowpass filter to your destination (e.g., speakers)
+  lowpassFilter.toDestination();
+
   synth.volume.value = -100;
   const now = Tone.now()
   synth.triggerAttack("C4", now)
@@ -39,7 +52,7 @@ function draw() {
         let thumb = left[4];
         let forefinger = left[8];
         let volumeDistance = calculateEuclideanDistance(thumb, forefinger);
-        synth.volume.value = map(volumeDistance, 0.01, 0.50, -40, 20);
+        synth.volume.value = map(volumeDistance, 0.01, 0.50, 0, 40);
       }
       else { synth.volume.value = -100; }
 
@@ -47,11 +60,13 @@ function draw() {
         let thumb = right[4];
         let forefinger = right[8];
         let pitchDistance = calculateEuclideanDistance(thumb, forefinger);
-        synth.frequency.value = map(pitchDistance, 0.01, 0.51, 440, 880);
+        synth.frequency.value = map(pitchDistance, 0.01, 0.51, 110, 440);
       }
       else { synth.volume.value = -100; }
     }
+    else { synth.volume.value = -100; }
   }
+  else { synth.volume.value = -100; }
 }
 
 function calculateEuclideanDistance(one, two) {
