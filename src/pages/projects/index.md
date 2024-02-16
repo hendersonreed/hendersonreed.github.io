@@ -6,7 +6,7 @@ I'm working on building more projects I'm proud to share with the world. For now
 - [snow-hands](snow-hands/): this is a little project I put together for a holiday event. The idea is to set it up on a projector, and point a webcam at the projector setup, so that the snowflakes can follow your hands in real time. To test it out, just open the page, click the screen, and once you've allowed webcam access just slowly wave your hands within view of the webcam.
 - [hark: a literature visualizer](hark.html).
     - this is a little script that visualizes recurring 4/5/6-word phrases in a given piece of literature. Some public domain text is included as an example.
-- [psg: python site generator](https://github.com/hendersonreed/psg.py)
+- [psg: python site generator](https://github.com/hendersonreed/psg)
     - this is the primary tool used to build this site, and I built it specifically to be **the minimum viable site generator**. It has just two dependencies, runs anywhere Python and Pandoc can, and requires no real "installation" - it's just a script. It's designed to do just one thing and do it well, so it fits neatly into the mosaic of little tools I write for my own purposes.
     - There are a few additional scripts tracked alongside the website source itself for things like backing-up-and-resizing images and generating the page sitemap, but `psg` is the biggest part.
 - [pyplot: for poking at vintage plotters](/posts/2023-10-23-building-pyplot.html)
