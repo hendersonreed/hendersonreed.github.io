@@ -2,6 +2,14 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- long exposure photographs of harmonographs moving light, rather than a pen.
+- digital printmaking studio
+    -  In printmaking, it's often straightforward and creatively interesting to print textures found in everyday life. We can't do that with computers, even though there are lots of "textures" available in our computing experience.
+    - I'm envisioning a sort of "station" that you paste harvested "textures" (aka screenshots) into and then can play with threshold, color, etc of the resulting "print". Ideally there'd be an export into formats that are straightforward to embed elsewhere, like into websites as background images.
+    - yes, this is easily accomplished with standard image editing software, but limitations/focus are what make tools interesting to me. Photoshop/Gimp/etc are powerful, general tools. I like specialized, fun tools (that maybe aren't quite so powerful, but are more enjoyable, creatively fulfilling, and easy to pick up.)
+- paper disk-based oscillator synthesizer. Spinning paper (or clear acetate, to allow layering) disks spin above a light source but beneath a photoresistor which controls the voltage going out to the speaker. You'd end up with different disks for different wave types, square, triangle, sine, etc. A potentiometer controls the speed of the disks. Human intervention in the form of flashlights or friction on the disks can mess with the sound. Great for educational displays of how sound waves work.
+- 8 tape-track simulator that records to individual SD cards.
+    - midi capable? i.e. it records actual midi messages, rather than audio.
 - pen plotter art
     - I love all this stuff. [vpype](https://github.com/abey79/vpype/) is a powerful tool that's worth experimenting with.
     - probably want to build my own plotter? I'm particularly intrigued by the prospect of building one using only the parts and tools that come with an Ender 3 printer kit. There are many of those printers drifting around, and they are a ready and cheap source of aluminum extrusion, stepper motors, and control boards.
