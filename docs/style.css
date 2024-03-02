@@ -10,6 +10,11 @@
   src: url('fonts/Louis George Cafe.ttf');
 }
 
+@font-face {
+  font-family: "Louis George Cafe Bold";
+  src: url('fonts/Louis George Cafe Bold.ttf');
+}
+
 /* CSS classes */
 
 .title * {
@@ -38,10 +43,6 @@
   text-align: center;
 }
 
-.date-listing {
-    font-style: italic
-}
-
 .footer {
   font-size: 10pt;
 }
@@ -61,18 +62,29 @@ body {
   margin: auto;
 }
 
-h1, h3 {
-  font-family: "Louis George Cafe";
+h1 {
+  font-family: "Poetsen";
   text-align: left;
+  margin-bottom: 10px;
 }
 
 h2 {
-  font-family: "Poetsen";
+  /*color: #EE0000;*/
+  font-family: "Louis George Cafe";
   text-align: left;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: "Louis George Cafe Bold";
+  font-style: italic;
+  margin-bottom: 8px;
+  text-decoration: underline;
 }
 
 p, ul, ol { 
   font-family: "Louis George Cafe"; 
+  margin-top: 2px;
 }
 
 li {
@@ -116,6 +128,12 @@ hr {
     padding: 1em; /* Add some padding for spacing */
     margin: 1em 0; /* Margin for separation from other content */
     color: #555; /* Dark gray text color */
+}
+
+.published-slug {
+  color: #777;
+  font-style: italic;
+  margin-bottom: 30px
 }
 
 /* Media queries for smaller screen-sizes */

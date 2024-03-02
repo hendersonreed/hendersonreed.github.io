@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>henderson's log: tools that feel great</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- magic favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  </head>
+
+  <body>
+
+    <br>
+    <h1 class="title center"><a href="/">henderson reed hummel<a></h1>
+
+    <div class="topnav center">
+      <h3>
+	<a href="/pages/hire.html">hire</a>
+	<a href="/assets/hhummel.pdf">resume</a>
+	<a href="/pages/contact.html">contact me</a>
+      </h3>
+    </div>
+    <hr>
+
+<h1 id="tools-that-feel-great">tools that feel great</h1>
+<div class="published-slug">
+published: 2024-03-01
+</div>
+<p>Some tools feel <em>great</em>, like they are a part of you. Other tools somehow never reach that capacity, even after many hours of use and a complete understanding of their workings. Let’s talk about that.</p>
+<h2 id="some-background-and-definitions">Some background and definitions</h2>
+<p>In Sofia Audry’s excellent <em>Art in the Age of Machine Learning</em>, she references Heidegger’s concept of something being <a href="https://en.wikipedia.org/wiki/Heideggerian_terminology#Ready-to-hand">“ready-to-hand”</a> (I promise, this doesn’t get <em>too</em> philosophical.)</p>
+<p>This is, in broad strokes, the condition of an entity that allows it to stop being something external to us. Rather, something that’s “ready-to-hand” becomes a part of us during use. The example often quoted is that of a hammer. In our hand, the hammer ceases to feel like a distinct part of the external world but rather feels like a part of ourselves.</p>
+<p>Heidegger also outlines three main ways an entity can be considered “unready-to-hand”. It can be conspicuous (damaged), obtrusive (incomplete), or obstinate (the entity itself is a hindrance to our goal.)</p>
+<p>This term, “ready-to-hand”, turns out to be exactly the concept I’ve been looking for when trying to describe my interests in the world of interaction design. Our digital experiences are mediated exclusively by external tools that land all over the spectrum of “readiness”. Ready tools are a joy to use, making their wielders feel capable and empowered. Unready tools are a source of daily frustration. What qualities encourage readiness?</p>
+<h2 id="a-few-examples-from-across-the-spectrum">A few examples from across the spectrum:</h2>
+<p>Tools that feel ready-to-hand are ones that feel like they disappear when I’m using them. These are (for me):</p>
+<ul>
+<li>text editors (I find CLI tools in particular often feel ready-to-hand to me.)</li>
+<li>Markdown</li>
+<li>Instagram (the exceeding readiness of this tool leads to doom-scrolling for many)</li>
+<li>point-of-sale systems (the professional sort used by cashiers, not self-checkout systems)</li>
+</ul>
+<p>Tools that are unready-to-hand often feel like they’re getting in my way, even after I’ve been using them for years. Examples include:</p>
+<ul>
+<li>Zoom</li>
+<li>frequently changing interfaces</li>
+<li>self-checkout point-of-sale systems</li>
+</ul>
+<p>While digital tools can suffer from the conspicuous and obtrusive aspects of unreadiness, I think more often we come across tools that feel obstinate and opposed to our use, drawing us out of the state of “flow” that is so enjoyable for us.</p>
+<h2 id="what-makes-a-tool-feel-ready-to-hand">What makes a tool feel ready-to-hand?</h2>
+<p>I think what makes a tool ready-to-hand comes down to three primary aspects:</p>
+<ul>
+<li>alignment of intent</li>
+<li>consistency</li>
+<li>capacity for muscle memory</li>
+</ul>
+<p>Let’s talk about these one at a time.</p>
+<p><strong>1. alignment of intent</strong></p>
+<p>This is most easily described with the point-of-sale system example (I used to work as a cashier, so I <em>do</em> have some expertise here.)</p>
+<p>Self-checkout systems serve two masters (or maybe even three). They are first and foremost beholden to the company employing them, and so theft prevention is a top priority. This is why they often have cameras, sensitive and flaky scales, and randomly select you for “assistance” to check that you aren’t stealing. In second place, they serve the customer, and provide the bare essentials to scan your items (slowly). A potential third audience is the self-checkout attendant, who has a few different needs from the tool, the primary one of which is to dismiss the interruptions that the POS system adds to the checkout process.</p>
+<p>What makes cashier-oriented POS systems different is that the needs of the cashier and the designers of the system are totally aligned. Both want the cashier to be able to enter items accurately at speed. This alignment of intent drives the designers to satisfy the needs of the cashier.</p>
+<p><strong>2. consistency</strong></p>
+<p>Here we can talk a little about <code>vim</code> (or <code>emacs</code>, or <code>grep</code>, or one of any number of other venerable CLI tools.) These tools are <em>done</em>. Little further development is necessary, and so one feels confident using them wherever they are available (despite the occasional difference between installed versions, like the BSD and GNU utilities.)</p>
+<p><code>vim</code> (mostly) behaves as you expect it to, even when it’s <code>vi</code> or <code>nvim</code>. It is in this pursuit of consistency that enthusiasts have crafted <code>vim</code> keybinding extensions for every editor worth its salt, and even web browsers and shells (<code>set -o vi</code> anyone?)</p>
+<p>In contrast, consider the outcry from dedicated users of a website or tool at the prospect of any UI redesign. <em>Yes</em>, sometimes a UI redesign is necessary and results in a tool becoming more ready. <em>That increase in readiness must be worth the trade-off caused by the inconsistency of the redesign.</em></p>
+<p>It’s possible to update a tool without heavily impacting how ready-to-hand it is, and the rule is simple: the core interactions must remain consistent. This focus is what has allowed <code>neovim</code> to grow and take market-share from classic <code>vim</code>. Even though many changes have been made, the core interactions feel the same.</p>
+<p><strong>3. capacity for muscle memory</strong></p>
+<p>This is closely linked to the above quality, but distinct in important ways. I begin here with the hot take: <em>all pointing interfaces fail to adequately leverage muscle memory</em>. By “pointing interface” I mean touch screen and mouse interfaces in which the primary interaction is identifying an element and tapping/clicking it with a 2D capable device.</p>
+<p>Consider the experience of driving a car. A car is a tool that rapidly becomes “ready to hand” for serious users. And it does so because almost the entire interface is reliant upon muscle memory. Musical instruments benefit from the same. And, I posit, so do some interfaces. Keyboard driven interfaces, scrolling interfaces like the original iPod, and gestural interfaces like many smartphone applications (where you may swipe between states and views) are all interfaces that benefit from muscle memory.</p>
+<p>Most pointing interfaces cannot leverage muscle memory because they lacks consistency; the size and position of interactive elements depends on window size and position.</p>
+<p>Smartphone applications are the exception that proves the rule - the only tools that feel ready-to-hand on smartphones in my experience are those that place elements in consistent places and (ideally) leverage gestures. A perfect example of this is the phone’s keyboard interface. By positioning itself in exactly the same place every time, you can develop a muscle memory that lets you type accurately without looking (though yes, a physical phone keyboard like that of <a href="https://en.wikipedia.org/wiki/Nokia_N900">the iconic Nokia N900</a> would be more accurate, not to mention just <em>way cooler</em>.)</p>
+<h1 id="so-where-now">so where now?</h1>
+<p>These aren’t all-or-nothing aspects. Some tools require pointing-interfaces, but are still able to be ready-to-hand by leveraging the other aspects. <a href="https://excalidraw.com">Excalidraw</a> comes to mind, as do some of the top-tier graphical editing interfaces like Photoshop (check out how many professional designers use tablets as input devices though (why? The <em>muscle memory</em>.)</p>
+<p>I think that as a designer of tools, our primary responsibility is to understand these aspects of our creations. There are no shortcuts to making tools that feel “ready-to-hand.” But I do think that we can avoid some of the obstacles on our way there, by understanding what affects the <em>feeling</em> of our tools rather than thinking only of their capabilities or their visual design. If you’re seeing low adoption, no love from your users, frustration online about how “clunky” your tools feel, consider their consistency, their alignment with the intent of the user, their capacity for muscle memory.</p>
+<h2 id="warning-shameless-plug">warning: shameless plug</h2>
+<p>If you’re working on tooling, and the above is interesting to you, maybe <a href="/pages/hire.html">talk to me.</a>.</p>
+
+    <!-- this is the start of the footer -->
+    <hr>
+    <a href="/sitemap.html">sitemap</a>
+    <br>
+    <a href="https://github.com/hendersonreed/psg">built with psg</a>
+    <hr>
+  </body>
+</html>

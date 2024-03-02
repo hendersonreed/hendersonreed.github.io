@@ -3,6 +3,11 @@
 set -euo pipefail
 
 cd docs
+# flag explanation for below tree command
+# -C colorization
+# -H is HTML output, with `.` as the root
+# -I ignores the following glob
+# -o saves to a file.
 tree \
     -C \
     -H '.' \
@@ -30,6 +35,7 @@ tree \
     -I "favicon.ico" \
     -I "site.webmanifest" \
     -I "*.js" \
+    -I "empty-example.html" \
     -o ../_sitemap.html
 cd -
 
