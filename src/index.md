@@ -1,3 +1,35 @@
+<style>
+
+.index-container {
+    display: flex;
+    align-items: start;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.index-interests {
+    margin-right: 1rem;
+    order: 0; /* place on the left */
+}
+.index-photo {
+    float: right;
+    width: 25vw;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    order:1
+}
+
+@media screen and (max-width: 62em) {
+.index-container {
+    flex-direction: column;
+}
+.index-interests {
+    order: 1;
+}
+.index-photo {
+    width: 100%;
+    order: 0; /* place above the bulleted list */
+}
+</style>
 # Howdy!
 
 I'm Henderson Reed Hummel, and welcome to my patch of the Internet (you can call me Henderson or Reed).
@@ -6,9 +38,8 @@ I'm a programmer and prototyper exploring esoteric user interfaces, music progra
 
 I've just completed a batch at [The Recurse Center](https://recurse.com) and found it lifechanging. Consider doing one!
 
-<div style="width: 100%; overflow: hidden">
-<img src="/assets/hhummel-2020.jpg" style="float: right; width: 33vw; margin-left: 2rem">
-
+<div class="index-container" style="width: 100%; overflow: hidden">
+<div class="index-interests">
 My interests include (but aren't limited to):
 
 * the analogue/digital divide
@@ -23,6 +54,9 @@ My interests include (but aren't limited to):
 * functional programming
 * programming language design
 * hobbyist electronics
+</div>
+<img src="/assets/hhummel-2020.jpg" class="index-photo" >
+</div>
 
 Check out some of the [music I like](/pages/music.html)
 
@@ -30,7 +64,6 @@ I've got some [book recommendations](/pages/books.html)
 
 I love to cook, I'm currently adding some [recipes](/pages/recipes/) to this personal page.
 
-</div>
 
 ## programming
 
