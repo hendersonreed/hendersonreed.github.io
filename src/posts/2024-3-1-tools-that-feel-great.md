@@ -4,6 +4,8 @@
 
 Some tools feel *great*, like they are a part of you. Other tools somehow never reach that capacity, even after many hours of use and a complete understanding of their workings. Let's talk about that.
 
+![](/assets/photos/blogposts/tools-that-feel-great.png)
+
 ## Some background and definitions
 
 In Sofia Audry's excellent *Art in the Age of Machine Learning*, she references Heidegger's concept of something being ["ready-to-hand"](https://en.wikipedia.org/wiki/Heideggerian_terminology#Ready-to-hand) (I promise, this doesn't get *too* philosophical.)
