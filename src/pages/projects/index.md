@@ -2,8 +2,7 @@ I've been getting so many ideas lately, I've been forced to write them down so I
 
 I'm working on building more projects I'm proud to share with the world. For now, here are some:
 
-- [webcam-theremin](webcam-theremin/): this uses your webcam to simulate the experience of playing a theremin. It's not the same of course, but if you've no theremin, then you do have this! This was implemented using Google Mediapipe for the hand recognition, p5.js for the draw loop, and Tone.js for the synthesized sound.
-- [snow-hands](snow-hands/): this is a little project I put together for a holiday event. The idea is to set it up on a projector, and point a webcam at the projector setup, so that the snowflakes can follow your hands in real time. To test it out, just open the page, click the screen, and once you've allowed webcam access just slowly wave your hands within view of the webcam.
+- [webcam-theremin](webcam-theremin/): this uses your webcam to simulate the experience of playing a theremin. It's not the same of course, but if you've no theremin, then you do have this! This was implemented using Google Mediapipe for the hand recognition, p5.js for the draw loop and basic structure, and Tone.js for the synthesized sound.
 - [hark: a literature visualizer](hark.html).
     - this is a little script that visualizes recurring 4/5/6-word phrases in a given piece of literature. Some public domain text is included as an example.
 - [psg: python site generator](https://github.com/hendersonreed/psg)
@@ -12,8 +11,11 @@ I'm working on building more projects I'm proud to share with the world. For now
 - [pyplot: for poking at vintage plotters](/posts/2023-10-23-building-pyplot.html)
     - this is a small utility I wrote for feeding larger HPGL files into vintage plotters with limited buffer size. It was inspired/based on `chunker`, which is part of [Wesley's plotter-tools](https://github.com/wesleyac/plotter-tools)
 - p5.js experimenting:
+    - [particle-audio-viz](particle-audio-viz/)
+        - At the Recurse Center, I occasionally run a creative coding session, in which attendees spend 90 minutes programming on a selected prompt. This project was made by me and [Hannah Robertson](https://hannahilea.com/), and represents the current audio input visually. Allow microphone access and drag your mouse across the canvas while making noises to see it work.
     - [colorworm!!](colorworm.html)
         - This was created as part of an [exquisite corpse](https://en.wikipedia.org/wiki/Exquisite_corpse) with me and my friend [Lucas](https://lucaslija.github.io/)
     - [colordrops](colordrops.html)
         - In building a regular creative practice, I've been trying to churn out more little unfinished pieces. colordrops is one.
-        - These little colorful circles seem to induce a playful mood for most people. This one is not as interactive as colorworm, which means it doesn't quite get you into the "zone" the way colorworm does.
+        - These little colorful circles seem to induce a playful mood for most people. This one is not as interactive as colorworm, which means it doesn't quite get you into the "zone" the way colorworm does. It also isn't particularly mobile friendly, as it relies on keyboard input.
+- [snow-hands](snow-hands/): this is a little project I put together for a holiday event. The idea is to set it up on a projector, and point a webcam at the projector setup, so that the snowflakes can follow your hands in real time. To test it out, just open the page, click the screen, and once you've allowed webcam access just slowly wave your hands within view of the webcam.
