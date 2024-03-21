@@ -2,6 +2,10 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- stranger.video but for making [exquisite corpse](https://en.wikipedia.org/wiki/Exquisite_corpse) creative coding projects.
+    - first it pairs you with a random stranger in the queue:
+    - Then you have 30 seconds to make an edit to the p5 project template. 
+    - Once you're done, click "pass".
 - long exposure photographs of harmonographs moving light, rather than a pen.
 - digital printmaking studio
     -  In printmaking, it's often straightforward and creatively interesting to print textures found in everyday life. We can't do that with computers, even though there are lots of "textures" available in our computing experience.
