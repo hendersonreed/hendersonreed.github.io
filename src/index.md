@@ -48,22 +48,16 @@ My interests include (but aren't limited to):
 * free and open source software
 * hand tool woodworking
 * digital fabrication
+* foraging for mushrooms
 * the beauty of the weird and whimsical web
-* electronic music
+* electronic musical instruments (and acoustic ones too)
 * the game of [Go](https://en.wikipedia.org/wiki/Go_(game))
-* functional programming
-* programming language design
+* functional programming languages and their design
 * hobbyist electronics
+* film photography
 </div>
-<img src="/assets/hhummel-2020.jpg" class="index-photo" >
+<img src="/assets/hhummel-2020.jpg" class="index-photo">
 </div>
-
-Check out some of the [music I like](/pages/music.html)
-
-I've got some [book recommendations](/pages/books.html)
-
-I love to cook, I'm currently adding some [recipes](/pages/recipes/) to this personal page.
-
 
 ## programming
 
