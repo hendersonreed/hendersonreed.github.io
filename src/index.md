@@ -1,5 +1,4 @@
 <style>
-
 .index-container {
     display: flex;
     align-items: start;
@@ -18,7 +17,7 @@
     order:1
 }
 
-@media screen and (max-width: 62em) {
+@media screen and (max-width: 62rem) {
 .index-container {
     flex-direction: column;
 }
@@ -26,7 +25,8 @@
     order: 1;
 }
 .index-photo {
-    width: 100%;
+    width: 50%;
+    float: left;
     order: 0; /* place above the bulleted list */
 }
 </style>

@@ -113,13 +113,14 @@ body {
   font-family: "Work Sans";
   background-color: #ffffff;
   color: black;
-  width: 50%;
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
   text-align: justify;
   margin: auto;
+  max-width: 60%;
 }
 
 h1 {
@@ -206,7 +207,7 @@ hr {
 
 @media screen and (max-width: 62rem) {
   body {
-    width: 90%;
+    max-width: 90%;
     font-size: 1rem;
     text-align: left;
   }
