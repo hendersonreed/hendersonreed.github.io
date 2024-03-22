@@ -1,7 +1,6 @@
 # tools that feel great
 
-<div class=published-slug>published: 2024-03-01</div>
-<div class=published-slug>updated: 2024-03-22</div>
+<div class=published-slug>published: 2024-03-01<br>updated: 2024-03-22</div>
 
 Some tools feel *great*, like they are a part of you. Other tools somehow never reach that capacity, even after many hours of use and a complete understanding of their workings. Let's talk about that.
 
