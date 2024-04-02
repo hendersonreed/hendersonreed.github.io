@@ -47,25 +47,36 @@
 <h1 id="project-ideas">project ideas</h1>
 <p>These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!</p>
 <ul>
-<li>stranger.video but for making <a href="https://en.wikipedia.org/wiki/Exquisite_corpse">exquisite corpse</a> creative coding projects.
+<li>repurpose mechanical-keyboard-style numpads that are programmable with QMK as midi controllers/simple samplers.
+<ul>
+<li>I should check existing work on this, as <a href="https://github.com/qmk/qmk_firmware/blob/master/docs/feature_midi.md">QMK has midi already</a></li>
+<li>there are sweet little numpad kits that have rotary encoders and LED displays already. This feels like music-capable hardware that should be heavily used already! I’m surprised I haven’t seen much yet.</li>
+<li>Designing an Omnichord type interface that lets you play chords/rhythm accompaniment straight from a numpad feels like exactly what I’d like to use in my personal music practice.</li>
+</ul></li>
+<li>a p5.js playground that lets you drag the various HTML elements around the page.
+<ul>
+<li>At the moment, adding sliders and other controls to p5.js sketches involves a bit of a shift to begin styling the various page elements.</li>
+<li>I’d rather be able to just add a slider in the code, hit “update” and have the new slider appear on screen and interactive immediately.</li>
+<li>this is almost veering towards something like touch-designer, but substantially less powerful and without the data-flow “patch” paradigm.</li>
+</ul></li>
+<li><a href="https://stranger.video">https://stranger.video</a> but for making <a href="https://en.wikipedia.org/wiki/Exquisite_corpse">exquisite corpse</a> creative coding projects.
 <ul>
 <li>first it pairs you with a random stranger in the queue:</li>
 <li>Then you have 30 seconds to make an edit to the p5 project template.</li>
 <li>Once you’re done, click “pass”.</li>
 </ul></li>
-<li>long exposure photographs of harmonographs moving light, rather than a pen.</li>
-<li>digital printmaking studio
+<li>long exposure photographs of harmonographs moving light, rather than drawing with a pen.</li>
+<li>web-based digital “printmaking” studio
 <ul>
 <li>In printmaking, it’s often straightforward and creatively interesting to print textures found in everyday life. We can’t do that with computers, even though there are lots of “textures” available in our computing experience.</li>
 <li>I’m envisioning a sort of “station” that you paste harvested “textures” (aka screenshots) into and then can play with threshold, color, etc of the resulting “print”. Ideally there’d be an export into formats that are straightforward to embed elsewhere, like into websites as background images.</li>
 <li>yes, this is easily accomplished with standard image editing software, but limitations/focus are what make tools interesting to me. Photoshop/Gimp/etc are powerful, general tools. I like specialized, fun tools (that maybe aren’t quite so powerful, but are more enjoyable, creatively fulfilling, and easy to pick up.)</li>
 </ul></li>
-<li>paper disk-based oscillator synthesizer. Spinning paper (or clear acetate, to allow layering) disks spin above a light source but beneath a photoresistor which controls the voltage going out to the speaker. You’d end up with different disks for different wave types, square, triangle, sine, etc. A potentiometer controls the speed of the disks. Human intervention in the form of flashlights or friction on the disks can mess with the sound. Great for educational displays of how sound waves work.</li>
-<li>8 tape-track simulator that records to individual SD cards.
+<li>paper disk-based oscillator synthesizer. Spinning paper (or clear acetate, to allow layering) disks spin above a light source but beneath a photoresistor which controls the voltage going out to the speaker. You’d end up with different disks for different wave types, square, triangle, sine, etc. A potentiometer controls the speed of the disks. Human intervention in the form of flashlights or friction on the disks can mess with the sound. Great for educational displays of how sound waves work.
 <ul>
-<li>midi capable? i.e. it records actual midi messages, rather than audio.</li>
+<li><a href="https://shop.playtronica.com/pages/new-device-orbita">Playtronica is developing something like this</a></li>
 </ul></li>
-<li>pen plotter art
+<li>pen plotter
 <ul>
 <li>I love all this stuff. <a href="https://github.com/abey79/vpype/">vpype</a> is a powerful tool that’s worth experimenting with.</li>
 <li>probably want to build my own plotter? I’m particularly intrigued by the prospect of building one using only the parts and tools that come with an Ender 3 printer kit. There are many of those printers drifting around, and they are a ready and cheap source of aluminum extrusion, stepper motors, and control boards.</li>
@@ -77,17 +88,23 @@
 </ul></li>
 <li>simple musical effect toys like https://www.brandnewnoise.com/ are super inspiring. In particular, these projects feel like the epitome of a portal between or bridge across the analog-digital divide. The seemless intregration and playfulness of them is just perfect.</li>
 <li>Fresnel lenses have lots of potential for interesting lighting/display effects. Even just mounting them in front of RGB led matrices produces beautiful effects.</li>
-<li>I think you could build a fascinating art display using a stretchy fabric pulled across a hollow frame, with physical actuators that push the fabric out from behind. Probably use servo motors that are multiplexed to a microcontroller that accepts a serial “frame” that indicates which ones should be poking out. Solenoids would be satisfyingly mechanical, but take so much power to drive. If you ran them fast enough, you could probably use the ripples on the fabric itself to animate/display images, using fancy Fourier stuff.</li>
-<li>interactive “terrarium” you can put in your website. The more you click, the more it grows. Should live behind the content of the site, and fail gracefully if the user has JS turned off. Like (orb.farm)[https://orb.farm] but a little more minimal/low-resource.</li>
+<li>I think you could build a fascinating art display using a stretchy fabric pulled across an empty picture-frame, with physical actuators that push the fabric out from behind.
+<ul>
+<li>Probably use servo motors that are multiplexed to a microcontroller that accepts a serial “frame” that indicates which ones should be poking out.</li>
+<li>Solenoids would be satisfyingly mechanical, but take so much power to drive. If you ran them fast enough, you could probably use the ripples on the fabric itself to animate/display images, summing the resulting waves. This feels reminiscent of <a href="https://en.wikipedia.org/wiki/Ernst_Chladni#Chladni_figures">Chladni figures</a></li>
+</ul></li>
+<li>interactive “terrarium” you can put in your website.
+<ul>
+<li>The more you click, the more it grows.</li>
+<li>Should live behind the content of the site, and fail gracefully if the user has JS turned off. User toggle is reasonable also.</li>
+<li>Like (orb.farm)[https://orb.farm] but a little more minimal/low-resource.</li>
+</ul></li>
 <li>3D printed fipple flute adapter.
 <ul>
 <li>The difficult geometry of the fipple itself can be 3D printed, and then it clamps like a collet onto standard galvanized steel electrical conduit with fingerholes drilled into them. This makes producing a family of tin whistles in different keys straightforward.</li>
 <li>Remains to be seen if steel conduit is an adequate resonator for this type of instrument. If not, copper plumbing pipe would serve just as well, but is more expensive (rougly 3x as much.)</li>
 <li>huh, this has been done with PVC pipe! https://www.printables.com/model/565826-34-pvc-flute-recorder-mouthpiece - I’ll have to print up a few of these and make an Irish low whistle.</li>
-</ul></li>
-<li>selenite orb lamp
-<ul>
-<li>you can buy spheres made of selenite, a beautifully diffuse mineral, for ~$45. Pop it in a wooden stand, with some RGB LEDs embedded in the bottom and you have a pretty neat mood lamp I think.</li>
+<li>Could use this also to produce easy/cheap drone flutes. Two flutes in the same key, smashed side by side. One has pentatonic minor fingering, the other is just the root with no finger holes.</li>
 </ul></li>
 <li>music discovery interface that emphasizes the things that are appealing about physical media.
 <ul>
@@ -95,61 +112,28 @@
 <li>physicality</li>
 <li>accidental discoveries and surprises.</li>
 <li>I’m thinking something that uses round aluminum NFC tags, with labels stuck to them. Place them in the “player”. Also some are “radio stations” while others are albums. Some physical interface for saving a currently playing song to a new tag, like a sort of “clone” so that you can physically “record” a mixtape from other albums/radio streams.</li>
+<li>I think the simplest prototype of this is just having NFC tags with Spotify URIs written to them. That <em>should</em> open Spotify when you tap the tag to your phone. Building this into a bluetooth speaker using an old phone that’s on the home wifi should be enough to tell me if this is a feasible/fun project.</li>
 </ul></li>
-<li>text generator/filter for old Dymo style labels</li>
-<li>3D printed drone flute
+<li>a little calendar you can put on your website. It should read a simple text file to populate events, and produce also an RSS feed. A tool to read .ico files and append them to the text file would be nice too.</li>
+<li>generative art webpage that uses microphone to generate visuals based on your breathing rate.
 <ul>
-<li>two flutes in the same key, smashed side by side. One has pentatonic minor fingering, the other is just the root with no finger holes.</li>
+<li>this should be feasible actually using <a href="https://github.com/giladoved/webcam-heart-rate-monitor">ML algorithms that use a camera to detect color changes in your face and then detect your <em>heart rate</em>.</a></li>
 </ul></li>
-<li>color draping demo that masks out your background (keeping just your face) and cycles colors behind it, letting you save colors you really like/dislike.</li>
-<li>a little calendar you can put on your website. It should read a simple text file to populate events, and produce also an RSS feed. A tool to convert .ico files and append them to the text file would be nice too.</li>
-<li>generative art webpage that uses microphone to generate art based on your breathing rate.</li>
-<li>Random pattern generator for inkle looms and css border</li>
-<li>Visual poem webpage</li>
-<li>node-based interface for stringing together LLM workflows</li>
+<li>Visual poem webpages
+<ul>
+<li>I am in love with <a href="https://en.wikipedia.org/wiki/Cinemagraph">cinemagraphs</a>.</li>
+<li>Maybe I’ll start with a visual accompaniment to some older public domain poetry, like</li>
+</ul></li>
 <li>pizzaman: a silly little platformer where you play as a pizza pie. Maybe you shoot pizza slices, which means your health goes lower? and then powerups are toppings! and you get health from defeating enemies, who turn into little pizza slices when they die.</li>
-<li>free-for-all bananagrams where you just try to write words from your available letters as fast as possible, but other people can steal letters from you?</li>
-<li>plug-n-play projector + camera for interactive whiteboard
-<ul>
-<li>use google mediapipe api to detect hand gestures that trigger keypresses, e.g. an “OK” sign or “pinch” sign is a mouse-down action.</li>
-</ul></li>
 <li>node-based CAD with jscad and react-flow</li>
-<li>m-track: midi tape interface with Rust and iced.
-<ul>
-<li>see the project directory for documentation.</li>
-</ul></li>
 <li>stellody (stella (star), melody) (using p5.js)
 <ul>
 <li>a simple application that plays music inspired/controlled by the stars that are passing directly overhead at the current time/longitude.</li>
 <li>https://rhodesmill.org/skyfield/ might be the tool</li>
 <li>using azimuth calculations I think?</li>
 </ul></li>
-<li>Personal Relationship Assistant (PRA)
-<ul>
-<li>accepts
-<ul>
-<li>info about a person and contact details,</li>
-<li>optimal communication cadence</li>
-<li>a collection of user writing samples, to allow generation of templates in users voice.</li>
-</ul></li>
-<li>pings the user to let them know it’s time to reach out. Will expire within 1 week (to encourage urgency.)</li>
-</ul></li>
-<li>script-enabled OSM app that notifies you of things you like within configured range</li>
 <li>bee flappy-bird where you play kazoo to raise the bee</li>
 <li>4-directional vvvvvv</li>
-<li>game with mirrored boards as game mechanic</li>
-<li>generalized interactive-map program (rust)
-<ul>
-<li>accepts a set of <code>execute</code> functions</li>
-<li>accepts a <code>preview</code> function</li>
-<li>accepts stdin</li>
-<li>for each line in stdin, runs the preview function with it as an argument.
-<ul>
-<li>waits for user input, depending on input will run one of the given execute functions.</li>
-</ul></li>
-<li>optional flag “confirm” that requires a <code>&lt;CR&gt;</code> after each key command.</li>
-<li>can also produce a script as output that runs the commands selected for the lines of stdin.</li>
-</ul></li>
 <li>bitmap-to-midi converter. A “bitmap musicbox”, p5.js
 <ul>
 <li>needs to accept a csv, as well as a definition of what headings go to which sound things and which plot things.</li>
@@ -157,54 +141,26 @@
 <li>allows uploading/pasting a file so you can paste any bitmap</li>
 </ul></li>
 <li>art history game, mapping images to artistic movements. scored based on speed of categorization and correctness</li>
-<li>pigeon shitting game (you play as the pigeon)
+<li>pigeon shitting platformer (you play as the pigeon)
 <ul>
 <li>eat powerups (pizza = shit better, bagel = another life, etc etc.)</li>
 </ul></li>
 <li>microphone based breath controller for midi</li>
 <li>piano tuning webgame</li>
-<li>web instrument that interactively/intuitively teaches music practice/theory</li>
-<li>chain together multiple LLMs for icon design
-<ul>
-<li>LLM for source image, LLM for style image, plus a model to do style application</li>
-<li>“a save icon, black and white” x “van gogh’s starry night”</li>
-</ul></li>
-<li>hmmm an arithmetic language for model application?
-<ul>
-<li>each model needs a type, that defines what kind of inputs/outputs it produces.</li>
-<li>operators that imply things like style application, wrapping in a prompt, etc etc.</li>
-<li>what’s the analogue for “multiplication”, “addition”, “subtraction”, etc in this context?</li>
-</ul></li>
 <li>constrainted writing wordle/contact
 <ul>
 <li>I particularly like the idea of using chaucer or saxon/roman word restrictions. Or things like avoiding <code>e</code>.</li>
 </ul></li>
-<li>ambient noise representation with LED strips</li>
-<li>theremidi - midi theremin</li>
-<li>AST viewer nvim-plugin using mermaid.js and tree-sitter</li>
-<li>markdown extension for conjure that allows executing the code inside code blocks</li>
 <li>OmniChord emulator/inspired instrument.</li>
-<li>midi harp</li>
 <li>VJ interface inspired by vim registers.
 <ul>
 <li>config file defines imported video/music and saved registers (can load at runtime too.)</li>
 <li>type a command and then hit <code>@&lt;register&gt;</code> to trigger the command with that data.</li>
 </ul></li>
-<li>wiki web server that supports using any markup conversion</li>
 <li>knitting machine that produces one scarf every year</li>
-<li>CSS framework inspired by
+<li>text generator/filter for old Dymo style labels
 <ul>
-<li>NYC subway station tilework</li>
-<li>mondrian</li>
-</ul></li>
-<li>messing around with https://crates.io/crates/nannou</li>
-<li>moondog inspired sound playground, to teach working with odd time signatures, song structures, and modes.
-<ul>
-<li>random song structure of 4,8 bar segments</li>
-<li>random mode</li>
-<li>random time signature</li>
-<li>everything else is customizeable.</li>
-<li>includes a few basic sounds</li>
+<li>I realized after writing this that it’s actually probably a solution best solved with fonts, and <a href="https://www.dafont.com/search.php?q=dymo">sure enough, dafont has many dymo fonts</a></li>
 </ul></li>
 </ul>
 
