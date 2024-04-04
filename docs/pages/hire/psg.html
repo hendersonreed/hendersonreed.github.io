@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- gotta complete this sometime in the future, but for now we'll eliminate it -->
+    <!-- and live without images in link previews. pretty sure that some sort of post-processing -->
+    <!-- will be necessary, that analyzes the page contents to identify what the title/url/image should be -->
+    <!-- and then substitutes a placeholder for that content. -->
+    <!-- opengraph meta tags -->
+    <!-- <meta property="og:title" content="henderson's log"> -->
+    <!-- <meta property="og:description" content="The website of Henderson Reed Hummel"> -->
+    <!-- <meta property="og:image" content="https://hendersonreed.github.io/android-chrome-192x192.png"> -->
+    <!-- <meta property="og:url" content="https://hendersonreed.github.io/"> -->
+    <!-- <meta property="og:type" content="website"> -->
+    <!-- Twitter meta tags -->
+    <!-- <meta name="twitter:card" content="https://hendersonreed.github.io/android-chrome-192x192.png"> -->
+    <!-- <meta name="twitter:title" content="henderson's log"> -->
+    <!-- <meta name="twitter:description" content="The website of Henderson Reed Hummel"> -->
+    <!-- <meta name="twitter:image" content="https://hendersonreed.github.io/android-chrome-192x192.png"> -->
+
+    <!-- magic favicon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>henderson's log: psg: the minimum viable site generator</title>
+  </head>
+
+  <body>
+
+    <br>
+    <h1 class="title center"><a href="/">henderson reed hummel<a></h1>
+
+    <div class="topnav center">
+      <h3>
+	<a href="/pages/hire/">hire</a>
+	<a href="/assets/hhummel.pdf">resume</a>
+	<a href="/pages/contact.html">contact me</a>
+      </h3>
+    </div>
+    <hr>
+
+<h1 id="psg-the-minimum-viable-site-generator">psg: the minimum viable site generator</h1>
+<p>I use a site generator that is 99 lines of Python to generate this website. It has one dependency, <a href="https://pandoc.org/">Pandoc</a></p>
+<p>There are other scripts that accessorize it, but the core functionality of building the site is done by <a href="https://github.com/hendersonreed/psg/blob/main/psg.py">this script</a>.</p>
+<p>Questions you might have:</p>
+<ol type="1">
+<li>why write your own, Reed, when there are <a href="https://github.com/myles/awesome-static-generators">so many site generators already?</a>.</li>
+<li>what is handled by the other scripts? Isn’t it cheating to announce you have the minimum viable site generator and then use a bunch of other tools to patch over gaps in your initial design?</li>
+</ol>
+<p>I’ll try to answer those as best I can.</p>
+<h3 id="why-i-decided-to-write-my-own">why I decided to write my own</h3>
+<p>I never felt like I could understand any of the design decisions behind other generators, and for me, understanding the <em>why</em> behind something is just as important as understanding the <em>how</em>.</p>
+<p>In addition, other generators often felt wedded to a type of working that didn’t jive with my own personal workflows.</p>
+<p>I <em>can</em> write my own software. That’s an incredible thing! It’s fun to write software, it’s a source of creative expression for me, and it’s so fulfilling to use a tool that you made.</p>
+<p>On top of that, I feel <em>far</em> more comfortable extending psg than say, Jekyll. I know every bit of psg! And if I forget it, I can read the sourcecode in 10 minutes and understand everything again.</p>
+<p>The other aspect here is that building psg ultimately was <em>faster</em> than learning how to use any of these other tools. I spent probably 2 hours on it to begin with, and by the end I had something usable that I understood from top-to-bottom.</p>
+<p>Speed and my own understanding were my requirements, and I’m the only stakeholder!</p>
+<h3 id="what-other-tools-are-needed-to-complement-psg">what other tools are needed to complement psg?</h3>
+<p>I’ve written a <a href="https://github.com/hendersonreed/hendersonreed.github.io/tree/master/tools">handful of scripts that live alongside the source for this site</a></p>
+<p><code>cloc</code> reports that in total, there are 141 additional lines of code, in bash and Python.</p>
+<p>These scripts do things like:</p>
+<ul>
+<li>add unique page titles (this would be fixed with correctly using Pandoc templating.)</li>
+<li>resize images for faster page-loading.</li>
+<li>build a sitemap for navigation.</li>
+<li>publish the site (cleans the build directory, rebuilds it from scratch, asks me for a commit message, and pushes to github.)</li>
+</ul>
+<h2 id="should-you-use-psg">should you use psg?</h2>
+<p><em>For me</em>, psg is great. But I don’t think that means you should use it.</p>
+<p>I think for people who like to craft their personal sites, a site generator is a personal tool, and is inextricably bound up with their ways of working.</p>
+<p>If you’re like me, there’s a low chance anything off the shelf will satisfy your personal preferences. So, build your own! It’s an easier task than you might think.</p>
+
+    <!-- this is the start of the footer -->
+    <div class="footer-container">
+      <hr>
+      <a href="/sitemap.html">sitemap</a>
+      <br>
+      <a href="https://github.com/hendersonreed/psg">built with psg</a>
+      <hr>
+    </div>
+  </body>
+</html>
