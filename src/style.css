@@ -133,14 +133,14 @@ h2 {
   font-family: "Work Sans";
   text-align: left;
   margin-bottom: 0px;
-  margin-top: 30px
+  margin-top: 25px
 }
 
 h3 {
   font-family: "Work Sans";
   font-style: italic;
   margin-bottom: 0px;
-  margin-top: 30px
+  margin-top: 30px;
   text-decoration: underline;
 }
 
@@ -198,8 +198,9 @@ hr {
   margin-bottom: 30px
 }
 
-.footer-hr {
+.footer-container {
   margin-top: 30px; /* give us a little space at the end of pages. */
+  margin-bottom: 30px; /* give us a little space at the end of pages. */
 }
 
 /* Media queries for smaller screen-sizes */

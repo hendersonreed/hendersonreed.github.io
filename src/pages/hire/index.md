@@ -10,4 +10,11 @@ To these ends, I do interaction-focused work on user-centric projects. This incl
 - creative tool development (graphic design software, AI-powered creative tooling, music software/hardware.)
 - creative technology applications (both hardware and software, in marketing and artistic contexts.)
 
+Check out some of my work:
+
+- [galaxykit](galaxykit.html)
+- [psg](psg.html)
+
+Less serious projects can be found [here.](/pages/projects/index.html)
+
 If this sounds like work you need done, please [email me](mailto:reed.hummel@gmail.com) with a brief description of the work.

@@ -8,11 +8,38 @@
 
 # Scripts in this directory:
 
-- generate-site-map.sh*
-    - uses `tree` to generate the sitemap linked at the bottom of each page.
-- preview.sh*
-    - builds the site, then the sitemap, and launches a python webserver to preview it.
-- publish.sh*
-    - builds the site, then the sitemap, and then `read`s the commit-message and publishes the built site to github.
-- resize-and-backup.sh*
-    - resizes every image in the src directory (well all the common formats) to fit in under 1920x1920. The originals are copied into `backup_photos` (not tracked in git because git doesn't handle big binary data like photos well. (this decision may change if I find tracking the originals useful. (they all live in Google Photos anyways, the only difference between the ones in Google Photos and the ones in `backup_photos` are the descriptive file names.)))
+#### fix-page-titles.py
+
+This does a hacky template fix for the page title system, so that the first `h1` in a page gets copied into the page title.
+
+I will almost certainly fix this with Pandoc templating and the YAML front-matter feature it has, once it becomes a problem.
+
+#### generate-site-map.sh
+
+This generates [the sitemap](/sitemap.html). It uses the classic `tree` utility, which means (annoyingly) that my blogposts are sorted in true alphabetical order, not chronological order. I've been considering writing my own copy of tree to solve this :D
+
+#### heavy-lifting.sh
+
+This script gets called by any script that needs to build the entire site. (for previewing, publishing, etc.)
+
+#### hot-reload-preview.sh
+
+Uses `entr` to watch all the source files for the page and rerun psg when a source file has changed.
+
+#### preview.sh
+
+Gets called by `hot-reload-preview.sh`
+
+#### publish.sh
+
+Cleans the build directory, 
+
+#### readme.md
+
+Describes these scripts.
+
+#### resize-and-backup.sh
+
+Resizes images in the src directory to fit in 1920x1920. It copies them into a backup directory that's tracked alongside the rest of the repository.
+
+The resizing is because on pages that have lots of images (like [my foraging page](/pages/foraging.html), huge images was negatively impacting page load times.
