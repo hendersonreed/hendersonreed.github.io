@@ -1,5 +1,4 @@
 # tools that feel great
-
 <div class=published-slug>published: 2024-03-01<br>updated: 2024-03-22</div>
 
 Some tools feel *great*, like they are a part of you. Other tools somehow never reach that capacity, even after many hours of use and a complete understanding of their workings. Let's talk about that.
@@ -8,7 +7,7 @@ Some tools feel *great*, like they are a part of you. Other tools somehow never 
 
 ## Some background and definitions
 
-In Sofian Audry's excellent *Art in the Age of Machine Learning*, he references Heidegger's concept of something being ["ready-to-hand"](https://en.wikipedia.org/wiki/Heideggerian_terminology#Ready-to-hand) (I promise, this doesn't get *too* philosophical.)
+In Sofian Audry's excellent *Art in the Age of Machine Learning*, they reference Heidegger's concept of something being ["ready-to-hand"](https://en.wikipedia.org/wiki/Heideggerian_terminology#Ready-to-hand) (I promise, this doesn't get *too* philosophical.)
 
 This is, in broad strokes, the condition of an entity that allows it to stop being something external to us. Rather, something that's "ready-to-hand" becomes a part of us during use. The example often quoted is that of a hammer. In our hand, the hammer ceases to feel like a distinct part of the external world but rather feels like a part of ourselves.
 

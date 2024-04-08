@@ -1,4 +1,5 @@
 # Building pyplot
+<div class=published-slug>published: 2023-10-23</div>
 
 At the [Recurse Center](https://www.recurse.com/), I've been messing around with an old HP7440A pen plotter that's kicking around the space (this seems to be a time-honored RC tradition from what I can tell.) It speaks [HPGL](https://en.wikipedia.org/wiki/HP-GL), which is an old language specifically for plotters.
 

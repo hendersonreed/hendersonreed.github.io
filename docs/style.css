@@ -120,7 +120,8 @@ body {
   align-items: left;
   text-align: justify;
   margin: auto;
-  max-width: 60%;
+  max-width: clamp(0px, 60vw, 60em);
+  font-size: clamp(16px, 1vw, 20px);
 }
 
 h1 {
@@ -196,7 +197,7 @@ hr {
 .published-slug {
   color: #777;
   font-style: italic;
-  margin-bottom: 30px
+  margin-bottom: 20px
 }
 
 .footer-container {

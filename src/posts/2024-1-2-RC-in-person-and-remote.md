@@ -1,4 +1,5 @@
 # RC: in-person and remote
+<div class=published-slug>published: 2024-1-2</div>
 
 From the very beginning of August 2023 until the end of that October, I had the pleasure of attending the [Recurse Center](https://recurse.com). As living in New York City is expensive and I wasn't planning on giving up my digs in Portland, I decided to attend in-person for the first six weeks of my batch, return to Portland for the five after that, and then fly to NYC for the final week.
 

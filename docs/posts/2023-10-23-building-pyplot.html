@@ -37,6 +37,7 @@
 
     <div class="topnav center">
       <h3>
+	<a href="/posts/">writing</a>
 	<a href="/pages/hire/">hire</a>
 	<a href="/assets/hhummel.pdf">resume</a>
 	<a href="/pages/contact.html">contact me</a>
@@ -45,6 +46,9 @@
     <hr>
 
 <h1 id="building-pyplot">Building pyplot</h1>
+<div class="published-slug">
+published: 2023-10-23
+</div>
 <p>At the <a href="https://www.recurse.com/">Recurse Center</a>, I’ve been messing around with an old HP7440A pen plotter that’s kicking around the space (this seems to be a time-honored RC tradition from what I can tell.) It speaks <a href="https://en.wikipedia.org/wiki/HP-GL">HPGL</a>, which is an old language specifically for plotters.</p>
 <p><img src="/assets/photos/project-pics/plotter-Oct2023.jpg" /></p>
 <p>A peculiarity of the system is that it has a mere 60-byte buffer for all commands sent to it. Naturally, any modern computer will rapidly overflow it, and the resulting wacky movement of the plotter can wreck your drawing.</p>

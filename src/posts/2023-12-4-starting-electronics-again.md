@@ -1,4 +1,5 @@
 # More electronics than ever before.
+<div class=published-slug>published: 2023-12-4</div>
 
 Since returning from [The Recurse Center](https://recurse.com) I've been back in the hobbyist electronics game for the first time in years (aside from a dalliance with the relatively straightforward world of mechanical keyboards.) I realized earlier today when yet more electronics arrived in the mail that for the first time ever, I've got the holy trifecta of energy, time, and a modicum of cash to spend on electronics. Until now, I'd always been either employed (with no free time), broke, or burnt-out (and once all three.)
 
