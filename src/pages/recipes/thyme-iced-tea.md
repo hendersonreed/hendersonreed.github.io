@@ -24,4 +24,4 @@ Steps:
 
 To Drink:
 
-The final product is too strong to drink straight, in my opinion, so it pays to dilute it to 1/2 or 2/3 concentration. Serve *chilled*.
+The final product is too strong to drink straight, in my opinion, so it pays to dilute it to 1/2 or 2/3 concentration. Serve *chilled* over ice, maybe with a slice of lemon.

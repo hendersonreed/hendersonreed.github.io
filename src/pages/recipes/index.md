@@ -6,5 +6,6 @@ So, I'm considering sharing a few recipes here, for my own convenience when shar
 
 ## Contents:
 
+* [My mom's oatmeal cookies](oatmeal-cookies.html)
 * [Tepache, a fermented Latin American pineapple drink.](tepache.html)
 * [Thyme Iced Tea](thyme-iced-tea.html)

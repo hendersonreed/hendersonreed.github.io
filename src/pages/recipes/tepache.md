@@ -7,17 +7,14 @@ The process has two primary steps: a primary fermentation and a secondary fermen
 ### Ingredients:
 
 * 3/4 cup brown sugar
-
 * 2 pineapples
-
 * 2 thumbs ginger
-
 * water, as needed
 
 ### Equipment:
-1 gallon jar, with lid and airlock.\*
-bottles for the final product.
-food-grade tubing and optional autosiphon.
+- 1 gallon jar, with lid and airlock.\*
+- bottles for the final product.
+- food-grade tubing and optional autosiphon.
 
 \* *you could any number of other ways to prevent contamination. Common methods include cheesecloth, held on with a rubber band, or a rubber balloon, stretched across the top, with a tiny hole poked in it with a needle. I haven't tried any of these, so can't comment on their efficacy.*
 
@@ -45,4 +42,4 @@ The second batch, using the same pineapples and ginger but only a 3/4 cup of sug
 
 1. I am going to try to cut down on the amount of pineapple I need to use. If I can get by with 1 pineapple for a 1 gallon batch, that's cutting my costs nearly in half.
 
-2. Additional flavorings. In Mexico, I understand cloves are a traditional addition. For my own personal taste, I would like to try additional ginger, possibly shredded to release even more flavor. Also appealing are black peppercorns or chile peppers. Finally, a cherry tepache might be very appealing.
+2. Additional flavorings. In Mexico, I understand cloves are a traditional addition. For my own personal taste, I would like to try additional ginger, possibly shredded to release even more flavor. Also appealing are black peppercorns or chile peppers. Finally, sour cherries seem worth a shot.
