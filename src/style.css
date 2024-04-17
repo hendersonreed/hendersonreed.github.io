@@ -107,6 +107,14 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 10pt;
 }
 
+.sitemap {
+  line-height: 1;
+}
+
+.footnotes {
+  margin-top: 1.5rem;
+}
+
 /* standard html element style */
 
 body {
