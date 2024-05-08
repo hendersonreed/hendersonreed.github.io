@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <style>
+    body {
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+    }
+    #synth-boxes {
+      margin: 2em auto;
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+      gap: 10px;
+      width: 80vw;
+    }
+    .grid-item {
+      background-color: white;
+      border: 1px solid black;
+      width: 100%;
+      aspect-ratio: 1/1;
+    }
+    .grid-item:hover {
+      background-color: lightgrey;
+    }
+    #flex-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    button {
+      margin: 1em;
+    }
+    .modal {
+      position: fixed; /* Stay in place */
+      top: 50%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%); /* Center the modal */
+      width: 80vw; /* 80% of viewport width */
+      height: 30vh; /* 30% of viewport height */
+      background-color: white; /* Background color */
+      border: 1px solid black; /* Border */
+      padding: 20px; /* Padding */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Box shadow */
+    }
+  </style>
+  <script src="http://unpkg.com/tone"></script>
+  </head>
+  <body>
+    <div id="synth-boxes"></div>
+    <div id="flex-container">
+      <button id="evolve-button">evolve</button>
+      <button id="print-button">Print synth parameters to console</button>
+    </div>
+    <div id="modal" class="modal">
+    <h2>Gene Synth</h2>
+    <p>click to save sounds you like. Once you've saved some, hit "evolve". New synths get generated using the parameters of the ones that you saved.</p>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
