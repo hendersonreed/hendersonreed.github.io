@@ -36,6 +36,10 @@ tree \
     -I "site.webmanifest" \
     -I "*.js" \
     -I "empty-example.html" \
+    -I "README.md" \
+    -I "README.html" \
+    -I "LICENSE.html" \
+    -I "LICENSE" \
     -o ../_sitemap.html
 cd -
 

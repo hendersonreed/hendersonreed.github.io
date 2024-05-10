@@ -1,7 +1,13 @@
-I've been getting so many ideas lately, I've been forced to write them down so I can stop thinking about them for a little bit. Find them at [todo](todo.html)
+# projects
 
-I'm working on building more projects I'm proud to share with the world. For now, here are some:
+I keep a running list of random/bad/maybe-interesting?? project ideas: [todo](todo.html)
 
+In my spare time, I like creative coding projects, often with webcam interactions and music creation themes. The code for most of these can be found on [my github.](https://github.com/hendersonreed)
+
+## live projects you can check out right now:
+
+- [cam-seq](cam-seq): this tool lets you assign points on your webcam feed to particular notes and synthesizer patches. Then when the pixels at those points change, a note gets triggered. Current fun ideas using this: point a camera at trainlines, get a song when the train arrives; build a "visual instrument" using motors, papercraft, etc, and point the webcam at it; write a song using pieces of confetti sitting on a turntable that's being watched by the webcam.
+- [gene-synth](gene-synth/): this is a page that lets you "breed" synthesizer patches. All the synthesizer patches you click on get added to a pool that gets recombinated into a batch of new synthesizers using a basic genetic algorithm.
 - [webcam-theremin](webcam-theremin/): this uses your webcam to simulate the experience of playing a theremin. It's not the same of course, but if you've no theremin, then you do have this! This was implemented using Google Mediapipe for the hand recognition, p5.js for the draw loop and basic structure, and Tone.js for the synthesized sound.
 - [hark: a literature visualizer](hark.html).
     - this is a little script that visualizes recurring 4/5/6-word phrases in a given piece of literature. Some public domain text is included as an example.
