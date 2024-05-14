@@ -40,6 +40,7 @@ tree \
     -I "README.html" \
     -I "LICENSE.html" \
     -I "LICENSE" \
+    -I "CNAME" \
     -o ../_sitemap.html
 cd -
 

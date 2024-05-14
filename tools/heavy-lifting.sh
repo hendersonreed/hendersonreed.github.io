@@ -13,3 +13,4 @@ set -euo pipefail
 ./tools/generate-blog-index.sh
 ./tools/generate-site-map.sh
 ./tools/fix-page-titles.py
+./tools/generate-atom-feed.py posts

@@ -1,9 +1,4 @@
 #!/bin/env bash
-set -euo pipefail
-
-# common stuff for building the site
-psg clean
-./tools/heavy-lifting.sh
 
 if [[ -z "${1}" ]]; then
     echo "enter your commit message now: (ctrl-c to cancel)"
@@ -11,6 +6,13 @@ if [[ -z "${1}" ]]; then
 else 
     commit_msg="$1"
 fi
+
+set -euo pipefail
+
+# common stuff for building the site
+psg clean
+./tools/heavy-lifting.sh
+
 
 git add .
 git commit -am "$commit_msg"
