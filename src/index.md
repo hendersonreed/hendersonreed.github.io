@@ -42,7 +42,7 @@ I've just completed a batch at [The Recurse Center](https://recurse.com) and fou
 <div class="index-interests">
 My interests include (but aren't limited to):
 
-* the analogue/digital divide
+* the analog/digital divide
 * how interfaces influence our mindsets
 * building wooden sailboats
 * free and open source software
