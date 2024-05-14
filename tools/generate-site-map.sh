@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-echo "-----------------------"
-echo "Generating sitemap.html"
+echo "--------------------------------------------"
+echo "generate-sitemap.sh: Generating sitemap.html"
 
 cd docs
 # flag explanation for below tree command

@@ -7,8 +7,8 @@ set -euo pipefail
 ./tools/resize-and-backup.sh # resize and backup images.
 
 # build the site itself
-echo "----------"
-echo "Running psg"
+echo "-----------------------------"
+echo "heavy-lifting.sh: Running psg"
 /home/reed/bin/psg build
 
 # post-processing based on the built site

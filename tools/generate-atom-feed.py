@@ -37,7 +37,7 @@ def generate_atom_feed(dir_paths):
     id_element = ET.SubElement(feed, 'id')
     id_element.text = 'https://henderson.lol'
     title_element = ET.SubElement(feed, 'title')
-    title_element.text = "Henderson's Log"
+    title_element.text = "henderson's log"
     updated_element = ET.SubElement(feed, 'updated')
     updated_element.text = datetime.datetime.utcnow().isoformat() + 'Z'
 
@@ -87,9 +87,9 @@ if __name__ == '__main__':
         print("Usage: generate-atom-feed.py <directory1 in src> [<directory2> in src ...]")
         sys.exit(1)
     os.chdir('src')
-    print("-----------------------------------"
-    print(f"Generating atom feed for entries in {sys.argv[1:]}...")
-    directories=sys.argv[1:]
+    print("----------------------------------------------------------")
+    print(f"generate-atom-feed.py: Generating atom feed for entries in {sys.argv[1:]}...")
+    directories = sys.argv[1:]
     generate_atom_feed(directories)
     os.chdir('..')
     shutil.copy('src/feed.xml', 'docs/feed.xml')

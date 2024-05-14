@@ -39,8 +39,8 @@ def save_index_html(blog_index_html):
         file.write(index_html)
 
 
-print("---------------------")
-print("Generating Blog Index")
+print("---------------------------------------------")
+print("generate-blog-index.py: Generating Blog Index")
 blog_index_html = generate_blog_index("src/feed.xml")
 save_index_html(blog_index_html)
 print("Index.html file generated successfully.")

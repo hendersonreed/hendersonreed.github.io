@@ -11,7 +11,7 @@ import os
 import re
 
 print("------------------------------------------")
-print("Guessing page titles based on H1 elements.")
+print("fix-page-titles.py: Guessing page titles based on H1 elements.")
 
 root_dir = "./docs/"
 
