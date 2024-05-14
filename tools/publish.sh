@@ -2,13 +2,16 @@
 set -euo pipefail
 
 # common stuff for building the site
-#psg clean
-#./tools/heavy-lifting.sh
+psg clean
+./tools/heavy-lifting.sh
 
-echo "enter your commit message now: (ctrl-c to cancel)"
-git commit -am "$1"
-#read -r commit_msg
+if [[ -z "${1}" ]]; then
+    echo "enter your commit message now: (ctrl-c to cancel)"
+    read -r commit_msg
+else 
+    commit_msg="$1"
+fi
 
-#git add .
-#git commit -am "$commit_msg"
-#git push
+git add .
+git commit -am "$commit_msg"
+git push
