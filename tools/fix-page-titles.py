@@ -1,16 +1,13 @@
 #!/bin/env python3
 
 """
-iterate through every single html file in `root_dir`. define root_dir at the top of the file as `./docs/`.
-for each file, we should
-    1. identify a "title" (the contents of the first <h1> element in any file that's not index.html. If it's index.html, then `title = "henderson's log"`)
-    2. replace the <title> element with f"<title>henderson's log: {title}</title>"
+This script sets the title of each page to the contents of the second h1 that's on the page (the first h1 is in header.html)
 """
 
 import os
 import re
 
-print("------------------------------------------")
+print("--------------------------------------------------------------")
 print("fix-page-titles.py: Guessing page titles based on H1 elements.")
 
 root_dir = "./docs/"
@@ -23,22 +20,18 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
             with open(file_path, 'r', encoding='utf-8') as file:
                 html_content = file.read()
 
-            # Use regex to find the content within the <h1> tag excluding certain cases
-            h1_pattern = r'<h1'                       # Opening <h1> tag
-            h1_pattern += r'(?![^>]*\bclass=["\']?title center["\']?)'  # Negative lookahead for class="title center"
-            h1_pattern += r'.*?>'                      # Rest of the <h1> tag
-            h1_pattern += r'(.*?)'                     # Content inside <h1>
-            h1_pattern += r'</h1>'                     # Closing </h1> tag
+            # this regex should match the contents of any h1 elements
+            pattern = r'<h1[^>]*>(.*?)</h1>'
+            matches = re.findall(pattern, html_content, re.DOTALL)
+            # here we're stripping any inner html elements from the h1 so that it's just plain text.
+            h1_contents = [re.sub(r'<.*?>', '', match) for match in matches]
 
-            match = re.search(h1_pattern, html_content, re.DOTALL)
-            title = match.group(1).strip() if match else None
-
-            if title is not None:
-                # Use regex to replace the <title> element
-                html_content = re.sub(r'<title>.*?</title>', f'<title>henderson\'s log: {title}</title>', html_content)
+            if len(h1_contents) > 1:
+                # we always try to use the second h1 element as the title.
+                html_content = re.sub(r'<title>.*?</title>', f'<title>{h1_contents[1]}</title>', html_content)
 
                 # Write the modified content back to the file
                 with open(file_path, 'w', encoding='utf-8') as file:
                     file.write(html_content)
             else:
-                print(f"{file_path} has no title, is this intentional?")
+                print(f"{file_path} has no h1, is this intentional?")
