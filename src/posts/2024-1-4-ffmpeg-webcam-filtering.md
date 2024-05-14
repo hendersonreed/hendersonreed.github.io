@@ -1,5 +1,5 @@
 # Using ffmpeg for weird video effects
-<div class=published-slug>published: 2024-1-4</div>
+<div class="published-slug">published: 2024-1-4</div>
 
 Painfully won, maybe this `ffmpeg` incantation can help you, dear reader.
 

@@ -3,6 +3,26 @@ import os
 import shutil
 import datetime
 import xml.etree.ElementTree as ET
+import re
+
+
+def get_timestamp(file_path):
+    """ gets timestamps from the `published-slug` divs that are on posts."""
+    with open(file_path, 'r') as file:
+        content = file.read()
+    timestamps = re.findall(r'<div class="published-slug">(published|updated):\s+(\d{4}-\d{1,2}-\d{1,2})</div>', content)
+    if timestamps:
+        last_timestamp = timestamps[-1]
+        try:
+            timestamp = last_timestamp[1].strip()
+            # Assuming the timestamp is in the format YYYY-MM-DD
+            return timestamp + 'T00:00:00Z'  # Append the time part to match ATOM timestamp format
+        except ValueError:
+            print("Error: Unable to interpret timestamp in file:", file_path)
+            exit(-1)
+    else:
+        print("Error: No 'published-slug' divs found in file:", file_path)
+        exit(-1)
 
 
 def convert_md_to_html(md_path):
@@ -41,8 +61,11 @@ def generate_atom_feed(dir_paths):
                     entry_id.text = 'https://henderson.lol/' + convert_md_to_html(os.path.join(root, file))
                     title = ET.SubElement(entry, 'title')
                     title.text = os.path.splitext(file)[0]
+
                     updated = ET.SubElement(entry, 'updated')
-                    updated.text = datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(root, file))).isoformat()
+                    # updated.text = datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(root, file))).isoformat()
+                    updated.text = get_timestamp(os.path.join(root, file))
+
                     link = ET.SubElement(entry, 'link')
                     link.set('href', entry_id.text)
                     link.set('rel', 'alternate')
