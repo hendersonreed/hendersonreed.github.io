@@ -83,7 +83,7 @@ def generate_atom_feed(dir_paths):
 if __name__ == '__main__':
     import sys
     if len(sys.argv) < 2:
-        print("Usage: generate-atom-feed.py <directory1> [<directory2> ...]")
+        print("Usage: generate-atom-feed.py <directory1 in src> [<directory2> in src ...]")
         sys.exit(1)
     os.chdir('src')
     print(f"Generating atom feed for entries in {sys.argv[1:]}...")
