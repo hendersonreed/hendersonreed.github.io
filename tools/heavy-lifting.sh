@@ -7,10 +7,12 @@ set -euo pipefail
 ./tools/resize-and-backup.sh # resize and backup images.
 
 # build the site itself
+echo "----------"
+echo "Running psg"
 /home/reed/bin/psg build
 
 # post-processing based on the built site
-./tools/generate-blog-index.sh
+./tools/generate-atom-feed.py posts
+./tools/generate-blog-index.py
 ./tools/generate-site-map.sh
 ./tools/fix-page-titles.py
-./tools/generate-atom-feed.py posts

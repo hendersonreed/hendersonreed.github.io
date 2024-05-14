@@ -10,6 +10,9 @@ for each file, we should
 import os
 import re
 
+print("------------------------------------------")
+print("Guessing page titles based on H1 elements.")
+
 root_dir = "./docs/"
 
 for dirpath, dirnames, filenames in os.walk(root_dir):

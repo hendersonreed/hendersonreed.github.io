@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+echo "-----------------------"
+echo "Generating sitemap.html"
+
 cd docs
 # flag explanation for below tree command
 # -C colorization

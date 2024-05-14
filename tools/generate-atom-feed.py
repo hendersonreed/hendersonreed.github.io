@@ -56,18 +56,19 @@ def generate_atom_feed(dir_paths):
         for root, dirs, files in os.walk(dir_path):
             for file in files:
                 if file.endswith('.md'):
+                    page_location = convert_md_to_html(os.path.join(root, file))
+
                     entry = ET.SubElement(feed, 'entry')
                     entry_id = ET.SubElement(entry, 'id')
-                    entry_id.text = 'https://henderson.lol/' + convert_md_to_html(os.path.join(root, file))
+                    entry_id.text = 'https://henderson.lol/' + page_location
                     title = ET.SubElement(entry, 'title')
                     title.text = os.path.splitext(file)[0]
 
                     updated = ET.SubElement(entry, 'updated')
-                    # updated.text = datetime.datetime.fromtimestamp(os.path.getmtime(os.path.join(root, file))).isoformat()
                     updated.text = get_timestamp(os.path.join(root, file))
 
                     link = ET.SubElement(entry, 'link')
-                    link.set('href', entry_id.text)
+                    link.set('href', '/' + page_location)
                     link.set('rel', 'alternate')
                     link.set('type', 'text/html')
 
@@ -86,8 +87,9 @@ if __name__ == '__main__':
         print("Usage: generate-atom-feed.py <directory1 in src> [<directory2> in src ...]")
         sys.exit(1)
     os.chdir('src')
+    print("-----------------------------------"
     print(f"Generating atom feed for entries in {sys.argv[1:]}...")
-    directories = sys.argv[1:]
+    directories=sys.argv[1:]
     generate_atom_feed(directories)
     os.chdir('..')
     shutil.copy('src/feed.xml', 'docs/feed.xml')

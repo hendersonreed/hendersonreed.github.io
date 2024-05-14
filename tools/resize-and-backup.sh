@@ -1,6 +1,9 @@
 #!/bin/env bash
 set -euo pipefail
 
+echo "-------------------------------"
+echo "resizing and backing up images."
+
 # Set the directory to search for images
 directory="./src"
 

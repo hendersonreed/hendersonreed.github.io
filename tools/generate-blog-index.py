@@ -15,7 +15,8 @@ def generate_blog_index(atom_feed_path):
     blog_index_html = "<h1>Writing</h1>\n<ul>\n"
     for entry in entries:
         title = entry.find('{http://www.w3.org/2005/Atom}title').text
-        link = entry.find('{http://www.w3.org/2005/Atom}id').text
+        link_element = entry.find('{http://www.w3.org/2005/Atom}link')
+        link = link_element.get('href')  # Get the value of the 'href' attribute
         updated = entry.find('{http://www.w3.org/2005/Atom}updated').text.split("T")[0]
         blog_index_html += f'<li>{updated} | <a href="{link}">{title}</a></li>\n'
     blog_index_html += "</ul>\n"
