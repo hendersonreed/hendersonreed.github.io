@@ -66,3 +66,4 @@ Some samples of relevant works that I've read or am planning on reading:
 - [The Humane Representation of Thought](https://vimeo.com/115154289)
 - [The Source Digest](https://coryarcangel.com/downloads/the-source-digest-2016-061-digital-master-ih.pdf)
 - [Against Recognition](https://omar.website/posts/against-recognition/)
+- [Personal Machines and Portable Worlds](https://www.chrbutler.com/personal-machines-and-portable-worlds)
