@@ -30,8 +30,12 @@ This one was conducted months ago, but the conclusions were, in broad strokes:
     - started me on my Cabernet Sauvignon kick.
 - [2022 Caves Vidigal Vinho Regional Lisboa Porta 6](https://www.cellartracker.com/wine.asp?iWine=4631270)
     - really excellent. Don't remember too many notes, but certainly some spice and fruit.
+    - this is a pretty affordable bottle at Trader Joe's, which is awesome.
 - [Post House Road 2022 Cabernet Sauvignon](https://www.cellartracker.com/wine.asp?iWine=4718368)
     - mild, approachable, jammy. Lots of stone fruit. Not a ton else, but a very serviceable wine for general audiences.
+- [Clos de Mendoza 2020 Malbec](https://www.cellartracker.com/wine.asp?iWine=4328313)
+  - delicious! Maybe my favorite yet?
+  - fruity, spicy, pleasant and approachable. A great table wine.
 
 ### white
 

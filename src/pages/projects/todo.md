@@ -2,18 +2,36 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- can we use a vector "direction" to explore neighbors of a piece of music?
+  - I've seen someone use a vector direction to modify the length of a piece of text while maintaining the semantics (to a point.)
+  - what does that look like when we have an embedding of a piece of music? can we even produce embeddings of a piece of music?
+- midi wheel controller
+  - 3 dials: select a scale, select the start and stop notes
+  - the wheel: trigger the notes - faster wheel, faster notes, etc.
+  - with a little rubber tire, you could lash/clamp it to other rotating things, or attach it to something else with a rubber belt to sonify any rotating object.
+- a game where you are an underground radio DJ for the revolution and you have to hit the right tone in your broadcasts (as graded by an LLM) or you get torn apart by rabid revolutionaries/the institutions you are revolting against.
+- an LLM embedding playground where you can mess with directions and examine the output live.
+- educational construction kits made from cheap processed wood materials (bamboo chopsticks, wooden rulers/yardsticks, tongue depressors, etc) and 3d-printed joints.
+- umbrella-based "digital mirror" (either those little paper drink umbrellas, or if you're ambitious, a genuinely massive display composed of full-size umbrellas.
+- sd-based "mixtape" recorder.
+    - this is a straightforward replication of cassette technology with SD cards.
+    - to my mind, the exciting/interesting things about cassette recorders are: you can record audio from any aux cable, they're cheap to produce/share, and they are simple to use in interesting ways.
+- zip tie synthesizer.
+    - pulling a fingernail across a zip tie generates a tone based on the speed with which you pull.
+    - So building an instrument out of it is as simple as making a physical loop of zip-tie material, and running it across something suitable fingernail-ish with a motor that's controlled by the midi message or control-voltage from your keyboard.
 - repurpose mechanical-keyboard-style numpads that are programmable with QMK as midi controllers/simple samplers.
     - I should check existing work on this, as [QMK has midi already](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_midi.md)
     - there are sweet little numpad kits that have rotary encoders and LED displays already. This feels like music-capable hardware that should be heavily used already! I'm surprised I haven't seen much yet.
-    - Designing an Omnichord type interface that lets you play chords/rhythm accompaniment straight from a numpad feels like exactly what I'd like to use in my personal music practice.
+    - this also could be a straightforward hack of a standard calculator, if you have the soldering skills to get in there and cut traces, solder on jumper wire, etc.
 - a p5.js playground that lets you drag the various HTML elements around the page.
     - At the moment, adding sliders and other controls to p5.js sketches involves a bit of a shift to begin styling the various page elements.
     - I'd rather be able to just add a slider in the code, hit "update" and have the new slider appear on screen and interactive immediately.
     - this is almost veering towards something like touch-designer, but substantially less powerful and without the data-flow "patch" paradigm.
 - [https://stranger.video](https://stranger.video) but for making [exquisite corpse](https://en.wikipedia.org/wiki/Exquisite_corpse) creative coding projects.
     - first it pairs you with a random stranger in the queue:
-    - Then you have 30 seconds to make an edit to the p5 project template. 
-    - Once you're done, click "pass".
+    - then you have 30 seconds to make an edit to the p5 project template. 
+    - once you're done, click "pass".
+    - I think there are a lot of security considerations here - an unexperienced programmer could have some pretty bad client-side code introduced to their site, live.
 - long exposure photographs of harmonographs moving light, rather than drawing with a pen.
 - web-based digital "printmaking" studio
     -  In printmaking, it's often straightforward and creatively interesting to print textures found in everyday life. We can't do that with computers, even though there are lots of "textures" available in our computing experience.
