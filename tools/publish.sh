@@ -15,5 +15,5 @@ psg clean # deletes the existing docs dir to remove any leftovers.
 
 
 git add .
-git commit -ame "$commit_msg"
+git commit -a --message="$commit_msg" --edit
 git push
