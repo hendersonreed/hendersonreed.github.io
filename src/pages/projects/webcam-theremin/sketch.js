@@ -3,8 +3,8 @@ let synth;
 function setup() {
 }
 
-// set everything up on mouseclick
-function mouseClicked() {
+document.addEventListener('click', () => {
+  Tone.start()
   let modal = document.getElementById('modal');
   if (modal != undefined) {
     modal.style.display = "none";
@@ -18,15 +18,11 @@ function mouseClicked() {
 
   // Connect your audio source to the lowpass filter
   synth = new Tone.AMSynth();
-  synth.connect(lowpassFilter);
-
-  // Connect the lowpass filter to your destination (e.g., speakers)
-  lowpassFilter.toDestination();
+  synth.connect(lowpassFilter).toDestination();
 
   synth.volume.value = -999;
-  const now = Tone.now()
-  synth.triggerAttack("C4", now)
-}
+  synth.triggerAttack("C4")
+});
 
 // update synth frequency and volume every tick
 function draw() {
@@ -55,7 +51,7 @@ function draw() {
       let thumb = left[4];
       let forefinger = left[8];
       let volumeDistance = calculateEuclideanDistance(thumb, forefinger);
-      synth.volume.value = map(volumeDistance, 0.01, 0.50, 0, 40);
+      synth.volume.value = map(volumeDistance, 0.01, 0.50, -20, 40);
     }
 
     if (right != undefined) {

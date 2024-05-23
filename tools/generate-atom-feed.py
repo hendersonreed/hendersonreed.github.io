@@ -50,6 +50,7 @@ def generate_atom_feed(dir_paths):
     link_element = ET.SubElement(feed, 'link')
     link_element.set('href', 'https://henderson.lol/feed.xml')
     link_element.set('rel', 'self')
+    link_element.tail = '\n\t'
 
     # Add entries for Markdown files
     for dir_path in dir_paths:

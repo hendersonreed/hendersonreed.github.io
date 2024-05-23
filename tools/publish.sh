@@ -10,7 +10,7 @@ fi
 set -euo pipefail
 
 # common stuff for building the site
-psg clean
+psg clean # deletes the existing docs dir to remove any leftovers.
 ./tools/heavy-lifting.sh
 
 

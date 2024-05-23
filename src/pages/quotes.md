@@ -1,5 +1,7 @@
 # Quotes
 
+“All things are poison and nothing is without poison; only the dose makes a thing not a poison.” - Paracelsus
+
 "Friction is underrated" - [Christopher Butler](https://www.chrbutler.com/personal-machines-and-portable-worlds)
 
 "what the hand does, the mind remembers" - Maria Montessori

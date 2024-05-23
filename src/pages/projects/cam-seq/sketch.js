@@ -109,7 +109,7 @@ function addPointIfNeeded(key) {
 		let newPoint = {
 			instrument: newInstrument(),
 			pointColor: state.colors[state.selectedInstrument],
-			x: mouseX,
+			x: width - mouseX,
 			y: mouseY,
 			note: state.scaleSelect.value().split(",")[state.selectedNote],
 			pastColors: [],
