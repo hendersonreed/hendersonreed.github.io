@@ -5,6 +5,7 @@ set -euo pipefail
 # to avoid breaking `hot-reload-preview.sh` nothing that writes 
 # or updates files in /src can happen here.
 ./tools/resize-and-backup.sh # resize and backup images.
+./tools/generate-atom-feed.py posts # create a feed.xml
 
 # build the site itself
 echo "-----------------------------"
@@ -12,7 +13,6 @@ echo "heavy-lifting.sh: Running psg"
 /home/reed/bin/psg build
 
 # post-processing based on the built site
-./tools/generate-atom-feed.py posts
 ./tools/generate-blog-index.py
 ./tools/generate-site-map.sh
 ./tools/fix-page-titles.py
