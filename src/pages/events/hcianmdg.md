@@ -27,7 +27,7 @@ A few definitions, to start us off:
 
 ### social rules
 
-Please read [these](/pages/events/social-rules.html) before joining us. No, really, it's a requirement.
+Read [these](/pages/events/social-rules.html) before joining us.
 
 ### reading:
 

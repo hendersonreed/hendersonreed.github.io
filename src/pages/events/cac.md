@@ -10,7 +10,7 @@ Every week, the CAC meets to make some weird stuff with computers. Some call thi
 
 ### social rules
 
-Please read [these](/pages/events/social-rules.html) before joining us. No, really, it's a requirement.
+Read [these](/pages/events/social-rules.html) before joining us.
 
 ### structure
 

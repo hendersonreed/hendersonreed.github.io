@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://henderson.lol</id><title>henderson's log</title><updated>2024-05-24T01:50:09.226938Z</updated><author><name>Henderson Reed Hummel</name><email>reed.hummel@gmail.com</email></author><link href="https://henderson.lol/feed.xml" rel="self" />
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://henderson.lol</id><title>henderson's log</title><updated>2024-05-24T02:30:25.725290Z</updated><author><name>Henderson Reed Hummel</name><email>reed.hummel@gmail.com</email></author><link href="https://henderson.lol/feed.xml" rel="self" />
 	<entry><id>https://henderson.lol/posts/ffmpeg-webcam-filtering.html</id><title>ffmpeg-webcam-filtering</title><updated>2024-01-04T00:00:00Z</updated><link href="/posts/ffmpeg-webcam-filtering.html" rel="alternate" type="text/html" /></entry>
 	<entry><id>https://henderson.lol/posts/building-pyplot.html</id><title>building-pyplot</title><updated>2023-10-23T00:00:00Z</updated><link href="/posts/building-pyplot.html" rel="alternate" type="text/html" /></entry>
 	<entry><id>https://henderson.lol/posts/RC-in-person-and-remote.html</id><title>RC-in-person-and-remote</title><updated>2024-01-02T00:00:00Z</updated><link href="/posts/RC-in-person-and-remote.html" rel="alternate" type="text/html" /></entry>
