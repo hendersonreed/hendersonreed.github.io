@@ -29,7 +29,7 @@ You're welcome to use whatever language or tools you want.
 
 Don't feel restricted to making something visual, "artistic", or even related to the prompt. This is an opportunity to build something just for fun.
 
-#### technologies to inspire
+### technologies to inspire
 
 A common and beginner-friendly choice of technology is [p5.js](https://p5js.org/), which has an [online editor](https://editor.p5.js)
 
@@ -44,7 +44,7 @@ general creative coding resources:
 
 - https://github.com/terkelg/awesome-creative-coding
 
-### for beginners
+#### for beginners
 
 For absolute beginners with no programming experience, you're still encouraged to come! Some additional beginner materials might be useful, to acquaint you with some of the basic ideas behind programming:
 
