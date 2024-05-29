@@ -1,4 +1,6 @@
-## The Society for Unrealized Digital Occurences: SUDO
+# SUDO
+
+## The Society for Unrealized Digital Occurences
 
 - what: making fun/weird stuff with computers
 - when: Wednesday evenings from 6pm to 8pm.

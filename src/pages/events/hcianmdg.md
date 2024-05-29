@@ -3,8 +3,8 @@
 ## human-computer-interface and new media discussion group
 
 - What: We're meeting to talk about new media and user interfaces!
-- When: Every Monday at 6pm (first meeting planned for Monday April 15.)
-- Where: *usually* [Oakshire Brewing Portland](https://maps.app.goo.gl/sRFovi91jAFXRPMDA), except for the second Monday of each month, when we meet at [CTRL-H](https://maps.app.goo.gl/RsKctWzYtGKqUqtH9), North Portland's hackerspace for [dorkbot PDX](https://dorkbotpdx.org).
+- When: Every Monday at 6pm.
+- Where: [McMenamins Barley Mill Pub](https://maps.app.goo.gl/y55dYxzhtGszVPBh8)
 
 **Details:**
 
