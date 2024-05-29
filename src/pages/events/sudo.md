@@ -35,14 +35,14 @@ A common and beginner-friendly choice of technology is [p5.js](https://p5js.org/
 
 javascript client-side libraries with interesting applications:
 
-- [https://brm.io/matter-js/]
-- [https://tonejs.github.io/]
-- [https://webgazer.cs.brown.edu/]
-- [https://soulwire.github.io/sketch.js/]
+- [matter-js](https://brm.io/matter-js/)
+- [tone.js](https://tonejs.github.io/)
+- [webgazer](https://webgazer.cs.brown.edu/)
+- [sketch.js](https://soulwire.github.io/sketch.js/)
 
 general creative coding resources:
 
-- [https://github.com/terkelg/awesome-creative-coding]
+- [Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)
 
 #### for beginners
 
