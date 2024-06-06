@@ -10,6 +10,7 @@ I can't be at all of these events, so if you're interested in chatting with me I
 
 ## events I run
 
-Currently I'm just running the [HCIANMDG](/pages/events/hcianmdg.html).
+Currently I'm running two events on a weekly basis.
 
-Down the line, I'd like to run a weekly creative coding session for computer folks who want a low-commitment regular creative outlet. This would be a regular, time-boxed (2-3 hours) event where everyone works in the same physical space to build little creative coding demos or toys on the same theme. Themes change week-to-week, and we do a little brainstorming at the beginning and then folks get to demo at the end.
+- the [HCIANMDG](/pages/events/hcianmdg.html)
+- the [SUDO](/pages/events/sudo.html).

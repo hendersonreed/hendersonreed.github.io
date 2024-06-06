@@ -3,12 +3,14 @@
 ## The Society for Unrealized Digital Occurences
 
 - what: making fun/weird stuff with computers
-- when: Wednesday evenings from 6pm to 8pm.
-- where: currently undecided
+- when: Wednesday evenings from 6pm to 8pm (our first meeting is scheduled for Wednesday, June 12th, 2024.)
+- where: [McMenamins Barley Mill Pub](https://maps.app.goo.gl/y55dYxzhtGszVPBh8)
 
 ### details:
 
 Every week, the SUDO meets to make some weird stuff with computers. Some call this [software art](https://en.wikipedia.org/wiki/Software_art), [new media art](https://en.wikipedia.org/wiki/New_media_art), [digital poetry](https://en.wikipedia.org/wiki/Digital_poetry), or [computer art](https://en.wikipedia.org/wiki/Computer_art).
+
+This is a time-boxed, low-pressure, casual, creative event for us to engage in a little hobbyist programming. No prior experience is necessary.
 
 ### social rules
 
@@ -27,13 +29,13 @@ Each meeting follows the same structure:
 - for the next 90 minutes folks program (optionally in small groups.)
 - at the end there's a chance for folks to demo their work, time allowing.
 
-You're welcome to use whatever language or tools you want.
+You're welcome to use whatever language or tools you want, and you don't need to use the prompt.
 
-Don't feel restricted to making something visual, "artistic", or even related to the prompt. This is an opportunity to build something just for fun.
+Don't feel restricted to making something visual or typically "artistic". This is an opportunity to build something just for fun.
 
 ### technologies to inspire
 
-A common and beginner-friendly choice of technology is [p5.js](https://p5js.org/), which has an [online editor](https://editor.p5.js)
+A common and beginner-friendly choice of technology is [p5.js](https://p5js.org/), which has an [online editor](https://editor.p5js.org)
 
 javascript client-side libraries with interesting applications:
 
