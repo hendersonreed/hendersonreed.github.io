@@ -3,7 +3,7 @@
 ## The Society for Unrealized Digital Occurences
 
 - what: making fun/weird stuff with computers
-- when: Wednesday evenings from 6pm to 8pm (our first meeting is scheduled for Wednesday, June 12th, 2024.)
+- when: Wednesday evenings from 6pm to 8pm
 - where: [McMenamins Barley Mill Pub](https://maps.app.goo.gl/y55dYxzhtGszVPBh8)
 
 ### details:
