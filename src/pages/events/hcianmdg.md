@@ -3,7 +3,7 @@
 ## human-computer-interface and new media discussion group
 
 - what: We're meeting to talk about new media and user interfaces!
-- when: Every Monday at 6pm.
+- when: most Monday evenings from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
 - where: [McMenamins Barley Mill Pub](https://maps.app.goo.gl/y55dYxzhtGszVPBh8)
 
 **Details:**
