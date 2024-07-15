@@ -5,6 +5,10 @@ import datetime
 import xml.etree.ElementTree as ET
 import re
 
+"""
+This script generates a feed based on the internal "published date" that's in a blogpost, NOT on the canonical file edit date.
+"""
+
 
 def get_timestamp(file_path):
     """ gets timestamps from the `published-slug` divs that are on posts."""
