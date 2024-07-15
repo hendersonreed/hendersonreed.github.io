@@ -80,4 +80,4 @@ I think that as a designer of tools, our primary responsibility is to understand
 
 ## warning: shameless plug
 
-If you're working on tooling, and the above is interesting to you, maybe [talk to me.](/pages/hire.html)
+If you're working on tooling, and the above is interesting to you, maybe [talk to me.](/pages/hire/)

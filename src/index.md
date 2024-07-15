@@ -57,6 +57,7 @@ My interests include (but aren't limited to):
 * functional programming languages and their design
 * hobbyist electronics
 * film photography
+* traveling
 </div>
 <img src="/assets/hhummel-2020.jpg" class="index-photo">
 </div>
