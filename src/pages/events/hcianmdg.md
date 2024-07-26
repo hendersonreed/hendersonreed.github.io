@@ -3,14 +3,14 @@
 ## human-computer-interface and new media discussion group
 
 - what: We're meeting to talk about new media and user interfaces!
-- when: most Monday evenings from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
+- when: The first Monday of each month, from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date, so double-check there on the day-of if you want extra assurance.
 - where: [McMenamins Barley Mill Pub](https://maps.app.goo.gl/y55dYxzhtGszVPBh8)
 
 **Details:**
 
 Are you interested in *why* and *how* we use computers? Do you think often about radical reshapings of the digital landscape? Love projects from MIT Media Lab and NYC ITP?
 
-The HCIANMDG (also known as the human-computer-interface and new media discussion group) is a space for software-adjacent folks to talk about the future of computers, their interfaces, and their applications. We meet every week on Monday at Oakshire Brewing on NE 42nd to read papers, talk about projects, share our work, and/or grumble/wax poetic about the future of computing.
+The HCIANMDG (also known as the human-computer-interface and new media discussion group) is a space for software-adjacent folks to talk about the future of computers, their interfaces, and their applications. We meet on the first Monday of each month to read papers, talk about projects, share our work, and/or grumble/wax poetic about the future of computing.
 
 A few definitions, to start us off:
     

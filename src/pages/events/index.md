@@ -12,7 +12,7 @@ I can't be at all of these events, so if you're interested in chatting with me I
 
 ## events I run
 
-Currently I'm running two events on a weekly basis.
+Currently I'm running two regularly occuring events:
 
-- the [HCIANMDG](/pages/events/hcianmdg.html) is a discussion group about humans, computers, and how we interact with them. This gets pretty deep in the phisolophical weeds - think interaction paradigms and digital culture, not Fitt's law and UI frameworks.
+- the [HCIANMDG](/pages/events/hcianmdg.html) is a discussion group about humans, computers, and how we interact with them. This gets pretty deep into the philosophical weeds - think interaction paradigms and digital culture, not Fitt's law and UI frameworks.
 - the [SUDO](/pages/events/sudo.html) is like a sip-and-paint but for programming. Get together, program something new for a couple of hours, and (optionally) demo to your peers at the end.

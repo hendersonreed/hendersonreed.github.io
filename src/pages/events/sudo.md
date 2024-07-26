@@ -3,12 +3,12 @@
 ## The Society for Unrealized Digital Occurences
 
 - what: making fun/weird stuff with computers
-- when: most Wednesday evenings from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
+- when: every other Wednesday evening from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
 - where: [McMenamins Barley Mill Pub](https://maps.app.goo.gl/y55dYxzhtGszVPBh8)
 
 ### details:
 
-Every week, the SUDO meets to make some weird stuff with computers. Some call this [software art](https://en.wikipedia.org/wiki/Software_art), [new media art](https://en.wikipedia.org/wiki/New_media_art), [digital poetry](https://en.wikipedia.org/wiki/Digital_poetry), or [computer art](https://en.wikipedia.org/wiki/Computer_art).
+The SUDO meets to make some weird stuff with computers. Some call this [software art](https://en.wikipedia.org/wiki/Software_art), [new media art](https://en.wikipedia.org/wiki/New_media_art), [digital poetry](https://en.wikipedia.org/wiki/Digital_poetry), or [computer art](https://en.wikipedia.org/wiki/Computer_art).
 
 This is a time-boxed, low-pressure, casual, creative event for us to engage in a little hobbyist programming. No prior experience is necessary.
 
@@ -52,10 +52,10 @@ general creative coding resources:
 
 For absolute beginners with no programming experience, you're still encouraged to come! Some additional beginner materials might be useful, to acquaint you with some of the basic ideas behind programming:
 
-- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
-- [The Odin Project](https://www.theodinproject.com)
 - [Bitsy](https://bitsy.org) is a tiny beginner game engine for little story games.
     - a [tutorial](https://www.shimmerwitch.space/bitsyTutorial.html)
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
+- [The Odin Project](https://www.theodinproject.com)
 
 
 Consider pair-programming with others to build familiarity with these new tools and concepts. And of course, feel free to ask for help.
