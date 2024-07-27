@@ -1,6 +1,6 @@
-# SUDO
+# CCN
 
-## The Society for Unrealized Digital Occurences
+## Creative Coding Night
 
 - what: making fun/weird stuff with computers
 - when: every other Wednesday evening from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
@@ -8,7 +8,7 @@
 
 ### details:
 
-The SUDO meets to make some weird stuff with computers. Some call this [software art](https://en.wikipedia.org/wiki/Software_art), [new media art](https://en.wikipedia.org/wiki/New_media_art), [digital poetry](https://en.wikipedia.org/wiki/Digital_poetry), or [computer art](https://en.wikipedia.org/wiki/Computer_art).
+The CCN is a fortnightly gathering to make some weird stuff with computers. Some call this [software art](https://en.wikipedia.org/wiki/Software_art), [new media art](https://en.wikipedia.org/wiki/New_media_art), [digital poetry](https://en.wikipedia.org/wiki/Digital_poetry), or [computer art](https://en.wikipedia.org/wiki/Computer_art).
 
 This is a time-boxed, low-pressure, casual, creative event for us to engage in a little hobbyist programming. No prior experience is necessary.
 
