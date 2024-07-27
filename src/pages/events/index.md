@@ -10,7 +10,7 @@ This is by no means an exhaustive list of all the interesting tech events going 
 
 ## SUDO events
 
-The Society of Unrealized Digital Occurrences (SUDO) is a loose organization of programmers, artists, thinkers, and enthusiasts working on a variety of topics, operating in Portland, Oregon.
+The Society for Unrealized Digital Occurrences (SUDO) is a loose organization of programmers, artists, thinkers, and enthusiasts working on a variety of topics, operating in Portland, Oregon.
 
 Currently, it's comprised of two regularly occurring events:
 
