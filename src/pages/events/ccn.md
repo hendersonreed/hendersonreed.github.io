@@ -4,7 +4,7 @@
 
 - what: making fun/weird stuff with computers
 - when: every other Wednesday evening from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
-- where: [McMenamins Barley Mill Pub](https://maps.app.goo.gl/y55dYxzhtGszVPBh8)
+- where: [CTRL-H](https://maps.app.goo.gl/XybNhEVSgdHGmWg46)
 
 ### details:
 

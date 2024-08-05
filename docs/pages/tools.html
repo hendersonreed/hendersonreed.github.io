@@ -28,7 +28,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <title>Tools I like to use (and thoughts thereon)</title>
+    <title>Tools I like to use
+(and thoughts thereon)</title>
   </head>
 
   <body>
@@ -52,22 +53,59 @@
     </div>
     <hr>
 
-<h1 id="tools-i-like-to-use-and-thoughts-thereon">Tools I like to use (and thoughts thereon)</h1>
+<h1 id="tools-i-like-to-use-and-thoughts-thereon">Tools I like to use
+(and thoughts thereon)</h1>
 <p>I live on the command line and in the browser:</p>
 <ul>
-<li>writing (code or prose): neovim, configured with my own fork of <a href="https://github.com/hendersonreed/kickstart.nvim">kickstart.nvim</a></li>
-<li>languages: Python, Bash, Javascript. I’ve toyed around with Rust a little bit. I’m always starting and stopping with some of the various lisps, like Fennel and Racket.</li>
-<li>I’m currently running Fedora Linux on a Dell XPS 13 laptop. The laptop has great Linux support, and Fedora maintains a decent balance between stability and up-to-date-ness. It’s due for a battery replacement - I purchased this laptop in 2016 or 2017, and it’s down to 60% of its max capacity.</li>
-<li><em>testing</em>: I’ve been exploring the potential for using LLMs (large language models) to expand my capabilities. Currently I’m just using the free version of OpenAIs <em>ChatGPT</em> web interface, but I think there’s tremendous opportunity here. It’s not magic, but it provides capabilities that are powerful for summarizing, collating, and finding relevant information.</li>
+<li>writing (code or prose): neovim, configured with my own fork of <a
+href="https://github.com/hendersonreed/kickstart.nvim">kickstart.nvim</a></li>
+<li>languages: Python, Bash, Javascript. I’ve toyed around with Rust a
+little bit. I’m always starting and stopping with some of the various
+lisps, like Fennel and Racket.</li>
+<li>I’m currently running Fedora Linux on a Dell XPS 13 laptop. The
+laptop has great Linux support, and Fedora maintains a decent balance
+between stability and up-to-date-ness. It’s due for a battery
+replacement - I purchased this laptop in 2016 or 2017, and it’s down to
+60% of its max capacity.</li>
+<li><em>testing</em>: I’ve been exploring the potential for using LLMs
+(large language models) to expand my capabilities. Currently I’m just
+using the free version of OpenAIs <em>ChatGPT</em> web interface, but I
+think there’s tremendous opportunity here. It’s not magic, but it
+provides capabilities that are powerful for summarizing, collating, and
+finding relevant information.</li>
 </ul>
 <h3 id="philosophy">philosophy:</h3>
-<p>I’m a huge fan of the <em>Unix as IDE</em> perspective. If you’re unfamiliar, I really recommend you read <a href="https://sanctum.geek.nz/arabesque/series/unix-as-ide/">the series that started it all</a>. For those of you without the time, I’ll summarize it here: essentially, it’s a workflow that emphasizes the use of small, modular, configurable tools (like those available on most *nixes) over the use of one monlithic tool (like your average IDE.) So, when I’m coding, I use many different tools, each of which are tuned and configured for only a few tasks. The advantage here is that I can more easily understand and extend each one.</p>
-<p>A prime example of my attitudes in action is <a href="https://github.com/hendersonreed/psg">psg</a>, a static site generator I built. It’s 77 lines of vanilla Python, with no dependencies aside from Pandoc, which is available as a package in most Linux distribution’s default repositories. It’s straightforward to extend, it has very few side-effects or expectations (meaning that it integrates with other tools well), and it’s easy to install (you can just <code>curl</code> it from GitHub.)</p>
+<p>I’m a huge fan of the <em>Unix as IDE</em> perspective. If you’re
+unfamiliar, I really recommend you read <a
+href="https://sanctum.geek.nz/arabesque/series/unix-as-ide/">the series
+that started it all</a>. For those of you without the time, I’ll
+summarize it here: essentially, it’s a workflow that emphasizes the use
+of small, modular, configurable tools (like those available on most
+*nixes) over the use of one monlithic tool (like your average IDE.) So,
+when I’m coding, I use many different tools, each of which are tuned and
+configured for only a few tasks. The advantage here is that I can more
+easily understand and extend each one.</p>
+<p>A prime example of my attitudes in action is <a
+href="https://github.com/hendersonreed/psg">psg</a>, a static site
+generator I built. It’s 77 lines of vanilla Python, with no dependencies
+aside from Pandoc, which is available as a package in most Linux
+distribution’s default repositories. It’s straightforward to extend, it
+has very few side-effects or expectations (meaning that it integrates
+with other tools well), and it’s easy to install (you can just
+<code>curl</code> it from GitHub.)</p>
 <h3 id="on-building-tools">On building tools</h3>
-<p>I am a huge proponent of building your own small tools. I find that it keeps your mind sharp for programming, and you can often come up with a tool that satisfies your needs more than available solutions. Plus, you get to program and learn on the way!</p>
-<p>I find that <code>Bash</code> is especially powerful for creating these simple tools. Other languages provide all kinds of benefits (types, safety, debugging tools, etc) but so far I haven’t come across anything that is as quick and effective for quickly scripting behavior.</p>
+<p>I am a huge proponent of building your own small tools. I find that
+it keeps your mind sharp for programming, and you can often come up with
+a tool that satisfies your needs more than available solutions. Plus,
+you get to program and learn on the way!</p>
+<p>I find that <code>Bash</code> is especially powerful for creating
+these simple tools. Other languages provide all kinds of benefits
+(types, safety, debugging tools, etc) but so far I haven’t come across
+anything that is as quick and effective for quickly scripting
+behavior.</p>
 <p>For example, see the notetaking system I use:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mdless()</span> <span class="kw">{</span></span>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mdless()</span> <span class="kw">{</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>      <span class="ex">pandoc</span> <span class="at">-s</span> <span class="at">-f</span> markdown <span class="at">-t</span> man <span class="va">$1</span>.md <span class="kw">|</span> <span class="fu">groff</span> <span class="at">-T</span> utf8 <span class="at">-man</span> <span class="kw">|</span> <span class="fu">less</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">}</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">umedit()</span> <span class="kw">{</span></span>
