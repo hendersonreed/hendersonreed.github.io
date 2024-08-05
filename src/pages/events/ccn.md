@@ -3,7 +3,7 @@
 ## Creative Coding Night
 
 - what: making fun/weird stuff with computers
-- when: every other Wednesday evening from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
+- when: every other Thursday evening from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
 - where: [CTRL-H](https://maps.app.goo.gl/XybNhEVSgdHGmWg46)
 
 ### details:
