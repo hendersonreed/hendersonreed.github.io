@@ -4,7 +4,6 @@ const videoElement = document.getElementById('video');
 
 function gotHands(results) {
   detections = results;
-  // console.log(detections);
 
 }
 
