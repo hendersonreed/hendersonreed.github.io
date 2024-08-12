@@ -10,7 +10,7 @@ function setup() {
   myCanvas.id('myCanvas');
   centerCanvas();
 
-  bannerElement = createElement('div', 'Hit space to start. Click anywhere on the canvas (as many times as you like) and then wave your hands around. Hitting space again clears all points.');
+  bannerElement = createElement('div', 'Hit space to start. Click anywhere on the canvas (as many times as you like) and then wave your hands around. Hit space to clear anchor points.');
   bannerElement.id('banner');
   positionBanner();
 }
@@ -59,16 +59,6 @@ function mouseClicked() {
   }
 }
 
-/*
-function drawTealCircle(x, y) {
-  push();
-  fill(66, 245, 242);  // Teal color
-  noStroke();
-  circle(x, y, 10);
-  pop();
-}
-*/
-
 class Point {
   constructor(x, y) {
     Object.defineProperties(this, {
@@ -86,24 +76,35 @@ class Point {
         value: y,
         writable: false,
         enumerable: true
+      },
+      hue: {
+        value: random(150, 250),
+        writable: false,
+        enumerable: true
       }
     });
   }
 }
 
-function drawTealLines(point, opacity) {
+function drawLines(point, opacity) {
   horizonPoints.forEach((each) => {
     push();
-    //fill(66, 245, 242, opacity);  // Teal color
-    //noStroke();
-    stroke(66, 245, 245, opacity);
+    colorMode(HSB);
+    strokeWeight(2.5);
+    stroke(point.hue, 50, 100, opacity);
+    //stroke(random(0, 360), 100, 100, opacity);
     line(each.x, each.y, width - point.x, point.y);
     pop();
   });
 }
 
-const MAX_AGE = 120; // Assuming 120 frames as the threshold, adjust as needed
+
+const MAX_AGE = 60; // Assuming 120 frames as the threshold, adjust as needed
 let pastPoints = []
+
+function easeOutQuad(t) {
+  return 1 - (1 - t) * (1 - t);
+}
 
 function updateAndDrawPoints(points) {
   // Use filter to remove old points and create a new array
@@ -115,8 +116,10 @@ function updateAndDrawPoints(points) {
   // Draw remaining points with mapped opacity
   points.forEach(point => {
     const age = frameCount - point.creationFrame;
-    const opacity = map(age, 0, MAX_AGE, 255, 0);
-    drawTealLines(point, opacity);
+    const t = 1 - age / MAX_AGE; // Normalize age to 0-1 range
+    const eased = easeOutQuad(t); // Apply easing function
+    const opacity = map(eased, 0, 1, 0, 50); // Map to 0-100 range for HSB
+    drawLines(point, opacity);
   });
 
   return points; // Return the updated array
