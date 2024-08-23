@@ -44,6 +44,8 @@ tree \
     -I "LICENSE.html" \
     -I "LICENSE" \
     -I "CNAME" \
+    -I "*.css" \
+    -I "util/" \
     -o ../_sitemap.html
 cd -
 
