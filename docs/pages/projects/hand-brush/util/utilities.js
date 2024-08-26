@@ -52,6 +52,30 @@ function standardSetup(helpHTML) {
   });
 }
 
+function keylessSetup(helpHTML) {
+  noLoop();
+  background(backgroundColor);
+
+  myCanvas = createCanvas(640, 480); // 640x480 is hardcoded as our video resolution also
+  myCanvas.id('myCanvas');
+  centerCanvas();
+
+  bannerElement = createElement('div', helpHTML);
+  bannerElement.id('banner');
+  positionBanner();
+
+  // space triggers the sketch actually starting,
+  // and hiding/showing the banner
+  document.addEventListener('click', () => {
+    if (!started) {
+      started = true;
+      camera.start(); // camera is defined/setup in detections.js
+      loop();
+      bannerElement.style('display', 'none');
+    }
+  });
+}
+
 function windowResized() {
   centerCanvas();
   positionBanner();

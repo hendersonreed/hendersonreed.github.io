@@ -1,16 +1,17 @@
-let circleColor = 66;
+let circleColor = 100;
 
 function setup() {
   helpMsg = `
 <p>welcome.
   <ul>
-    <li>hit space to start and toggle this help page.</li>
-    <li>hit c to pick a random color.</li>
-    <li>hit r to clear the canvas.</li>
+    <li>click to start</li>
+    <li>click again to change to a different, random color.</li>
+    <li>refresh the page to start over.</li>
   </ul>
 </p>
 `
-  standardSetup(helpMsg);
+  //standardSetup(helpMsg);
+  keylessSetup(helpMsg);
   colorMode(HSB);
   background(backgroundColor);
 }
@@ -40,14 +41,6 @@ function drawCircle(x, y) {
   pop();
 }
 
-document.addEventListener('keypress', (event) => {
-  if (event.key == 'c') {
-    circleColor = random(0, 255);
-  }
-});
-
-document.addEventListener('keypress', (event) => {
-  if (event.key == 'r') {
-    background(backgroundColor);
-  }
+document.addEventListener('click', () => {
+  circleColor = random(0, 255);
 });

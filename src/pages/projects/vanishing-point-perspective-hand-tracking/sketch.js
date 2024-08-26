@@ -10,7 +10,7 @@ function setup() {
   myCanvas.id('myCanvas');
   centerCanvas();
 
-  bannerElement = createElement('div', 'Hit space to start. Click anywhere on the canvas (as many times as you like) and then wave your hands around. Hit space to clear anchor points.');
+  bannerElement = createElement('div', 'Click to start. Click anywhere on the canvas (as many times as you like) and then wave your hands around. Refresh the page to clear your anchor points.');
   bannerElement.id('banner');
   positionBanner();
 }
@@ -33,8 +33,8 @@ function positionBanner() {
   bannerElement.position((windowWidth - bannerWidth) / 2, (windowHeight - bannerHeight) / 2);
 }
 
-document.addEventListener('keypress', (event) => {
-  if (event.key == ' ') {
+document.addEventListener('click', (event) => {
+  if (!started) {
     started = true;
     bannerElement.remove();
     loop();
@@ -47,11 +47,6 @@ document.addEventListener('keypress', (event) => {
 /////////////////////////////////////////////////////////
 
 let horizonPoints = []
-document.addEventListener('keypress', (event) => {
-  if (event.key == ' ') {
-    horizonPoints = [];
-  }
-});
 
 function mouseClicked() {
   if (started) {
