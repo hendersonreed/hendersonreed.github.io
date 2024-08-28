@@ -42,5 +42,5 @@ function drawCircle(x, y) {
 }
 
 document.addEventListener('click', () => {
-  circleColor = random(0, 255);
+  circleColor += random(36, 360);
 });
