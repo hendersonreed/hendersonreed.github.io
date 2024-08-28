@@ -1,57 +1,15 @@
-let bannerElement;
-let myCanvas;
-let started = false;
+backgroundColor = 0;
 
 function setup() {
-  noLoop(); // saves us a bunch of error messages from running too fast before the video is done loading.
-  background(220);
-
-  myCanvas = createCanvas(640, 480);
-  myCanvas.id('myCanvas');
-  centerCanvas();
-
-  bannerElement = createElement('div', 'Click to start. Click anywhere on the canvas (as many times as you like) and then wave your hands around. Refresh the page to clear your anchor points.');
-  bannerElement.id('banner');
-  positionBanner();
-}
-
-function windowResized() {
-  centerCanvas();
-  positionBanner();
-}
-
-function centerCanvas() {
-  let x = (windowWidth - width) / 2;
-  let y = (windowHeight - height) / 2;
-  myCanvas.position(x, y);
-}
-
-function positionBanner() {
-  let bannerWidth = windowWidth * 0.4;
-  let bannerHeight = windowHeight * 0.2;
-  bannerElement.size(bannerWidth, bannerHeight);
-  bannerElement.position((windowWidth - bannerWidth) / 2, (windowHeight - bannerHeight) / 2);
-}
-
-document.addEventListener('click', (event) => {
-  if (!started) {
-    started = true;
-    bannerElement.remove();
-    loop();
-  }
-});
-
-/////////////////////////////////////////////////////////
-//                   end of template                   //
-// below this line is where the fun/weird stuff begins //
-/////////////////////////////////////////////////////////
-
-let horizonPoints = []
-
-function mouseClicked() {
-  if (started) {
-    horizonPoints.push({ x: mouseX, y: mouseY });
-  }
+  helpMsg = `
+<p>welcome.
+  <ul>
+    <li>click to start.</li>
+    <li>clicking further will add more horizon points.</li>
+  </ul>
+</p>
+`
+  keylessSetup(helpMsg);
 }
 
 class Point {
@@ -81,25 +39,26 @@ class Point {
   }
 }
 
-function drawLines(point, opacity) {
-  horizonPoints.forEach((each) => {
-    push();
-    colorMode(HSB);
-    strokeWeight(2.5);
-    stroke(point.hue, 50, 100, opacity);
-    //stroke(random(0, 360), 100, 100, opacity);
-    line(each.x, each.y, width - point.x, point.y);
-    pop();
-  });
-}
-
-
-const MAX_AGE = 60; // Assuming 120 frames as the threshold, adjust as needed
 let pastPoints = []
-
-function easeOutQuad(t) {
-  return 1 - (1 - t) * (1 - t);
+let horizonPoints = []
+function mouseClicked() {
+  if (started) {
+    horizonPoints.push({ x: width - mouseX, y: mouseY });
+  }
 }
+
+
+function draw() {
+  background(backgroundColor);
+  if (detections != undefined && detections.multiHandLandmarks != undefined && detections.multiHandLandmarks.length != 0) {
+    detections.multiHandLandmarks.forEach((each) => {
+      pastPoints.push(new Point(each[4].x * width, each[4].y * height));
+    });
+  }
+  updateAndDrawPoints(pastPoints);
+}
+
+const MAX_AGE = 60;
 
 function updateAndDrawPoints(points) {
   // Use filter to remove old points and create a new array
@@ -108,29 +67,27 @@ function updateAndDrawPoints(points) {
     return age < MAX_AGE;
   });
 
-  // Draw remaining points with mapped opacity
+  // Draw remaining points with opacity mapped to age
   points.forEach(point => {
     const age = frameCount - point.creationFrame;
-    const t = 1 - age / MAX_AGE; // Normalize age to 0-1 range
-    const eased = easeOutQuad(t); // Apply easing function
-    const opacity = map(eased, 0, 1, 0, 50); // Map to 0-100 range for HSB
-    drawLines(point, opacity);
+    const normalized_age = 1 - age / MAX_AGE; // Normalize age to 0-1 range
+    //const opacity = map(normalized_age, 0, 1, 0, 100);
+    //console.log(opacity)
+    //drawLines(point, opacity);
+    drawLines(point, normalized_age);
   });
 
   return points; // Return the updated array
 }
 
-function draw() {
-  background(220);
-  if (detections != undefined && detections.multiHandLandmarks != undefined && detections.multiHandLandmarks.length != 0) {
-    detections.multiHandLandmarks.forEach((each) => {
-      pastPoints.push(new Point(each[4].x * width, each[4].y * height));
-      /*
-      pastPoints.push(new Point(each[8].x * width, each[8].y * height));
-      pastPoints.push(new Point(each[16].x * width, each[16].y * height));
-      pastPoints.push(new Point(each[20].x * width, each[20].y * height));
-      */
-    });
-  }
-  updateAndDrawPoints(pastPoints);
+function drawLines(point, opacity) {
+  horizonPoints.forEach((each) => {
+    push();
+    colorMode(HSB);
+    strokeWeight(2.5);
+    stroke(point.hue, 50, 100, opacity);
+    line(each.x, each.y, point.x, point.y);
+    pop();
+  });
 }
+

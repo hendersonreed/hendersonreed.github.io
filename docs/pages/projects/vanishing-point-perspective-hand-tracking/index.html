@@ -3,46 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your p5.js Project</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-        #myCanvas {
-            position: absolute;
-            z-index: 15;
-            border: 2px solid black;
-        }
-        #videoElement {
-            position: absolute;
-            z-index: 5;
-            transform: scaleX(-1);
-        }
-        #banner {
-            position: absolute;
-            z-index: 20;
-            background-color: rgba(255, 255, 255, 0.8);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
-            cursor: pointer;
-            border: 2px solid blue;
-        }
-    </style>
+    <title>mediapipe x p5.js template</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <video id="video"></video>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
-    <script src="detections.js"></script>
-    <script src="sketch.js"></script>
+    <script src="./dependencies/p5.js"></script>
+    <script src="./dependencies/hands.js"></script>
+    <script src="./dependencies/camera_utils.js"></script>
+    <script src="./util/detections.js"></script>
+    <script src="./util/utilities.js"></script>
+    <script src="./sketch.js"></script>
 </body>
 </html>
