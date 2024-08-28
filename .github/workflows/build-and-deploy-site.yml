@@ -46,7 +46,7 @@ jobs:
       
       # actually building the site.
       - name: Build the site
-        run:  psg clean && ./tools/heavy-lifting.sh
+        run:  ./tools/heavy-lifting.sh
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
