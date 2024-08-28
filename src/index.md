@@ -36,9 +36,9 @@ I'm Henderson Reed Hummel, and welcome to my patch of the Internet (you can call
 
 I'm a programmer and prototyper exploring esoteric user interfaces, music programming, and the weird web.
 
-In 2023 I completed a batch at [The Recurse Center](https://recurse.com) and found it lifechanging. Consider doing one!
-
 I'm currently employed by [DigitalOcean](https://digitalocean.com), and am working on configuration management tooling there (lots of hardware to configure!)
+
+In 2023 I completed a batch at [The Recurse Center](https://recurse.com) and found it lifechanging. Consider doing one!
 
 <div class="index-container" style="width: 100%; overflow: hidden">
 <div class="index-interests">
