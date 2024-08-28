@@ -9,7 +9,7 @@ set -euo pipefail
 # build the site itself
 echo "-----------------------------"
 echo "heavy-lifting.sh: Running psg"
-/home/reed/bin/psg build
+psg build
 
 # post-processing based on the built site
 ./tools/generate-atom-feed.py posts # creates a feed.xml in /src

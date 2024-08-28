@@ -1,0 +1,68 @@
+name: Build and deploy site on push.
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # getting pandoc
+      - name: installing pandoc
+        run:  sudo apt install -y pandoc
+
+      # getting psg and putting it in our $PATH
+      - name: Create new bin dir in .local
+        run:  mkdir -p $HOME/.local/bin/
+
+      - name: Add $HOME/.local/bin/ to path
+        run:  echo "$HOME/.local/bin/" >> $GITHUB_PATH
+
+      - name: Download psg and move into path.
+        run:  wget https://raw.githubusercontent.com/hendersonreed/psg/main/psg.py
+
+      - name: Mark psg executable
+        run:  chmod +x psg.py
+
+      - name: Move psg into bin dir
+        run:  mv psg.py $HOME/.local/bin/psg
+      
+      # actually building the site.
+      - name: Build the site
+        run:  psg clean && ./tools/heavy-lifting.sh
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: './docs'
+
+  build:
+    environment: 
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
