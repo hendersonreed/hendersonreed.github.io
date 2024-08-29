@@ -27,10 +27,14 @@ def format_list(tree, indent=0):
             else:
                 link = next((v for k, v in value.items() if isinstance(v, str)), '')
                 display = key + '/'
+
             html.append('  ' * indent + f'<li><a href="{escape(link)}">{escape(display)}</a>')
-            html.append('  ' * (indent + 1) + '<ul>')
-            html.extend(format_list(value, indent + 2))
-            html.append('  ' * (indent + 1) + '</ul>')
+            
+            if len(value) > 1: # we only want to go deeper if there's content in there (if there's just 1, it's the index.html)
+                html.append('  ' * (indent + 1) + '<ul>')
+                html.extend(format_list(value, indent + 2))
+                html.append('  ' * (indent + 1) + '</ul>')
+
             html.append('  ' * indent + '</li>')
         elif key != 'index.html' and isinstance(value, str):
             html.append('  ' * indent + f'<li><a href="{escape(value)}">{escape(key)}</a></li>')

@@ -65,3 +65,9 @@ Generates an atom feed using the `published-slug` divs inside all blogposts.
 #### generate-blog-index.py
 
 Generates an HTML index page for everything in /src/posts using the atom feed as a source.
+
+#### paths-to-sitemap.py
+
+This utility takes stdin (a newline-separated list of file paths) and outputs a HTML unordered list, using indentation to represent nested directory structures. An HTML-native alternative to `tree`.
+
+
