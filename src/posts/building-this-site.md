@@ -7,7 +7,7 @@ Why don't we start with the storytelling?
 
 ## Let's begin at the right place: the start.
 
-My first website was handrolled HTML and CSS, hosted on the university servers, at `~hhummel`. I still have (most of) the source live ([you can go browse it, if you want.](/old-site/)
+My first website was handrolled HTML and CSS, hosted on the university servers, at `~hhummel`. I still have (most of) the source live ([you can go browse it, if you want.](/old-site/))
 
 ![](/assets/photos/blogposts/building-this-site/first-site.png)
 
