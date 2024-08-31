@@ -3,7 +3,7 @@
 ## Creative Coding Night
 
 - what: making fun/weird stuff with computers
-- when: every other Thursday evening from 6pm to 9pm. My [events calendar](/pages/events/) will be up-to-date with any cancellations.
+- when: every other Thursday evening from 6pm to 9pm. The [SUDO calendar](/pages/sudo/) will be up-to-date with any cancellations.
 - where: [CTRL-H](https://maps.app.goo.gl/XybNhEVSgdHGmWg46)
 
 ### details:
@@ -14,7 +14,7 @@ This is a time-boxed, low-pressure, casual, creative event for us to engage in a
 
 ### social rules
 
-Read [these](/pages/events/social-rules.html) before joining us.
+Read [these](/pages/sudo/social-rules.html) before joining us.
 
 If someone is regularly breaking those social rules, or is otherwise making attendees uncomfortable or being especially unpleasant, they will be asked to stop attending.
 

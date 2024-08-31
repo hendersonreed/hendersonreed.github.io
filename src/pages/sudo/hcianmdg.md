@@ -3,7 +3,7 @@
 ## human-computer-interface and new media discussion group
 
 - what: We're meeting to talk about new media and user interfaces!
-- when: The first Monday of each month, from 6pm to 8pm. My [events calendar](/pages/events/) will be up-to-date, so double-check there on the day-of if you want extra assurance.
+- when: The first Monday of each month, from 6pm to 8pm. The [SUDO calendar](/pages/sudo/) will be up-to-date, so double-check there on the day-of if you want extra assurance.
 - where: [McMenamins Barley Mill Pub](https://maps.app.goo.gl/y55dYxzhtGszVPBh8)
 
 **Details:**
@@ -27,7 +27,7 @@ A few definitions, to start us off:
 
 ### social rules
 
-Read [these](/pages/events/social-rules.html) before joining us.
+Read [these](/pages/sudo/social-rules.html) before joining us.
 
 ### reading:
 
@@ -35,16 +35,18 @@ I'll come each week with a few questions and quotes prepared from some reading (
 
 Some samples of relevant works that I've read or am planning on reading:
 
+- [Permacomputing](http://permacomputing.net/permacomputing/)
+- [How I use AI](https://nicholas.carlini.com/writing/2024/how-i-use-ai.html)
 - selections from *The New Media Reader*
-- *Computer as Theatre* by Brenda Laurel
-- *The Medium is the Massage* by Marshall McLuhan
-- *Art in the Age of Machine Learning* by Sofian Audry
-- *Abstracting Craft* by Malcolm McCullough
 - [The Rise of the HyperPot](https://www.glennadamson.com/work/2018/hyperpot)
 - Lev Manovich's [New Media: A User's Guide](http://manovich.net/index.php/projects/new-media-a-user-s-guide)
 - [Six Learning Barriers in End-User Programming Systems](https://faculty.washington.edu/ajko/papers/Ko2004LearningBarriers.pdf)
+- *The Medium is the Massage* by Marshall McLuhan
+- *Art in the Age of Machine Learning* by Sofian Audry
 - [Malleable Software in the Age of LLMs](https://www.geoffreylitt.com/2023/03/25/llm-end-user-programming)
 - [Direct Manipulation vs Interface Agents](https://dl.acm.org/doi/pdf/10.1145/267505.267514)
+- *Computer as Theatre* by Brenda Laurel
+- *Abstracting Craft* by Malcolm McCullough
 - [Up and Down the Ladder of Abstraction](https://worrydream.com/LadderOfAbstraction/)
 - [Potluck: dynamic documents as personal software](https://www.inkandswitch.com/potluck/)
 - [Actually, anything from Ink & Switch](https://www.inkandswitch.com/)
