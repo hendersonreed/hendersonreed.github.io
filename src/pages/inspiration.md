@@ -11,6 +11,8 @@ I keep this running list of inspiring people and groups, so that I always can re
 - [Mary Jiang](https://maryjiang.me/)
 - [Greg Sadetsky](https://greg.technology/)
 - [Daniel Tempkin](https://danieltemkin.com/)
+- [Charles Chamberlain](https://inclouds.space/)
 - [Zack Scholl](https://infinitedigits.co/wares/)
 - [Ellen Lo](https://ellenlowing.com/)
+- [Max Bittker](https://maxbittker.com/)
 - [Jake Lazaroff](https://jakelazaroff.com/)
