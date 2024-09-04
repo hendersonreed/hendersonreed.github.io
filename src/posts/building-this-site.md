@@ -11,7 +11,7 @@ My first website was handrolled HTML and CSS, hosted on the university servers, 
 
 ![](/assets/photos/blogposts/building-this-site/first-site.png)
 
-It is, as you can see, quite sparse, in an semi-emulation of [prof. dr style.](http://contemporary-home-computing.org/prof-dr-style/)
+It is, as you can see, quite sparse, in an semi-emulation of [prof. dr style.](https://web.archive.org/web/20130827020000/http://contemporary-home-computing.org/prof-dr-style/)
 
 This actually was a delightful time, and I remember being very happy with the site as it was. But of course, I needed more *features*.
 
