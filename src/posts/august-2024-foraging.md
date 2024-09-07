@@ -3,4 +3,4 @@
 
 Went out to the Oregon coast last weekend to do some foraging and was met with success :)
 
-See [my foraging log](/pages/foraging.md) for last month's finds and more.
+See [my foraging log](/pages/foraging.html) for last month's finds and more.
