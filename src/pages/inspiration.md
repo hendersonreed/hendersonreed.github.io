@@ -8,7 +8,7 @@ I keep this running list of inspiring people and groups, so that I always can re
 - [Kelin Zhang](https://www.carolynzhang.com/)
 - [Russ Fogle](https://russfogle.com/)
 - [Owen Trueblood](https://owentrueblood.com/)
-- [Mary Jiang](https://maryjiang.me/)
+- [Mary Jiang](https://www.merry.design/)
 - [Greg Sadetsky](https://greg.technology/)
 - [Daniel Tempkin](https://danieltemkin.com/)
 - [Charles Chamberlain](https://inclouds.space/)
