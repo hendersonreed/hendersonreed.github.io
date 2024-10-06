@@ -35,7 +35,6 @@ function draw() {
   if (detections != undefined && detections.multiHandLandmarks != undefined && detections.multiHandLandmarks.length != 0) {
     let left = [];
     let right = [];
-    console.trace(detections.multiHandLandmarks);
 
     detections.multiHandedness.forEach((hand) => {
       // Check if the hand is labeled as "Left"
@@ -74,13 +73,14 @@ function draw() {
         synth.frequency.value = map(pitchDistance, 0.01, 0.51, 110, 440);
       }
     }
-
-
-    // mute synth if either or both hand is missing from the detections array.
-    if (detections.multiHandLandmarks.length < 2) {
-      synth.volume.value = -999;
-    }
   }
+
+  // mute synth if either or both hand is missing from the detections array.
+  if (detections.multiHandLandmarks != undefined && detections.multiHandLandmarks.length < 2) {
+    synth.volume.value = -999;
+  }
+
+  background(backgroundColor, 10);
 }
 
 function calculateEuclideanDistance(one, two) {
