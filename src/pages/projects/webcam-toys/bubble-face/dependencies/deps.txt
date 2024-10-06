@@ -1,0 +1,9 @@
+https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js
+https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.js
+https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js
+https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.binarypb
+https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js
+https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh_solution_packed_assets.data
+https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh_solution_packed_assets_loader.js
+https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh_solution_simd_wasm_bin.js
+https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh_solution_simd_wasm_bin.wasm
