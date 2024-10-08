@@ -1,4 +1,5 @@
 function setup() {
+  colorMode(HSB);
   helpMsg = `
 <p>welcome.
   <ul>
@@ -54,11 +55,16 @@ function draw() {
       let thumb = left[4];
       let forefinger = left[8];
       if (thumb != undefined && forefinger != undefined) {
-        drawCircleAtMark(thumb);
-        drawCircleAtMark(forefinger);
-        drawLine(thumb, forefinger);
         let volumeDistance = calculateEuclideanDistance(thumb, forefinger);
         synth.volume.value = (volumeDistance * 100) > 3 ? map(volumeDistance, 0.01, 0.50, -20, 40) : -999;
+
+        let hue = map(volumeDistance, 0.01, 0.50, 360, 0);
+
+        if (!(synth.volume.value < -900)) {
+          drawCircleAtMark(thumb, hue);
+          drawCircleAtMark(forefinger, hue);
+          drawLine(thumb, forefinger, hue);
+        }
       }
     }
 
@@ -66,11 +72,16 @@ function draw() {
       let thumb = right[4];
       let forefinger = right[8];
       if (thumb != undefined && forefinger != undefined) {
-        drawCircleAtMark(thumb);
-        drawCircleAtMark(forefinger);
-        drawLine(thumb, forefinger);
         let pitchDistance = calculateEuclideanDistance(thumb, forefinger);
         synth.frequency.value = map(pitchDistance, 0.01, 0.51, 110, 440);
+
+        let hue = map(pitchDistance, 0.01, 0.50, 360, 0);
+
+        if (!(synth.volume.value < -900)) {
+          drawCircleAtMark(thumb, hue);
+          drawCircleAtMark(forefinger, hue);
+          drawLine(thumb, forefinger, hue);
+        }
       }
     }
   }
@@ -78,27 +89,28 @@ function draw() {
   // mute synth if either or both hand is missing from the detections array.
   if (detections.multiHandLandmarks != undefined && detections.multiHandLandmarks.length < 2) {
     synth.volume.value = -999;
+    background(backgroundColor);
   }
 
-  background(backgroundColor, 10);
+  background(backgroundColor, 0.04);
 }
 
 function calculateEuclideanDistance(one, two) {
   return dist(one.x, one.y, two.x, two.y); // two dimensions is enough after all.
 }
 
-function drawCircleAtMark(mark) {
+function drawCircleAtMark(mark, hue) {
   push();
-  fill(66, 245, 242);  // Teal color
+  fill(hue, 100, 100);
   noStroke();
   circle(mark.x * width, mark.y * height, 10);
   pop();
 }
 
-function drawLine(mark1, mark2) {
+function drawLine(mark1, mark2, hue) {
   push();
   // Style the line.
-  stroke('magenta');
+  stroke(hue, 100, 100);
   strokeWeight(2);
 
   line(mark1.x * width, mark1.y * height, mark2.x * width, mark2.y * height);

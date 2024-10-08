@@ -220,6 +220,45 @@ hr {
   margin-bottom: 30px; /* give us a little space at the end of pages. */
 }
 
+/* Ensure no global styles override the gallery-grid images */
+/* Grid container */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 items per row by default */
+  gap: 10px;
+  justify-items: center; /* Center all items */
+  align-items: center;
+}
+
+.gallery-grid a {
+  text-align: center;
+}
+
+.gallery-grid img {
+  width: 100%;
+  max-width: 150px; 
+  height: auto;
+  margin: 0;
+}
+
+.gallery-grid .caption {
+  margin-top: 5px;
+}
+
+/* Media queries for larger screens */
+@media (min-width: 600px) {
+  .gallery-grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery-grid {
+    grid-template-columns: repeat(6, 1fr); /* 6 items per row */
+  }
+}
+
+
 /* Media queries for smaller screen-sizes */
 
 @media screen and (max-width: 62rem) {
