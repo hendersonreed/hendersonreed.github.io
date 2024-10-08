@@ -1,0 +1,9 @@
+https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js
+https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js
+https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js
+https://cdn.jsdelivr.net/npm/@mediapipe/hands/hand_landmark_full.tflite
+https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands_solution_packed_assets_loader.js
+https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands_solution_simd_wasm_bin.js
+https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.binarypb
+https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands_solution_packed_assets.data
+https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands_solution_simd_wasm_bin.wasm
