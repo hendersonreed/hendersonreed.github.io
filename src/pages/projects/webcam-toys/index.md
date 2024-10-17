@@ -7,6 +7,7 @@ Turns out that small neural networks + WASM + computer vision means that we can 
 - some demos of the technology in its most basic forms:
     - [one](demo1/) (try hitting `t` to toggle your camera feed on-and-off)
     - [two](demo2/) (try hitting `t` and `c` to toggle camera feed and color.)
+    - [three](demo3/)
 - a few live-performance artistic tools:
     - [one](hand-brush/)
     - [two](triangle-zone/)
