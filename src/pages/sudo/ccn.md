@@ -3,7 +3,7 @@
 ## Creative Coding Night
 
 - what: making fun/weird stuff with computers
-- when: every other Thursday evening from 6pm to 9pm. The [SUDO calendar](/pages/sudo/) will be up-to-date with any cancellations.
+- when: ON HIATUS as of Oct 2024
 - where: [CTRL-H](https://maps.app.goo.gl/XybNhEVSgdHGmWg46)
 
 ### details:
