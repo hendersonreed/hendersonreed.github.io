@@ -3,10 +3,10 @@
 
 The Society for Unrealized Digital Occurrences (SUDO) is a loose organization of programmers, artists, thinkers, and alternative computing enthusiasts working on a variety of topics, operating in Portland, Oregon.
 
-Currently, it's comprised of two regularly occurring events:
+We run a monthly discussion group: the [HCIANMDG](/pages/sudo/hcianmdg.html) is a discussion group about humans, computers, and how we interact with them. This gets pretty deep into the philosophical weeds - more end-user programming and digital culture, less Fitt's law and UI frameworks.
 
-- the [HCIANMDG](/pages/sudo/hcianmdg.html) is a discussion group about humans, computers, and how we interact with them. This gets pretty deep into the philosophical weeds - more end-user programming and digital culture, less Fitt's law and UI frameworks.
-- the [CCN](/pages/sudo/ccn.html) is a regularly-occurring informal hackathon. Get together, program something new for 2 hours, and (optionally) demo to your peers at the end.
+Past events:
+- the [CCN](/pages/sudo/ccn.html) was a regularly-occurring informal hackathon, now currently on hiatus. Get together, program something new for 2 hours, and (optionally) demo to your peers at the end.
 
 ## SUDO calendar
 
