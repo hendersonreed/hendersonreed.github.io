@@ -24,25 +24,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # getting pandoc
-      - name: installing pandoc
-        run:  sudo apt install -y pandoc
+      - name: installing dependencies 
+        run: sudo apt-get update && sudo apt-get install -y imagemagick pandoc
 
       # getting psg and putting it in our $PATH
-      - name: Create new bin dir in .local
-        run:  mkdir -p $HOME/.local/bin/
-
-      - name: Add $HOME/.local/bin/ to path
-        run:  echo "$HOME/.local/bin/" >> $GITHUB_PATH
-
-      - name: Download psg and move into path.
-        run:  wget https://raw.githubusercontent.com/hendersonreed/psg/main/psg.py
-
-      - name: Mark psg executable
-        run:  chmod +x psg.py
-
-      - name: Move psg into bin dir
-        run:  mv psg.py $HOME/.local/bin/psg
+      - name: setting up psg
+        run:  |
+          wget https://raw.githubusercontent.com/hendersonreed/psg/main/psg.py
+          chmod +x psg.py
+          mkdir -p $HOME/.local/bin/
+          echo "$HOME/.local/bin/" >> $GITHUB_PATH
+          mv psg.py $HOME/.local/bin/psg
       
       # actually building the site.
       - name: Build the site
