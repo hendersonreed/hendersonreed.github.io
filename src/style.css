@@ -185,6 +185,12 @@ img, video {
     padding: 4px;
 }
 
+pre code {
+  white-space: pre-wrap;   /* Ensures the text wraps inside the code block */
+  word-wrap: break-word;   /* Allows breaking long words */
+  word-break: break-word;
+}
+
 code {
   display: inline-block;
   font-family: Courier, monospace; /* Fixed-width font */
@@ -206,8 +212,11 @@ hr {
     background-color: #f0f0f0; /* Light gray background */
     border: 1px solid #ccc; /* Light gray border */
     padding: 30px; /* Add some padding for spacing */
-    margin: 30px 0; /* Margin for separation from other content */
+    margin: 30px 0px; /* Margin on top/bottom for separation from other content */
     color: #555; /* Dark gray text color */
+}
+.sidenote h1 h2 h3 {
+    margin: 0px; /* Margin on top/bottom for separation from other content */
 }
 
 .published-slug {

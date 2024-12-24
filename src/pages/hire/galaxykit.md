@@ -8,7 +8,7 @@ It exposes both a Python API and a command-line interface that's suitable for in
 
 ## background:
 
-In my role at Red Hat, I was, for the first year, **exactly half** of the Quality Engineering team for Automation Hub, which is a Django-based web application for publishing and versioning Ansible collections.
+In my role at Red Hat, I was, for the first year, **exactly half** of the Quality Engineering team for Automation Hub (AH), which is a Django-based web application for publishing and versioning Ansible collections.
 
 It was in that first 6 months at Red Hat that, as I was learning my way around the myriad repositories that comprise the Ansible Org's codebase, I recognized a *ton* of code duplication that specifically pertained to managing test data inside AH. There were curl calls in numerous Jenkins pipelines, there was a suite of integration tests with Python `requests` calls smattered throughout, there were front-end tests in Cypress that were going to need even more test data utilities.
 
@@ -24,7 +24,7 @@ Just kidding! I picked Python.
 
 ### why didn't you use an automatically generated OpenAPI client?
 
-This was a decision I actually struggled with myself. There are a few reasons:
+This was a decision I struggled with actually. There are a few reasons:
 
 1. AH didn't have an entirely accurate OpenAPI spec. Generating it from the code itself resulted in something that was maybe 75% correct on average, and that just wasn't good enough to build a good suite of tests.
 2. Testing a product with a client that's automatically generated from the code of that product could mask errors or inconvenient/unergonomic aspects of the product.
@@ -33,7 +33,7 @@ To expand on point 2, I think that it's very easy to allow automated tooling to 
 
 </div>
 
-Ultimately, the MVP of galaxykit was very simple - you can browse the first 25 commits at my [personal repo](https://github.com/hendersonreed/galaxykit), before I got it migrated to the Ansible GitHub org. It started out as just wrapping `Docker` calls, because that was the personal pain of my own that initially had me looking at building a client that wrapped up a lot of AH-specific functionality.
+Ultimately, the MVP of galaxykit was very simple - you can browse the first 25 commits at my [personal repo](https://github.com/hendersonreed/galaxykit), before I got it migrated to the Ansible GitHub org. It started out as just wrapping Docker client invocations, because that was the personal pain of my own that initially had me looking at building a client that wrapped up a lot of AH-specific functionality.
 
 After I added functionality for managing groups and users, I pushed out v0.0.1 and started integrating it into tests elsewhere.
 
@@ -47,12 +47,10 @@ After I added functionality for managing groups and users, I pushed out v0.0.1 a
 
 *The key to generating adoption is finding collaborators.*
 
-In my case, it turned out that the sole other engineer on the Automation Hub QE team, and also one of the lead developers on the front-end became major contributors to galaxykit, and helped it gain adoption across front-end dev, back-end dev and other teams in the QE division.
+In my case, it turned out that the sole other engineer on the AH QE team, and also one of the lead developers on the front-end became major contributors to galaxykit, and helped it gain adoption across front-end dev, back-end dev and other teams in the QE division.
 
-The other aspect of that helped galaxykit build momentum was the straightforward CLI interface. It became easy to share with folks who needed to interact with an Automation Hub instance only occasionally in their work. Remembering how to go through the GUI to add a user was more work than remembering `galaxykit user create`.
+The other aspect of that helped galaxykit build momentum was the straightforward CLI interface. It became easy to share with folks who needed to interact with an AH instance only occasionally in their work. Remembering how to go through the GUI to add a user was more work than remembering `galaxykit user create`.
 
 ## the legacy
 
 At the time of publishing (April 2024), almost 3 years after that v0.0.1 release of galaxykit (May 11, 2021), it's still seeing regular development, and remains a core part of numerous test suites. I feel really lucky to have had the opportunity to build something that's saved so many precious human hours.
-
-It's also given me an even greater passion for the building of effective tooling, and I think often of what I learned through building it.
