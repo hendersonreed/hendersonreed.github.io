@@ -4,7 +4,7 @@ set -euo pipefail
 # preprocessing that needs to happen before the site generation.
 # to avoid breaking `hot-reload-preview.sh` nothing that writes 
 # or updates .md, .html, or .js files in /src can happen here.
-./tools/resize-and-backup.sh # resize and backup images.
+./tools/resize-and-backup.py # resize and backup images.
 
 # build the site itself
 echo "-----------------------------"

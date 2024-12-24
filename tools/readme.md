@@ -28,7 +28,7 @@ I will almost certainly fix this with Pandoc templating and the YAML front-matte
 
 #### generate-site-map.sh
 
-This generates [the sitemap](/sitemap.html). It uses the classic `tree` utility, which means (annoyingly) that my blogposts are sorted in true alphabetical order, not chronological order. I've been considering writing my own copy of tree to solve this :D
+This generates [the sitemap](/sitemap.html).
 
 #### heavy-lifting.sh
 
@@ -44,15 +44,11 @@ Uses `entr` to watch all the source files for the page and rerun psg when a sour
 
 Gets called by `hot-reload-preview.sh`
 
-#### publish.sh
-
-Cleans the build directory, calls `heavy-lifting.sh` and commits *everything* to the github repo with the given commit message.
-
 #### readme.md
 
 Describes these scripts.
 
-#### resize-and-backup.sh
+#### resize-and-backup.py
 
 Resizes images in the src directory to fit in 1920x1920. It copies them into a backup directory that's tracked alongside the rest of the repository.
 
@@ -69,5 +65,3 @@ Generates an HTML index page for everything in /src/posts using the atom feed as
 #### paths-to-sitemap.py
 
 This utility takes stdin (a newline-separated list of file paths) and outputs a HTML unordered list, using indentation to represent nested directory structures. An HTML-native alternative to `tree`.
-
-
