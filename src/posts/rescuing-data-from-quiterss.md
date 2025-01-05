@@ -1,4 +1,4 @@
-# Rescuing some data from QuiteRss
+# Rescuing my feeds from QuiteRss
 <div class="published-slug">published: 2025-01-05</div>
 
 ## Disclaimer: this is kinda about LLMs.
