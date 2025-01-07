@@ -45,19 +45,14 @@ In 2023 I completed a batch at [The Recurse Center](https://recurse.com) and fou
 My interests include (but aren't limited to):
 
 * the analog/digital divide
+* the beauty of the weird and whimsical web
 * how interfaces influence our mindsets
-* building wooden sailboats
 * free and open source software
-* hand tool woodworking
 * digital fabrication
 * foraging for mushrooms
-* the beauty of the weird and whimsical web
 * electronic musical instruments (and acoustic ones too)
-* the game of [Go](https://en.wikipedia.org/wiki/Go_(game))
-* functional programming languages and their design
 * hobbyist electronics
-* film photography
-* traveling
+* travel
 </div>
 <img src="/assets/hhummel-2020.jpg" class="index-photo">
 </div>
