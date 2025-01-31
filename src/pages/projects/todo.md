@@ -2,6 +2,7 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- digital cuckoo clock, but ambient conversation/cafe/murmured discussion noises from somewhere else in the world.
 - can we use a vector "direction" to explore neighbors of a piece of music?
   - I've seen someone use a vector direction to modify the length of a piece of text while maintaining the semantics (to a point.)
   - what does that look like when we have an embedding of a piece of music? can we even produce embeddings of a piece of music?
