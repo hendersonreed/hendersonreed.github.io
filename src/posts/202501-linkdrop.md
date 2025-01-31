@@ -13,3 +13,4 @@
 - [Sandify: an editor for sand patterns](https://sandify.org/)
 - [Henrik Karlsson: advice for starting a blog](https://www.henrikkarlsson.xyz/p/start-a-blog)
 - [*Antiqua et Nova*: The Vatican has issued a very thoughtful note on AI](https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html)
+- [Mitxela: fluid simulation pendant](https://mitxela.com/projects/fluid-pendant)
