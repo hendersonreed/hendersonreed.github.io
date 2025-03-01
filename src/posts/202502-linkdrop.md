@@ -1,4 +1,5 @@
 # Linkdrop: February 2025
+<div class="published-slug">published: 2025-02-28</div>
 
 I might have to start publishing these linkdrops weekly, if I keep finding this much to share!
 
