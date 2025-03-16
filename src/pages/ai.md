@@ -6,3 +6,4 @@
 - [My AI junior dev still needs an adult in the room](https://eric-fritz.com/articles/my-ai-junior-dev-still-needs-an-adult-in-the-room/)
 - [How I use AI](https://nicholas.carlini.com/writing/2024/how-i-use-ai.html)
 - [Programming with LLMs](https://crawshaw.io/blog/programming-with-llms)
+- [My LLM codegen workflow atm](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/}
