@@ -12,3 +12,5 @@
 
 “Rats and roaches live by competition under the laws of supply and demand; it is the privilege of human beings to live under the laws of justice and mercy.”
 ― Wendell Berry
+
+"Fundamentally, human beings need belief, free play of imagination and intuition in their homes and workshops or they become starved." - Bernard Leach
