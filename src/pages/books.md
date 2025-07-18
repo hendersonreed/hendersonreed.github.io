@@ -1,6 +1,8 @@
-# Reading List
+# Books
 
-## Fiction
+## books I've read and enjoyed:
+
+### fiction
 
 - Almost anything by Ray Bradbury
     * I first read *The Martian Chronicles* which really hooked me on his style. I also particularly enjoyed *Dandelion Wine* which is an unusual collection of his stories, having very little speculative or science fiction. Of course, *The Illustrated Man* is a classic. And one can't forget *Something Wicked This Way Comes* though I think that's probably for someone who already knows they like his style.
@@ -22,7 +24,7 @@
     * Some classic sword-and-sworcery, this book contains the origin stories of Fafhrd and the Grey Mouser, Lieber's most famous characters. They're a pair of morally dubious heroes, who wander around the famously sinful city of Lankhmar, taking jobs from dubious divinities and losing all their money gambling. Truthfully any of their stories are good, but these are the origin stories, and what I first read.
 
 
-## Nonfiction
+### non- fiction
 
 - *Art and Fear*, by David Bayles and Ted Orland
     * This book is amazing, but only if you're in the middle of some of your own artistic struggles. When I was first assigned readings in high school arts class, I wasn't invested enough. But now, 10 years later with a bit of experience under my belt, the lessons in this slim book have revolutionized how I'm looking at my art practice.
@@ -32,3 +34,11 @@
     * I've been meaning to brush up my French so that I can read some of the works by Monfreid that have never been translated. But it's basically the most swashbuckling stories by a French arms and drug runner in the Mediterranean in the early 1900s. Just amazingly fun to read.
 - *Sailing Alone Around The World*, by Joshua Slocum
     * The title is quite descriptive, but there are important details. Joshua Slocum was, as far as we know, the *very first* person to circumnavigate alone. He set off from Fairhaven, Massachusetts in 1895 and returned there in 1898! His comedy is wry and understated, and the things he accomplished truly amazing. This one is actually public domain, here's the [Gutenberg Link](https://www.gutenberg.org/ebooks/6317).
+
+## Some books I mean to read
+
+- [A Psalm for the Wild-Built](https://en.m.wikipedia.org/wiki/A_Psalm_for_the_Wild-Built)
+- [Vorkosigan Saga](https://en.wikipedia.org/wiki/Vorkosigan_Saga)
+- works by [Neil Postman](https://en.wikipedia.org/wiki/Neil_Postman)
+- [The Age of Surveillance Capitalism](https://en.wikipedia.org/wiki/The_Age_of_Surveillance_Capitalism)
+

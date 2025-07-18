@@ -3,6 +3,34 @@
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
 - a browser extension that replaces all images over a certain size with a "click to show image" spoiler, to enable text-priority browsing.
+- a multiseat graphical OS.
+  - we don't have any graphical computer interfaces designed for same-space collaboration (i.e. you can't plug two keyboards into a computer and have two people typing at the same time into two different windows.)
+  - this is a situation fundamentally opposed to collaborative work.
+  - we can fix this, and prototype it using network-attached keyboard/mice sets that communicate with a host computer. Since the desktop stack is much harder to develop with, we can use a fake desktop OS running in the web browser that communicates with the keyboards and mice using websockets.
+- add a microblog to this site, for posting more frequent/casual thoughts.
+- a reader for Zulip, designed for the playdate.
+- an RSS reader for the playdate
+- a semantically aware interface for reviewing code changes. It should support dismissing code (because I often want to remove code that I've reviewed and approved already) and go-to-definition.
+- a clock favicon for this site, that updates every 15 minutes to reflect the current time.
+- a PlayDate-style crank for ordinary computers. Internally it's really just a scroll-wheel, but the crank interfaces allows much finer control, and could be turned to "retro mode" to instead spam arrow keys left/right or up/down.
+- single-user web-based kanban board.
+  - almost nothing like this exists yet really, everyone is trying to add a ton of additional complexity to run entire software teams with it.
+- a general-purpose AI copilot with access to your entire screen contents, designed to passively provide advice/information on your current tasks (reference material, web search results, etc.) Can identify on-screen prompts, so it's behavior can be modified temporarily.
+- a receipt printer available on the public internet (you can simple POST data to it and it'll print it.)
+- tinder-style swiping interfaces to sort anything (into a maximum of 4 categories (up, down, left, right swipes.)
+  - categorizing notes
+  - unsubscribing from YouTube channels
+  - sorting links
+- https://better-retros.club
+  - an extremely opinionated tool for running better agile retrospectives.
+  - start a session, which is just a link with a random hash as the id.
+  - anonymous notes are written into 3 stacks: good, bad, delta
+  - once the timer is up, you can pull out of the stacks in randomized order and group them on an infinite canvas by topic.
+- inspired by daniel temkin's photographs: a little webtool for editing your photos. Draw a line on the photo and click "make vertical" and every row of pixels on the photo is adjusted to make the line vertical, throwing everything else out of wack.
+- personal YouTube television - organize all my channel subscriptions into broader categories and let me flick through them like television channels. Can't skip a video, playng random back-catalogue videos.
+- a 4-track recorder on the web
+- fuzz-computer
+  - a felt-covered computer interface of some sort (a guitar pedal?)
 - digital cuckoo clock, but ambient conversation/cafe/murmured discussion noises from somewhere else in the world.
 - can we use a vector "direction" to explore neighbors of a piece of music?
   - I've seen someone use a vector direction to modify the length of a piece of text while maintaining the semantics (to a point.)
