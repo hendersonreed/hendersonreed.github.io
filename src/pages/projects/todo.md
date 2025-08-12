@@ -2,6 +2,7 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- a simple Forth-inspired drawing language that draws on an HTML canvas.
 - a browser extension that replaces all images over a certain size with a "click to show image" spoiler, to enable text-priority browsing.
 - a multiseat graphical OS.
   - we don't have any graphical computer interfaces designed for same-space collaboration (i.e. you can't plug two keyboards into a computer and have two people typing at the same time into two different windows.)
