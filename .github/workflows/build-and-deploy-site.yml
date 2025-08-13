@@ -2,13 +2,11 @@ name: Build and deploy site on push.
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
@@ -16,12 +14,11 @@ concurrency:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v4
 
       - name: installing dependencies 
@@ -37,18 +34,12 @@ jobs:
           mv psg.py $HOME/.local/bin/psg
       
       # actually building the site.
-      - name: Build the site
+      - name: build the site
         run:  ./tools/heavy-lifting.sh
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: deploy
+        uses: cloudflare/wrangler-action@v3
         with:
-          # Upload entire repository
-          path: './docs'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy docs --project-name=henderson.lol
