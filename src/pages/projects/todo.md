@@ -2,6 +2,12 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- a tab manager that's designed to replace your browsers tab bar and bookmark system. It should:
+  - allow for arbitrary organization
+  - support drag-n-drop of tabs for saving links
+  - auto tag added links
+  - have a "dock" mode that lives beside your browser
+  - use the Firefox synced tabs feature to unify your devices tabs.
 - a simple Forth-inspired drawing language that draws on an HTML canvas.
 - a browser extension that replaces all images over a certain size with a "click to show image" spoiler, to enable text-priority browsing.
 - a multiseat graphical OS.
