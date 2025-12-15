@@ -11,4 +11,4 @@ Check out some of my work:
 
 Less serious projects can be found [here.](/pages/projects/index.html)
 
-I'm currently open to new opportunities, so if you're hiring in this space, please [email me](mailto:reed.hummel@gmail.com).
+I'm currently open to new opportunities, so if you're hiring in this space, please [email me](mailto:reed.hummel@gmail.com). You can also [view my resume](../../assets/hhummel.pdf).
