@@ -1,5 +1,7 @@
 # Now
 
+as of December 2025:
+
 ## doing
 
 - throwing a lot of pots in my ceramics studio. At a community studio I'm in, we have access to high-fire gas reduction firing, and it's a real joy. So I'm working out how to reduction fire in the home studio without dropping an exorbitant of money on a gas kiln.
