@@ -98,3 +98,4 @@ if __name__ == '__main__':
     generate_atom_feed(directories)
     os.chdir('..')
     shutil.copy('src/feed.xml', 'docs/feed.xml')
+    os.remove('src/feed.xml')
