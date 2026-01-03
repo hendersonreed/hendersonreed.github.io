@@ -97,5 +97,4 @@ if __name__ == '__main__':
     directories = sys.argv[1:]
     generate_atom_feed(directories)
     os.chdir('..')
-    shutil.copy('src/feed.xml', 'docs/feed.xml')
-    os.remove('src/feed.xml')
+    shutil.move('src/feed.xml', 'docs/feed.xml')

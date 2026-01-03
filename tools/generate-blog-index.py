@@ -41,6 +41,6 @@ def save_index_html(blog_index_html):
 
 print("---------------------------------------------")
 print("generate-blog-index.py: Generating Blog Index")
-blog_index_html = generate_blog_index("src/feed.xml")
+blog_index_html = generate_blog_index("docs/feed.xml")
 save_index_html(blog_index_html)
 print("Index.html file generated successfully.")

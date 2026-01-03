@@ -12,7 +12,7 @@ echo "heavy-lifting.sh: Running psg"
 psg build
 
 # post-processing based on the built site
-./tools/generate-atom-feed.py posts # creates a feed.xml in /src
+./tools/generate-atom-feed.py posts # creates a feed.xml in /docs that's used by generate-blog-index.py
 ./tools/generate-blog-index.py
 ./tools/generate-site-map.sh
 ./tools/fix-page-titles.py
