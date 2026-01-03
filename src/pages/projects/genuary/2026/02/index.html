@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>genuary 2026: day 2</title>
+  <style>
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+  }
+
+  canvas {
+    border: 1px solid #000; /* Optional: Add a border to the canvas */
+
+    user-select: none;
+    -webkit-user-drag: none;
+    touch-action: none;
+    cursor: grab;
+  }
+  </style>
+    <script src="/assets/p5.min.js"></script>
+  <script>
+/*
+MIT License
+
+Copyright (c) 2026 Henderson Reed Hummel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+let points = [];
+
+function setup() {
+  createCanvas(400, 400);
+  for(let i = 0; i < 30; i++) {
+    angle = i * (2 * PI / 30);
+    let newPoint = {
+      x: cos(angle) * 50,
+      y: sin(angle) * 50,
+      homeX: cos(angle) * 50,
+      homeY: sin(angle) * 50,
+      dx: 0,
+      dy: 0
+    }
+    points.push(newPoint);
+  }
+}
+
+function draw() {
+  background(220);
+  translate(200,200);
+  
+  if (mouseIsPressed) {
+    applyInfluence(mouseX - 200, mouseY - 200, -5, 100);
+  }
+  for ( let p of points) {
+    let school_dx = p.homeX - p.x;
+    let school_dy = p.homeY - p.y;
+    
+    let stiffness = 0.1; 
+    p.dx += school_dx * stiffness;
+    p.dy += school_dy * stiffness;
+
+    p.dx *= 0.8;
+    p.dy *= 0.8;
+
+    // 3. Update position
+    p.x += p.dx;
+    p.y += p.dy;
+  }
+  
+  beginShape()
+  curveVertex(points[points.length - 1].x, points[points.length - 1].y);
+  for (let i = 0; i < points.length; i++) {
+    curveVertex(points[i].x, points[i].y);
+  }
+  curveVertex(points[0].x, points[0].y);
+  curveVertex(points[1].x, points[1].y);
+  endShape();
+}
+
+function applyInfluence(targetX, targetY, strength, radius) {
+  for (let p of points) {
+    let d = dist(targetX, targetY, p.x, p.y);
+
+    if (d < radius) {
+      let influence = map(d, 0, radius, 1, 0);
+
+      let dx = p.x - targetX;
+      let dy = p.y - targetY;
+
+      p.dx += (dx / d) * influence * strength;
+      p.dy += (dy / d) * influence * strength;
+    }
+  }
+}
+</script>
+</head>
+
+<body>
+</body>
+</html>
