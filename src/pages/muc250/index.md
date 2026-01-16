@@ -7,3 +7,4 @@ Portland Community College: Winter Term, 2026.
 ## Readings:
 
 - *[Art in the Age of Machine Learning - Ch. 1](./aitaoml-ch1.pdf)*
+- *[Art in the Age of Machine Learning - Ch. 2](./aitaoml-ch2.pdf)*
