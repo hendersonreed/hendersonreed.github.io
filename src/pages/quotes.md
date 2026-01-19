@@ -1,5 +1,7 @@
 # Quotes
 
+"We are caught in an inescapable network of mutuality, tied in a single garment of destiny. Whatever affects one directly, affects all indirectly." - Martin Luther King Jr.
+
 “Everything worth studying has an opposite that’s necessary to understand what you thought you were studying.” - unknown
 
 "Everything around you that you call life was made up by people that were no smarter than you and you can change it." - Steve Jobs
