@@ -11,10 +11,16 @@
 }
 .index-photo {
     float: right;
-    width: 25vw;
+    width: 20vw;
     margin-left: 2rem;
     margin-bottom: 2rem;
     order:1
+}
+.past-list .date {
+    color: #999;
+    font-size: 0.85em;
+    float: right;
+    margin-left: 1rem;
 }
 
 @media screen and (max-width: 62rem) {
@@ -32,35 +38,39 @@
 </style>
 # Howdy!
 
-I'm Henderson Reed Hummel, and welcome to my patch of the Internet (you can call me Henderson or Reed).
-
-I'm a programmer and prototyper exploring esoteric user interfaces, music programming, and the weird web.
-
-I'm currently employed by [DigitalOcean](https://digitalocean.com), and am working on configuration management tooling there (lots of hardware to configure!)
-
-In 2023 I completed a batch at [The Recurse Center](https://recurse.com) and found it lifechanging. Consider doing one!
+I'm Henderson Reed Hummel. I'm a programmer and prototyper, working to understand how to make software that enriches and fulfills our human nature.
 
 <div class="index-container" style="width: 100%; overflow: hidden">
 <div class="index-interests">
-My interests include (but aren't limited to):
 
-* the analog/digital divide
-* the beauty of the weird and whimsical web
-* how interfaces influence our mindsets
-* free and open source software
-* digital fabrication
-* foraging for mushrooms
-* electronic musical instruments (and acoustic ones too)
-* hobbyist electronics
-* travel
+## bio:
+
+### now:
+
+- teaching [AI and ML in the Arts](/pages/muc250) at portland community college
+- facilitating [the SUDO](https://the-sudo.net)
+- engineering platforms at digitalocean
+
+see more detail at my [now page](/pages/now.html)
+
+### past:
+
+<div class="past-list">
+
+- <span>organized [portland's HTML day](https://the-sudo.net/pages/events/html-day/html-day25) with my friend Danny</span> <span class="date">2025</span>
+- <span>hired as a platform engineer at digitalocean</span> <span class="date">2024</span>
+- <span>began running [some local programming community events](https://the-sudo.net)</span> <span class="date">2024</span>
+- <span>awakened creatively at [the recurse center](https://recurse.com)</span> <span class="date">2023</span>
+- <span>built automated test tooling at Red Hat</span> <span class="date">2020–2023</span>
+- <span>graduated with my bachelors in computer science</span> <span class="date">2020</span>
+- <span>interned at Jama Software and Tripwire</span> <span class="date">2019</span>
+- <span>began the computer science program at PSU</span> <span class="date">2016</span>
+- <span>installed linux (jaunty jackalope) on a hand-me-down laptop</span> <span class="date">2009</span>
+
 </div>
-<img src="/assets/hhummel-2020.jpg" class="index-photo">
 </div>
-
-## programming
-
-- [GitHub](https://github.com/hendersonreed).
-- see some of my [projects](/pages/projects/)
+<img src="/assets/hhummel-2025.jpg" class="index-photo">
+</div>
 
 Are we friends? Do you like web badges? Please, take one of mine, graciously made for me by [DJ](https://dj-chase.com)
 

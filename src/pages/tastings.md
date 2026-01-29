@@ -4,6 +4,18 @@ There's something I find particularly delightful about running tastings. Either 
 
 This page is a record of the tastings I've been doing.
 
+## tournament style: Root Beers
+
+This is beginning to get out of hand, so much so that my partner has created a spreadsheet to track our results.
+
+I'll record just a few key notes here:
+
+- A&W is by far the best of the big three (Mug, Barq's, A&W).
+- Shasta follows closely behind A&W.
+- Bundaberg Root Beer is beautifully delicious, perhaps my favorite, but maybe too bitter and cola-like for most root beer fans.
+
+Some of the classics that you *think* would be really great turn out to be quite disappointing when put up against others. Both Dad's and Henry Weinhards lost in the first round.
+
 ## head-to-head: Jalapeno Potato Chips
 
 The only thing I remember from this tasting is that Tim's Jalapeno chips was the best by far.
