@@ -14,3 +14,4 @@ Portland Community College: Winter Term, 2026.
 
 1. [Exercise 1: Generated Images](./exercise1-generated-images.pdf) (2 pages)
 1. [Exercise 2: Generated Music Review](./exercise2-generated-music-review.pdf)
+1. [Exercise 3: Generative Code](./exercise3-generated-code.pdf)
