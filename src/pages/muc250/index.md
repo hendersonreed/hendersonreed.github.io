@@ -9,6 +9,7 @@ Portland Community College: Winter Term, 2026.
 1. *[Art in the Age of Machine Learning - Ch. 1](./aitaoml-ch1.pdf)*
 1. *[Art in the Age of Machine Learning - Ch. 2](./aitaoml-ch2.pdf)*
 1. *[Art in the Age of Machine Learning - Ch. 10](./aitaoml-ch10.pdf)*
+1. *[Artificial Aesthetics - Ch. 8](./manovich_and_arielli.artificial_aesthetics.all_chapters_final.pdf)*
 
 ## Exercises:
 
