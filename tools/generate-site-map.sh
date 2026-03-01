@@ -8,7 +8,7 @@ echo "generate-sitemap.sh: Generating sitemap.html"
 # this find/grep expression lists all html pages that aren't
 # project readme or license pages.
 cd docs
-find ./posts/ ./pages/ -name "*.html" \
+find ./posts/ ./pages/ ./links/ -name "*.html" \
     | grep -iv "license.html" \
     | grep -iv "readme.html" \
     | ../tools/paths-to-sitemap.py \
