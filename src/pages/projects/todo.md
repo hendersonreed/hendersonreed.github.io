@@ -2,6 +2,11 @@
 
 These are projects I had to write down to get out of my head. Are you interested in collaborating? Are you working on these things? Email me!
 
+- independent, networked code comments.
+  - there are collaborative margin-notes systems like the the [Hypothesis web annotation system](https://github.com/hypothesis/h)
+  - we all are bikeshedding about how/why we should write code comments.
+  - we should just separate commentary and code, divorce them into separate systems.
+  - if we're going to do that, then why not support multiple annotations by different users, and make them all browseable?
 - a tab manager that's designed to replace your browsers tab bar and bookmark system. It should:
   - allow for arbitrary organization
   - support drag-n-drop of tabs for saving links
