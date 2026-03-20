@@ -20,3 +20,4 @@ I keep this running list of inspiring people and groups, so that I always can re
 - [Alexander Obenauer](https://alexanderobenauer.com/)
 - [Tero Parviainen](https://teropa.info/)
 - [Lu Wilson](https://www.todepond.com/)
+- [Grant Custer](https://grantcuster.com/)
