@@ -226,6 +226,10 @@ hr {
   font-style: italic;
 }
 
+.index-date {
+  font-family: Courier, monospace; /* Fixed-width font */
+}
+
 .footer-container {
   margin-top: 30px; /* give us a little space at the end of pages. */
   margin-bottom: 30px; /* give us a little space at the end of pages. */
