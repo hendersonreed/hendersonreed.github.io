@@ -47,7 +47,7 @@ I'm Henderson Reed Hummel. I'm a programmer and prototyper, working to understan
 
 ### now:
 
-- teaching [AI and ML in the Arts](/pages/muc250) at portland community college
+- working in the garden, trying to spend more time outside.
 - facilitating [the SUDO](https://the-sudo.net)
 - engineering platforms at digitalocean
 
@@ -59,7 +59,7 @@ see more detail at my [now page](/pages/now.html)
 
 - <span>organized [portland's HTML day](https://the-sudo.net/pages/events/html-day/html-day25) with my friend Danny</span> <span class="date">2025</span>
 - <span>hired as a platform engineer at digitalocean</span> <span class="date">2024</span>
-- <span>began running [some local programming community events](https://the-sudo.net)</span> <span class="date">2024</span>
+- <span>began running [some local programming community events](https://the-sudo.net) under the SUDO moniker</span> <span class="date">2024</span>
 - <span>awakened creatively at [the recurse center](https://recurse.com)</span> <span class="date">2023</span>
 - <span>built automated test tooling at Red Hat</span> <span class="date">2020–2023</span>
 - <span>graduated with my bachelors in computer science</span> <span class="date">2020</span>
